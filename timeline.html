@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Lebenslauf</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/timelify.css">
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+
+	<div class="container">
+		<div class="timeline">
+			<h2>2016</h2>
+			<ul class="timeline-items">
+				<li class="is-hidden timeline-item"> <!-- Normal block, positionned to the left -->
+					<h3>DevOps Engineer</h3>
+					<hr>
+					<p>meteocontrol GmbH, Augsburg</p>
+					<hr>
+					<b>1.7.2015 bis Heute</b>
+				</li>
+			</ul>
+			<h2>2015</h2>
+			<ul class="timeline-items">
+				<li class="is-hidden timeline-item inverted"> <!-- Normal block, positionned to the right  -->
+					<h3>Entwickler</h3>
+					<hr>
+					<p>MELOS GmbH, Gessertshausen</p>
+					<hr>
+					<b>1.2.2015 bis 30.06.2015</b>
+				</li>
+			</ul>
+
+
+
+			<ul class="timeline-items">
+				<li class="is-hidden timeline-item inverted"> <!-- Normal block, positionned to the right  -->
+					<h3></h3>
+					<hr>
+					<p></p>
+					<hr>
+					<b></b>
+				</li>
+			</ul>
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+	</div>
+
+
+
+
+	<div class="container">
+		<div class="timeline">
+			<h2>2013</h2>
+			<ul class="timeline-items">
+				<li class="is-hidden timeline-item"> <!-- Normal block, positionned to the left -->
+					<h3>DevOps Engineer</h3>
+					<hr>
+					<p>meteocontrol GmbH, Augsburg</p>
+					<hr>
+					<time>1.7.2015 bis Heute</time>
+				</li>
+				<li class="is-hidden timeline-item"> <!-- Normal block, positionned to the left -->
+					<h3>Entwickler</h3>
+					<hr>
+					<p>MELOS GmbH, Gessertshausen</p>
+					<hr>
+					<time>1.2.2015 bis 30.06.2015</time>
+				</li>
+			</ul>
+
+
+		</div>
+	</div>
+
+
+	<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="js/jquery.timelify.js"></script>
+	<script>
+		$('.timeline').timelify({
+				animLeft: "fadeInLeft",
+			animCenter: "fadeInUp",
+			animRight: "fadeInRight",
+			animSpeed: 600,
+			offset: 150
+		});
+	</script>
+	<script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-36251023-1']);
+		_gaq.push(['_setDomainName', 'jqueryscript.net']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script>
+</body>
+</html>
