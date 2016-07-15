@@ -16,10 +16,10 @@ div.personaldata {
 	margin: 10px;
 	padding:30px;
 }
-ul {
+div.personaldata ul {
 		list-style-type: none;
 		list-style: none;
-	}
+}
 div.mainbox {
   display: flex;
 	justify-content: center;
@@ -31,4 +31,12 @@ div.container {
 		color: #5b5555;
 		margin: 10px;
 		padding:30px;
+}
+
+div.skillsbox {
+	width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	flex-direction: column;
 }

@@ -8,12 +8,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/timelify.css">
   <link rel="stylesheet" href="css/cv-main.css">
-  <script>
-    var link = document.createElement( 'link' );
-    link.rel = 'stylesheet';
-    link.type = 'text/css';
-    document.getElementsByTagName( 'head' )[0].appendChild( link );
-  </script>
+
+  <script src="js/d3.min.js" language="JavaScript"></script>
+  <script src="js/liquidFillGauge.js" language="JavaScript"></script>
+
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/jquery.timelify.js"></script>
 
 </head>
 <body>
@@ -740,14 +740,42 @@
 			</div> <!-- end timline conainer -->
 			<div class="container">
 				<h2>Skills</h2>
+
+				<div class="skillsbox">
 				<h3>Sprachen</h3>
+				<p>
+					<svg id="fillgauge_en" width="97%" height="200" ></svg>
+						<script language="JavaScript">
+								var config_en = liquidFillGaugeDefaultSettings();
+								config_en.circleColor = "#5b5555";
+								config_en.textColor = "#00acc1";
+								config_en.waveTextColor = "white";
+								config_en.waveColor = "#00acc1";
+								config_en.circleThickness = 0.15;
+								config_en.textVertPosition = 0.2;
+								config_en.waveAnimateTime = 1000;
+								config_en.waveHeight = 0.05;
+								config_en.waveAnimate = true;
+								config_en.waveOffset = 0.25;
+						    config_en.waveCount = 3;
+						    config_en.displayPercent = false;
+						    var gauge1 = loadLiquidFillGauge("fillgauge_en", 30, config_en);
+
+						    function NewValue(){
+						        if(Math.random() > .5){
+						            return Math.round(Math.random()*100);
+						        } else {
+						            return (Math.random()*100).toFixed(1);
+						        }
+						    }
+						</script>
+					</div>
+				</p>
 			</div>
 
 		</div> <!-- end mainbox -->
 
-	<script src="js/jquery-1.12.4.min.js"></script>
-	<script src="js/jquery.timelify.js"></script>
-	<script>
+	<script> <!-- timeline script -->
 		$('.timeline').timelify({
 				animLeft: "fadeInLeft",
 			animCenter: "fadeInUp",
