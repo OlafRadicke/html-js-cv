@@ -24,19 +24,28 @@ div.mainbox {
   display: flex;
 	justify-content: center;
 	background-color: #5b5555;
+	flex-grow: 2;
 }
-div.container {
-		width: 1000px;
+div.timeline_container {
 		background-color: #ffffff;
 		color: #5b5555;
 		margin: 10px;
 		padding:30px;
 }
-
+div.skills_container {
+		width: 800px;
+		background-color: #ffffff;
+		color: #5b5555;
+		margin: 10px;
+		padding:30px;
+}
 div.skillsbox {
-	width: 700px;
   display: flex;
   align-items: center;
-  justify-content: center;
 	flex-direction: column;
+}
+
+svg.fillgauge {
+
+
 }
