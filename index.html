@@ -19,18 +19,26 @@
 <body>
 
 	<div class="headbox">
-		<h1>Lebensslauf</h1>
+		<div class="headb_container">
+			<h1>Lebenslauf</h1>
+		</div>
 	</div> <!-- end headbox -->
 
 	<div class="personaldata">
-		<ul>
-			<li><b>Name:</b> Olaf radicke</li>
-			<li><b>Anschrift:</b> Alpenstr. 9, 80159 Augsburg</li>
-			<li><b>Telefon:</b> 0176 – 23 187 609</li>
-			<li><b>E-Mail:</b> <a href="mailto:briefkasten@olaf-radicke.de">briefkasten@olaf-radicke.de</a></li>
-			<li><b>Xing:</b> <a href="https://www.xing.com/profile/Olaf_Radicke">https://www.xing.com/profile/Olaf_Radicke</a></li>
-			<li><b>GitHub:</b> <a href="https://github.com/OlafRadicke">https://github.com/OlafRadicke</a></li>
-		</ul>
+		<div class="personalpic_container">
+			<img src="pics/radicke_olaf.jpg" height="320"  alt="cover">
+		</div>
+		<div class="personaldata_container">
+			<ul>
+				<li><b>Name:</b> Olaf radicke</li>
+				<li><b>Anschrift:</b> Alpenstr. 9, 80159 Augsburg</li>
+				<li><b>Telefon:</b> 0176 – 23 187 609</li>
+				<li><b>E-Mail:</b> <a href="mailto:briefkasten@olaf-radicke.de">briefkasten@olaf-radicke.de</a></li>
+				<li><b>Xing:</b> <a href="https://www.xing.com/profile/Olaf_Radicke">https://www.xing.com/profile/Olaf_Radicke</a></li>
+				<li><b>GitHub:</b> <a href="https://github.com/OlafRadicke">https://github.com/OlafRadicke</a></li>
+			</ul>
+		</div>
+		<div class="personalextra_container"></div>
 	</div>
 	<div class="mainbox">
 		<div class="timeline_container">
@@ -741,33 +749,43 @@
 				<h2>Skills</h2>
 
 				<div class="skillsbox">
-					<h3>Sprachen</h3>
-						<svg class="fillgauge" id="fillgauge_en"  height="200" ></svg>
-						<script language="JavaScript">
-								var config_en = liquidFillGaugeDefaultSettings();
-								config_en.circleColor = "#5b5555";
-								config_en.textColor = "#00acc1";
-								config_en.waveTextColor = "white";
-								config_en.waveColor = "#00acc1";
-								config_en.circleThickness = 0.15;
-								config_en.textVertPosition = 0.2;
-								config_en.waveAnimateTime = 1000;
-								config_en.waveHeight = 0.05;
-								config_en.waveAnimate = true;
-								config_en.waveOffset = 0.25;
-						    config_en.waveCount = 3;
-						    config_en.displayPercent = false;
-						    var gauge1 = loadLiquidFillGauge("fillgauge_en", 30, config_en);
+						<svg class="fillgauge" id="fillgauge_de"  height="200" ></svg>
+						<h3>Deutsch: Muttersprache</h3>
 
-						    function NewValue(){
-						        if(Math.random() > .5){
-						            return Math.round(Math.random()*100);
-						        } else {
-						            return (Math.random()*100).toFixed(1);
-						        }
-						    }
-						</script>
-					
+						<svg class="fillgauge" id="fillgauge_en_passiv"  height="200" ></svg>
+						<h3>Englisch passiv: Gut</h3>
+
+						<svg class="fillgauge" id="fillgauge_en_aktiv"  height="200" ></svg>
+						<h3>Englisch aktiv: Grundkenntnisse</h3>
+					</p>
+					<script language="JavaScript">
+							var config_en = liquidFillGaugeDefaultSettings();
+							config_en.circleColor = "#5b5555";
+							config_en.textColor = "#00acc1";
+							config_en.waveTextColor = "white";
+							config_en.waveColor = "#00acc1";
+							config_en.circleThickness = 0.15;
+							config_en.textVertPosition = 0.2;
+							config_en.waveAnimateTime = 1000;
+							config_en.waveHeight = 0.05;
+							config_en.waveAnimate = true;
+							config_en.waveOffset = 0.25;
+					    config_en.waveCount = 3;
+					    config_en.displayPercent = false;
+
+					    var gauge1 = loadLiquidFillGauge("fillgauge_de", 95, config_en);
+					    var gauge1 = loadLiquidFillGauge("fillgauge_en_passiv", 50, config_en);
+					    var gauge1 = loadLiquidFillGauge("fillgauge_en_aktiv", 25, config_en);
+
+					    function NewValue(){
+					        if(Math.random() > .5){
+					            return Math.round(Math.random()*100);
+					        } else {
+					            return (Math.random()*100).toFixed(1);
+					        }
+					    }
+					</script>
+
 				</div> <!-- end skills_container -->
 		</div> <!-- end skills_container -->
 

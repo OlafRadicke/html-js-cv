@@ -3,23 +3,54 @@ body {
 	background-color: #5b5555;
 }
 div.headbox {
-	background-color: #00acc1;
-	color: white;
-	margin: 10px;
-	padding:30px;
-	justify-content: center;
+		background-color: white;
+		justify-content: center;
+		margin: 10px;
+		padding:30px;
 }
+div.headb_container {
+		background-color: #00acc1;
+		color: white;
+		padding:30px;
+}
+
+		div.headb_container h1 {
+		    text-align: center;
+		}
+
 div.personaldata {
   display: flex;
-	background-color: white;
-	color: #5b5555;
-	margin: 10px;
-	padding:30px;
+	justify-content: center;
+	background-color: #5b5555;
+	flex-grow: 3;
+	/* ustify-content: space-between; */
 }
-div.personaldata ul {
-		list-style-type: none;
-		list-style: none;
-}
+		div.personalpic_container {
+				background-color: #ffffff;
+				color: #5b5555;
+				margin: 10px;
+				padding:30px;
+		}
+		div.personaldata_container {
+				background-color: #ffffff;
+				color: #5b5555;
+				margin: 10px;
+				padding:30px;
+		}
+				div.personaldata_container ul {
+						list-style-type: none;
+						list-style: none;
+					  display: flex;
+						display: block
+				}
+		div.personalextra_container {
+				background-color: #ffffff;
+				color: #5b5555;
+				margin: 10px;
+				padding:30px;
+				display: flex;
+   			flex: 2 0 0;
+		}
 div.mainbox {
   display: flex;
 	justify-content: center;
@@ -40,12 +71,7 @@ div.skills_container {
 		padding:30px;
 }
 div.skillsbox {
-  display: flex;
-  align-items: center;
-	flex-direction: column;
-}
-
-svg.fillgauge {
-
-
+	  display: flex;
+	  align-items: center;
+		flex-direction: column;
 }
