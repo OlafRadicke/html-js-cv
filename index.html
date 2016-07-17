@@ -33,6 +33,19 @@
 					<li><a href="#j1980">1980</a></li>
 					<li>|</li>
 					<li><a href="#j1970">1970</a></li>
+				</ul>
+				<ul class="menu">
+					<li><a href="#proglang">Programmiersprachen</a></li>
+					<li>|</li>
+					<li><a href="#concepts">Methoden</a></li>
+					<li>|</li>
+					<li><a href="#database">Datenbanken</a></li>
+					<li>|</li>
+					<li><a href="#frameworks">Frameworks</a></li>
+					<li>|</li>
+					<li><a href="#langs">Sprachen</a></li>
+					<li>|</li>
+					<li><a href="#handicap">Handicaps</a></li>
 				</ul><!--
 				<h3>Skills</h3>
 				<ul class="menu">
@@ -41,9 +54,9 @@
 				</ul> -->
 		</div><!-- end headbox -->
 
-		<div class="titlebox">
+		<div id="start" class="titlebox">
 			<div class="title_container">
-				<h1 id="start">Lebenslauf</h1>
+				<h1 >Lebenslauf</h1>
 			</div>
 		</div> <!-- end titlebox -->
 
@@ -797,15 +810,19 @@
 
 						<svg height="100px" class="fillgauge" id="fillgauge_node"></svg>
 						<p>JavaScript, Node.js:<br> erweiterte Grundkenntnisse</p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_html"></svg>
+						<p>XML, HTML, CSS, Json &  gute Kenntnisse:<br> gute Kenntnisse</p>
 					</div>
 
 					<div class="skillsbox_section">
 						<h3 id="concepts">Methoden, Techniken und Konzepte</h3>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_serverclient"></svg>
+						<p>Server/Client-Programmierung(Tcp/IP):<br> erweiterte Grundkenntnisse</p>
+
 						<svg height="100px" class="fillgauge" id="fillgauge_rest"></svg>
 						<p>RESTful:<br> gute Kenntnisse</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_html"></svg>
-						<p>XML, HTML, CSS, Json &  gute Kenntnisse:<br> gute Kenntnisse</p>
 
 						<svg height="100px" class="fillgauge" id="fillgauge_oo"></svg>
 						<p>OO-Programmierung:<br> gute Kenntnisse</p>
@@ -813,13 +830,13 @@
 						<svg height="100px" class="fillgauge" id="fillgauge_agile"></svg>
 						<p>Agile Softwareentwicklung:<br> gute Kenntnisse</p>
 
-						<svg height="100px" class="fillgauge" id="fillgauge_serverclient"></svg>
-						<p>Server/Client-Programmierung(Tcp/IP):<br> erweiterte Grundkenntnisse</p>
+						<svg height="100px" class="fillgauge" id="fillgauge_tdd"></svg>
+						<p>Test-Driven Development (TDD):<br> erweiterte Grundkenntnisse</p>
 					</div>
 
 
 					<div class="skillsbox_section">
-						<h3>Datenbanken</h3>
+						<h3 id="database">Datenbanken</h3>
 						<svg height="100px" class="fillgauge" id="fillgauge_mysql"></svg>
 						<p>MySQL, MariaDB:<br> gute Kenntnisse</p>
 
@@ -840,7 +857,7 @@
 					</div>
 
 					<div class="skillsbox_section">
-						<h3>Frameworks</h3>
+						<h3 id="framworks">Frameworks</h3>
 
 						<svg height="100px" class="fillgauge" id="fillgauge_tntnet"></svg>
 						<p>Tntnet Webframework(C++):<br> sehr gute Kenntnisse</p>
@@ -876,7 +893,7 @@
 
 
 					<div class="skillsbox_section">
-						<h3>Sprachen</h3>
+						<h3 id="langs">Sprachen</h3>
 
 						<svg height="100px" class="fillgauge" id="fillgauge_de"></svg>
 						<p>Deutsch:<br> Muttersprache</p>
@@ -889,7 +906,7 @@
 					</div>
 
 					<div class="skillsbox_section">
-						<h3>Handicaps</h3>
+						<h3 id="handicap">Handicaps</h3>
 						<svg height="100px" class="fillgauge" id="fillgauge_legasthenie"></svg>
 						<p>Legasthenie:<br> nach Tagesform</p>
 					</div>
@@ -918,12 +935,13 @@
 					    var gauge1 = loadLiquidFillGauge("fillgauge_tex", 75, gauge_conf);
 					    var gauge1 = loadLiquidFillGauge("fillgauge_php", 50, gauge_conf);
 					    var gauge1 = loadLiquidFillGauge("fillgauge_node", 50, gauge_conf);
-
 							var gauge1 = loadLiquidFillGauge("fillgauge_rest", 75, gauge_conf);
+
 							var gauge1 = loadLiquidFillGauge("fillgauge_html", 75, gauge_conf);
 							var gauge1 = loadLiquidFillGauge("fillgauge_oo", 75, gauge_conf);
 							var gauge1 = loadLiquidFillGauge("fillgauge_agile", 75, gauge_conf);
 							var gauge1 = loadLiquidFillGauge("fillgauge_serverclient", 75, gauge_conf);
+					    var gauge1 = loadLiquidFillGauge("fillgauge_tdd", 50, gauge_conf);
 
 					    var gauge1 = loadLiquidFillGauge("fillgauge_mysql", 75, gauge_conf);
 					    var gauge1 = loadLiquidFillGauge("fillgauge_psql", 75, gauge_conf);
