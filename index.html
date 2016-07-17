@@ -749,33 +749,100 @@
 				<h2>Skills</h2>
 
 				<div class="skillsbox">
-						<svg class="fillgauge" id="fillgauge_de"  height="200" ></svg>
-						<h3>Deutsch: Muttersprache</h3>
 
-						<svg class="fillgauge" id="fillgauge_en_passiv"  height="200" ></svg>
-						<h3>Englisch passiv: Gut</h3>
+					<div class="skillsbox_section">
+						<h3>Programmiersprachen</h3>
 
-						<svg class="fillgauge" id="fillgauge_en_aktiv"  height="200" ></svg>
-						<h3>Englisch aktiv: Grundkenntnisse</h3>
-					</p>
+						<svg class="fillgauge" id="fillgauge_bash"></svg>
+						<p>bash, dash, AWK:<br> quasi <i>Muttersprache</i></p>
+
+						<svg class="fillgauge" id="fillgauge_python"></svg>
+						<p>Python 2 und 3:<br> sehr gute Kenntnisse</p>
+
+						<svg class="fillgauge" id="fillgauge_net"></svg>
+						<p>C#/.NET (unter Linux):<br> gute Kenntnisse</p>
+
+						<svg class="fillgauge" id="fillgauge_c"></svg>
+						<p>C/C++:<br> gute Kenntnisse</p>
+
+						<svg class="fillgauge" id="fillgauge_tex"></svg>
+						<p>LaTeX, KOMA-Script:<br> gute Kenntnisse</p>
+
+						<svg class="fillgauge" id="fillgauge_php"></svg>
+						<p>Java, RubyOnRails, PHP:<br> erweiterte Grundkenntnisse</p>
+
+						<svg class="fillgauge" id="fillgauge_node"></svg>
+						<p>JavaScript, Node.js:<br> erweiterte Grundkenntnisse</p>
+					</div>
+
+
+					<div class="skillsbox_section">
+						<h3>Methoden, Techniken und Konzepte</h3>
+
+						<svg class="fillgauge" id="fillgauge_rest"></svg>
+						<p>RESTful:<br> gute Kenntnisse</p>
+
+						<svg class="fillgauge" id="fillgauge_oo"></svg>
+						<p>OO-Programmierung:<br> gute Kenntnisse</p>
+
+						<svg class="fillgauge" id="fillgauge_agile"></svg>
+						<p>Agile Softwareentwicklung:<br> gute Kenntnisse</p>
+
+						<svg class="fillgauge" id="fillgauge_serverclient"></svg>
+						<p>Server/Client-Programmierung(Tcp/IP):<br> erweiterte Grundkenntnisse</p>
+					</div>
+
+
+
+					<div class="skillsbox_section">
+						<h3>Sprachen</h3>
+
+						<svg class="fillgauge" id="fillgauge_de"></svg>
+						<p>Deutsch:<br> Muttersprache</p>
+
+						<svg class="fillgauge" id="fillgauge_en_in"></svg>
+						<p>Englisch passiv:<br> Gut</p>
+
+						<svg class="fillgauge" id="fillgauge_en_out"></svg>
+						<p>Englisch aktiv:<br> Grundkenntnisse</p>
+					</div>
+
+
+
+
+
 					<script language="JavaScript">
-							var config_en = liquidFillGaugeDefaultSettings();
-							config_en.circleColor = "#5b5555";
-							config_en.textColor = "#00acc1";
-							config_en.waveTextColor = "white";
-							config_en.waveColor = "#00acc1";
-							config_en.circleThickness = 0.15;
-							config_en.textVertPosition = 0.2;
-							config_en.waveAnimateTime = 1000;
-							config_en.waveHeight = 0.05;
-							config_en.waveAnimate = true;
-							config_en.waveOffset = 0.25;
-					    config_en.waveCount = 3;
-					    config_en.displayPercent = false;
+							var gauge_conf = liquidFillGaugeDefaultSettings();
+							gauge_conf.circleColor = "#5b5555";
+							gauge_conf.textColor = "white";
+							gauge_conf.waveTextColor = "#00acc1";
+							gauge_conf.waveColor = "white";
+							gauge_conf.circleThickness = 0.15;
+							gauge_conf.textVertPosition = 0.2;
+							gauge_conf.waveAnimateTime = 1000;
+							gauge_conf.waveHeight = 0.05;
+							gauge_conf.waveAnimate = true;
+							gauge_conf.waveOffset = 0.25;
+					    gauge_conf.waveCount = 3;
+					    gauge_conf.displayPercent = false;
 
-					    var gauge1 = loadLiquidFillGauge("fillgauge_de", 95, config_en);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_en_passiv", 50, config_en);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_en_aktiv", 25, config_en);
+					    var gauge1 = loadLiquidFillGauge("fillgauge_bash", 100, gauge_conf);
+					    var gauge1 = loadLiquidFillGauge("fillgauge_python", 95, gauge_conf);
+					    var gauge1 = loadLiquidFillGauge("fillgauge_net", 75, gauge_conf);
+					    var gauge1 = loadLiquidFillGauge("fillgauge_c", 75, gauge_conf);
+					    var gauge1 = loadLiquidFillGauge("fillgauge_tex", 75, gauge_conf);
+					    var gauge1 = loadLiquidFillGauge("fillgauge_php", 50, gauge_conf);
+					    var gauge1 = loadLiquidFillGauge("fillgauge_node", 50, gauge_conf);
+
+							var gauge1 = loadLiquidFillGauge("fillgauge_rest", 75, gauge_conf);
+							var gauge1 = loadLiquidFillGauge("fillgauge_html", 75, gauge_conf);
+							var gauge1 = loadLiquidFillGauge("fillgauge_oo", 75, gauge_conf);
+							var gauge1 = loadLiquidFillGauge("fillgauge_agile", 75, gauge_conf);
+							var gauge1 = loadLiquidFillGauge("fillgauge_serverclient", 75, gauge_conf);
+
+					    var gauge1 = loadLiquidFillGauge("fillgauge_de", 95, gauge_conf);
+					    var gauge1 = loadLiquidFillGauge("fillgauge_en_in", 75, gauge_conf);
+					    var gauge1 = loadLiquidFillGauge("fillgauge_en_out", 50, gauge_conf);
 
 					    function NewValue(){
 					        if(Math.random() > .5){

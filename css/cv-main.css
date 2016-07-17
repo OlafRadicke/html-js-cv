@@ -75,3 +75,18 @@ div.skillsbox {
 	  align-items: center;
 		flex-direction: column;
 }
+
+div.skillsbox_section {
+	  display: flex;
+	  align-items: center;
+		flex-direction: column;
+		background-color: #00acc1;
+		color: white;
+		margin: 10px;
+		padding:30px;
+
+}
+
+svg.fillgauge {
+		height="150"
+}
