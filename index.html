@@ -18,11 +18,34 @@
 </head>
 <body>
 
-	<div class="headbox">
-		<div class="headb_container">
-			<h1>Lebenslauf</h1>
-		</div>
-	</div> <!-- end headbox -->
+		<div class="headbox">
+				<ul class="menu">
+					<li><a href="#start">Start</a></li>
+					<li>|</li>
+					<li><a href="#j2016">2016</a></li>
+					<li>|</li>
+					<li><a href="#j2010">2010</a></li>
+					<li>|</li>
+					<li><a href="#j2000">2000</a></li>
+					<li>|</li>
+					<li><a href="#j1990">1990</a></li>
+					<li>|</li>
+					<li><a href="#j1980">1980</a></li>
+					<li>|</li>
+					<li><a href="#j1970">1970</a></li>
+				</ul><!--
+				<h3>Skills</h3>
+				<ul class="menu">
+					<li><a href="#concepts">Konzepte</a></li>
+					<li><a href="">eins</a></li>
+				</ul> -->
+		</div><!-- end headbox -->
+
+		<div class="titlebox">
+			<div class="title_container">
+				<h1 id="start">Lebenslauf</h1>
+			</div>
+		</div> <!-- end titlebox -->
 
 	<div class="personaldata">
 		<div class="personalpic_container">
@@ -73,7 +96,7 @@
 					</li>
 				</ul>
 
-				<h2>2016</h2>
+				<h2 id="j2016">2016</h2>
 
 				<ul class="timeline-items">
 					<li class="is-hidden timeline-item inverted">
@@ -338,7 +361,7 @@
 				</ul>
 
 
-				<h2>2010</h2>
+				<h2 id="j2010">2010</h2>
 
 				<ul class="timeline-items">
 					<li class="is-hidden timeline-item">
@@ -588,7 +611,7 @@
 					</li>
 				</ul>
 
-				<h2>2000</h2>
+				<h2 id="j2000">2000</h2>
 
 				<ul class="timeline-items">
 					<li class="is-hidden timeline-item">
@@ -752,47 +775,102 @@
 
 
 					<div class="skillsbox_section">
-						<h3>Programmiersprachen</h3>
+						<h3 id="proglang">Programmiersprachen</h3>
 
-						<svg class="fillgauge" id="fillgauge_bash"></svg>
+						<svg height="100px" class="fillgauge" id="fillgauge_bash"></svg>
 						<p>bash, dash, AWK:<br> quasi <i>Muttersprache</i></p>
 
-						<svg class="fillgauge" id="fillgauge_python"></svg>
+						<svg height="100px" class="fillgauge" id="fillgauge_python"></svg>
 						<p>Python 2 und 3:<br> sehr gute Kenntnisse</p>
 
-						<svg class="fillgauge" id="fillgauge_net"></svg>
+						<svg height="100px" class="fillgauge" id="fillgauge_net"></svg>
 						<p>C#/.NET (unter Linux):<br> gute Kenntnisse</p>
 
-						<svg class="fillgauge" id="fillgauge_c"></svg>
+						<svg height="100px" class="fillgauge" id="fillgauge_c"></svg>
 						<p>C/C++:<br> gute Kenntnisse</p>
 
-						<svg class="fillgauge" id="fillgauge_tex"></svg>
+						<svg height="100px" class="fillgauge" id="fillgauge_tex"></svg>
 						<p>LaTeX, KOMA-Script:<br> gute Kenntnisse</p>
 
-						<svg class="fillgauge" id="fillgauge_php"></svg>
+						<svg height="100px" class="fillgauge" id="fillgauge_php"></svg>
 						<p>Java, RubyOnRails, PHP:<br> erweiterte Grundkenntnisse</p>
 
-						<svg class="fillgauge" id="fillgauge_node"></svg>
+						<svg height="100px" class="fillgauge" id="fillgauge_node"></svg>
 						<p>JavaScript, Node.js:<br> erweiterte Grundkenntnisse</p>
 					</div>
 
 					<div class="skillsbox_section">
-						<h3>Methoden, Techniken und Konzepte</h3>
-						<svg class="fillgauge" id="fillgauge_rest"></svg>
+						<h3 id="concepts">Methoden, Techniken und Konzepte</h3>
+						<svg height="100px" class="fillgauge" id="fillgauge_rest"></svg>
 						<p>RESTful:<br> gute Kenntnisse</p>
 
-						<svg class="fillgauge" id="fillgauge_html"></svg>
+						<svg height="100px" class="fillgauge" id="fillgauge_html"></svg>
 						<p>XML, HTML, CSS, Json &  gute Kenntnisse:<br> gute Kenntnisse</p>
 
-						<svg class="fillgauge" id="fillgauge_oo"></svg>
+						<svg height="100px" class="fillgauge" id="fillgauge_oo"></svg>
 						<p>OO-Programmierung:<br> gute Kenntnisse</p>
 
-						<svg class="fillgauge" id="fillgauge_agile"></svg>
+						<svg height="100px" class="fillgauge" id="fillgauge_agile"></svg>
 						<p>Agile Softwareentwicklung:<br> gute Kenntnisse</p>
 
-						<svg class="fillgauge" id="fillgauge_serverclient"></svg>
+						<svg height="100px" class="fillgauge" id="fillgauge_serverclient"></svg>
 						<p>Server/Client-Programmierung(Tcp/IP):<br> erweiterte Grundkenntnisse</p>
+					</div>
 
+
+					<div class="skillsbox_section">
+						<h3>Datenbanken</h3>
+						<svg height="100px" class="fillgauge" id="fillgauge_mysql"></svg>
+						<p>MySQL, MariaDB:<br> gute Kenntnisse</p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_psql"></svg>
+						<p>PostgreSQL:<br>  gute Kenntnisse</p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_sqlite"></svg>
+						<p>SQLite:<br> gute Kenntnisse</p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_sqlnormalisierung"></svg>
+						<p>Datenbank Normalisierung:<br> sehr gute Kenntnisse</p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_couchdb"></svg>
+						<p>CouchDB:<br> gute Kenntnisse</p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_oracle"></svg>
+						<p>Oracle:<br> erweiterte Grundkenntnisse</p>
+					</div>
+
+					<div class="skillsbox_section">
+						<h3>Frameworks</h3>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_tntnet"></svg>
+						<p>Tntnet Webframework(C++):<br> sehr gute Kenntnisse</p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_winforms"></svg>
+						<p>Winforms(C#):<br> gute Kenntnisse</p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_ncurses"></svg>
+						<p>Ncurses(Bash,C):<br> gute Kenntnisse</p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_bottle"></svg>
+						<p>Bottle(python):<br> gute Kenntnisse</p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_webpy"></svg>
+						<p>WebPy(Python):<br> gute Kenntnisse</p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_bootstrap"></svg>
+						<p>Bootstrap(CSS):<br> gute Kenntnisse</p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_express"></svg>
+						<p>Express(Node.js):<br> erweiterte Grundkenntnisse</p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_qt"></svg>
+						<p>Qt(C++):<br> erweiterte Grundkenntnisse</p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_boost"></svg>
+						<p>Boost(C++):<br> erweiterte Grundkenntnisse</p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_wt"></svg>
+						<p>Wt -<i>Witty</i>(C++):<br> erweiterte Grundkenntnisse</p>
 					</div>
 
 
@@ -800,18 +878,21 @@
 					<div class="skillsbox_section">
 						<h3>Sprachen</h3>
 
-						<svg class="fillgauge" id="fillgauge_de"></svg>
+						<svg height="100px" class="fillgauge" id="fillgauge_de"></svg>
 						<p>Deutsch:<br> Muttersprache</p>
 
-						<svg class="fillgauge" id="fillgauge_en_in"></svg>
+						<svg height="100px" class="fillgauge" id="fillgauge_en_in"></svg>
 						<p>Englisch passiv:<br> Gut</p>
 
-						<svg class="fillgauge" id="fillgauge_en_out"></svg>
+						<svg height="100px" class="fillgauge" id="fillgauge_en_out"></svg>
 						<p>Englisch aktiv:<br> Grundkenntnisse</p>
 					</div>
 
-
-
+					<div class="skillsbox_section">
+						<h3>Handicaps</h3>
+						<svg height="100px" class="fillgauge" id="fillgauge_legasthenie"></svg>
+						<p>Legasthenie:<br> nach Tagesform</p>
+					</div>
 
 
 					<script >
@@ -844,9 +925,29 @@
 							var gauge1 = loadLiquidFillGauge("fillgauge_agile", 75, gauge_conf);
 							var gauge1 = loadLiquidFillGauge("fillgauge_serverclient", 75, gauge_conf);
 
+					    var gauge1 = loadLiquidFillGauge("fillgauge_mysql", 75, gauge_conf);
+					    var gauge1 = loadLiquidFillGauge("fillgauge_psql", 75, gauge_conf);
+					    var gauge1 = loadLiquidFillGauge("fillgauge_sqlite", 75, gauge_conf);
+							var gauge1 = loadLiquidFillGauge("fillgauge_sqlnormalisierung", 95, gauge_conf);
+							var gauge1 = loadLiquidFillGauge("fillgauge_couchdb", 75, gauge_conf);
+							var gauge1 = loadLiquidFillGauge("fillgauge_oracle", 50, gauge_conf);
+
+							var gauge1 = loadLiquidFillGauge("fillgauge_tntnet", 95, gauge_conf);
+							var gauge1 = loadLiquidFillGauge("fillgauge_winforms", 75, gauge_conf);
+							var gauge1 = loadLiquidFillGauge("fillgauge_ncurses", 75, gauge_conf);
+							var gauge1 = loadLiquidFillGauge("fillgauge_bottle", 75, gauge_conf);
+							var gauge1 = loadLiquidFillGauge("fillgauge_webpy", 75, gauge_conf);
+							var gauge1 = loadLiquidFillGauge("fillgauge_bootstrap", 75, gauge_conf);
+							var gauge1 = loadLiquidFillGauge("fillgauge_express", 50, gauge_conf);
+							var gauge1 = loadLiquidFillGauge("fillgauge_qt", 50, gauge_conf);
+							var gauge1 = loadLiquidFillGauge("fillgauge_boost", 50, gauge_conf);
+							var gauge1 = loadLiquidFillGauge("fillgauge_wt", 50, gauge_conf);
+
 					    var gauge1 = loadLiquidFillGauge("fillgauge_de", 95, gauge_conf);
 					    var gauge1 = loadLiquidFillGauge("fillgauge_en_in", 75, gauge_conf);
 					    var gauge1 = loadLiquidFillGauge("fillgauge_en_out", 50, gauge_conf);
+
+					    var gauge1 = loadLiquidFillGauge("fillgauge_legasthenie", 50, gauge_conf);
 
 					    function NewValue(){
 					        if(Math.random() > .5){
