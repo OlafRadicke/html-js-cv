@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
 
   <title>Lebenslauf</title>
@@ -9,8 +9,8 @@
   <link rel="stylesheet" href="css/timelify.css">
   <link rel="stylesheet" href="css/cv-main.css">
 
-  <script src="js/d3.min.js" language="JavaScript"></script>
-  <script src="js/liquidFillGauge.js" language="JavaScript"></script>
+  <script src="js/d3.min.js" ></script>
+  <script src="js/liquidFillGauge.js" ></script>
 
 	<script src="js/jquery-1.12.4.min.js"></script>
 	<script src="js/jquery.timelify.js"></script>
@@ -28,17 +28,18 @@
 		<div class="personalpic_container">
 			<img src="pics/radicke_olaf.jpg" height="320"  alt="cover">
 		</div>
-		<div class="personaldata_container">
-			<ul>
-				<li><b>Name:</b> Olaf radicke</li>
-				<li><b>Anschrift:</b> Alpenstr. 9, 80159 Augsburg</li>
-				<li><b>Telefon:</b> 0176 – 23 187 609</li>
-				<li><b>E-Mail:</b> <a href="mailto:briefkasten@olaf-radicke.de">briefkasten@olaf-radicke.de</a></li>
-				<li><b>Xing:</b> <a href="https://www.xing.com/profile/Olaf_Radicke">https://www.xing.com/profile/Olaf_Radicke</a></li>
-				<li><b>GitHub:</b> <a href="https://github.com/OlafRadicke">https://github.com/OlafRadicke</a></li>
-			</ul>
+		<div class="personalextra_container">
+			<div class="personaldata_container">
+				<ul>
+					<li><b>Name:</b> Olaf radicke</li>
+					<li><b>Anschrift:</b> Alpenstr. 9, 80159 Augsburg</li>
+					<li><b>Telefon:</b> 0176 – 23 187 609</li>
+					<li><b>E-Mail:</b> <a href="mailto:briefkasten@olaf-radicke.de">briefkasten@olaf-radicke.de</a></li>
+					<li><b>Xing:</b> <a href="https://www.xing.com/profile/Olaf_Radicke">https://www.xing.com/profile/Olaf_Radicke</a></li>
+					<li><b>GitHub:</b> <a href="https://github.com/OlafRadicke">https://github.com/OlafRadicke</a></li>
+				</ul>
+			</div>
 		</div>
-		<div class="personalextra_container"></div>
 	</div>
 	<div class="mainbox">
 		<div class="timeline_container">
@@ -744,11 +745,11 @@
 
 			</div> <!-- end timeline class -->
 		</div> <!-- end timline_conainer -->
-
 		<div class="skills_container">
 				<h2>Skills</h2>
 
 				<div class="skillsbox">
+
 
 					<div class="skillsbox_section">
 						<h3>Programmiersprachen</h3>
@@ -775,12 +776,13 @@
 						<p>JavaScript, Node.js:<br> erweiterte Grundkenntnisse</p>
 					</div>
 
-
 					<div class="skillsbox_section">
 						<h3>Methoden, Techniken und Konzepte</h3>
-
 						<svg class="fillgauge" id="fillgauge_rest"></svg>
 						<p>RESTful:<br> gute Kenntnisse</p>
+
+						<svg class="fillgauge" id="fillgauge_html"></svg>
+						<p>XML, HTML, CSS, Json &  gute Kenntnisse:<br> gute Kenntnisse</p>
 
 						<svg class="fillgauge" id="fillgauge_oo"></svg>
 						<p>OO-Programmierung:<br> gute Kenntnisse</p>
@@ -790,6 +792,7 @@
 
 						<svg class="fillgauge" id="fillgauge_serverclient"></svg>
 						<p>Server/Client-Programmierung(Tcp/IP):<br> erweiterte Grundkenntnisse</p>
+
 					</div>
 
 
@@ -811,7 +814,7 @@
 
 
 
-					<script language="JavaScript">
+					<script >
 							var gauge_conf = liquidFillGaugeDefaultSettings();
 							gauge_conf.circleColor = "#5b5555";
 							gauge_conf.textColor = "white";
@@ -825,6 +828,7 @@
 							gauge_conf.waveOffset = 0.25;
 					    gauge_conf.waveCount = 3;
 					    gauge_conf.displayPercent = false;
+
 
 					    var gauge1 = loadLiquidFillGauge("fillgauge_bash", 100, gauge_conf);
 					    var gauge1 = loadLiquidFillGauge("fillgauge_python", 95, gauge_conf);
@@ -855,7 +859,6 @@
 
 				</div> <!-- end skills_container -->
 		</div> <!-- end skills_container -->
-
 	</div> <!-- end mainbox -->
 
 	<script> <!-- timeline script -->

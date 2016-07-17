@@ -31,18 +31,7 @@ div.personaldata {
 				margin: 10px;
 				padding:30px;
 		}
-		div.personaldata_container {
-				background-color: #ffffff;
-				color: #5b5555;
-				margin: 10px;
-				padding:30px;
-		}
-				div.personaldata_container ul {
-						list-style-type: none;
-						list-style: none;
-					  display: flex;
-						display: block
-				}
+
 		div.personalextra_container {
 				background-color: #ffffff;
 				color: #5b5555;
@@ -51,6 +40,18 @@ div.personaldata {
 				display: flex;
    			flex: 2 0 0;
 		}
+		div.personaldata_container {
+				background-color: #00acc1;
+				color: white;
+				padding:30px;
+		}
+		div.personaldata_container ul {
+				list-style-type: none;
+				list-style: none;
+			  display: flex;
+				display: block
+		}
+
 div.mainbox {
   display: flex;
 	justify-content: center;
