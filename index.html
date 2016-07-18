@@ -35,6 +35,8 @@
 					<li><a href="#j1970">1970</a></li>
 				</ul>
 				<ul class="menu">
+					<li><a href="#cicd">Continuous Delivery</a></li>
+					<li>|</li>
 					<li><a href="#proglang">Programmiersprachen</a></li>
 					<li>|</li>
 					<li><a href="#concepts">Methoden</a></li>
@@ -46,12 +48,7 @@
 					<li><a href="#langs">Sprachen</a></li>
 					<li>|</li>
 					<li><a href="#handicap">Handicaps</a></li>
-				</ul><!--
-				<h3>Skills</h3>
-				<ul class="menu">
-					<li><a href="#concepts">Konzepte</a></li>
-					<li><a href="">eins</a></li>
-				</ul> -->
+				</ul>
 		</div><!-- end headbox -->
 
 		<div id="start" class="titlebox">
@@ -786,6 +783,40 @@
 
 				<div class="skillsbox">
 
+					<div class="skillsbox_section">
+						<h3 id="cicd">Continuous Delivery</h3>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_ansible"></svg>
+						<p>Ansible:<br> sehr gute Kenntnisse</p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_docker"></svg>
+						<p>Docker:<br> sehr gute Kenntnisse</p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_rpm"></svg>
+						<p>rpm- und deb-Paketbau:<br> sehr gute Kenntnisse</p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_jenkins"></svg>
+						<p>Jenkins:<br> gute Kenntnisse</p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_salt"></svg>
+						<p>Salt Stack:<br> gute Kenntnisse</p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_gnumake"></svg>
+						<p>GNUmake:<br> gute Kenntnisse</p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_qmake"></svg>
+						<p>qmake:<br> erweiterte Grundkenntnisse </p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_cmake"></svg>
+						<p>cmake:<br> erweiterte Grundkenntnisse </p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_puppet"></svg>
+						<p>Puppet:<br> erweiterte Grundkenntnisse </p>
+
+						<svg height="100px" class="fillgauge" id="fillgauge_spacewalk"></svg>
+						<p>Spacewalk:<br> erweiterte Grundkenntnisse </p>
+
+					</div>
 
 					<div class="skillsbox_section">
 						<h3 id="proglang">Programmiersprachen</h3>
@@ -834,7 +865,6 @@
 						<p>Test-Driven Development (TDD):<br> erweiterte Grundkenntnisse</p>
 					</div>
 
-
 					<div class="skillsbox_section">
 						<h3 id="database">Datenbanken</h3>
 						<svg height="100px" class="fillgauge" id="fillgauge_mysql"></svg>
@@ -857,7 +887,7 @@
 					</div>
 
 					<div class="skillsbox_section">
-						<h3 id="framworks">Frameworks</h3>
+						<h3 id="frameworks">Frameworks</h3>
 
 						<svg height="100px" class="fillgauge" id="fillgauge_tntnet"></svg>
 						<p>Tntnet Webframework(C++):<br> sehr gute Kenntnisse</p>
@@ -877,6 +907,9 @@
 						<svg height="100px" class="fillgauge" id="fillgauge_bootstrap"></svg>
 						<p>Bootstrap(CSS):<br> gute Kenntnisse</p>
 
+						<svg height="100px" class="fillgauge" id="fillgauge_selenium"></svg>
+						<p>Selenium (PhantomJS):<br> gute Kenntnisse</p>
+
 						<svg height="100px" class="fillgauge" id="fillgauge_express"></svg>
 						<p>Express(Node.js):<br> erweiterte Grundkenntnisse</p>
 
@@ -888,9 +921,9 @@
 
 						<svg height="100px" class="fillgauge" id="fillgauge_wt"></svg>
 						<p>Wt -<i>Witty</i>(C++):<br> erweiterte Grundkenntnisse</p>
+
+
 					</div>
-
-
 
 					<div class="skillsbox_section">
 						<h3 id="langs">Sprachen</h3>
@@ -927,6 +960,16 @@
 					    gauge_conf.waveCount = 3;
 					    gauge_conf.displayPercent = false;
 
+					    var gauge1 = loadLiquidFillGauge("fillgauge_rpm", 95, gauge_conf);
+					    var gauge1 = loadLiquidFillGauge("fillgauge_ansible", 95, gauge_conf);
+					    var gauge1 = loadLiquidFillGauge("fillgauge_docker", 95, gauge_conf);
+					    var gauge1 = loadLiquidFillGauge("fillgauge_jenkins", 75, gauge_conf);
+					    var gauge1 = loadLiquidFillGauge("fillgauge_salt", 75, gauge_conf);
+					    var gauge1 = loadLiquidFillGauge("fillgauge_gnumake", 75, gauge_conf);
+					    var gauge1 = loadLiquidFillGauge("fillgauge_qmake", 50, gauge_conf);
+					    var gauge1 = loadLiquidFillGauge("fillgauge_cmake", 50, gauge_conf);
+					    var gauge1 = loadLiquidFillGauge("fillgauge_puppet", 50, gauge_conf);
+					    var gauge1 = loadLiquidFillGauge("fillgauge_spacewalk", 50, gauge_conf);
 
 					    var gauge1 = loadLiquidFillGauge("fillgauge_bash", 100, gauge_conf);
 					    var gauge1 = loadLiquidFillGauge("fillgauge_python", 95, gauge_conf);
@@ -956,6 +999,7 @@
 							var gauge1 = loadLiquidFillGauge("fillgauge_bottle", 75, gauge_conf);
 							var gauge1 = loadLiquidFillGauge("fillgauge_webpy", 75, gauge_conf);
 							var gauge1 = loadLiquidFillGauge("fillgauge_bootstrap", 75, gauge_conf);
+							var gauge1 = loadLiquidFillGauge("fillgauge_selenium", 75, gauge_conf);
 							var gauge1 = loadLiquidFillGauge("fillgauge_express", 50, gauge_conf);
 							var gauge1 = loadLiquidFillGauge("fillgauge_qt", 50, gauge_conf);
 							var gauge1 = loadLiquidFillGauge("fillgauge_boost", 50, gauge_conf);
