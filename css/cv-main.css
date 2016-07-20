@@ -144,3 +144,43 @@ body {
 svg.fillgauge {
 		height="1500px"
 }
+
+.flipletter {
+/*		-moz-transform: scaleX(-1);
+	  -o-transform: scaleX(-1);
+	  -webkit-transform: scaleX(-1);
+	  transform: scaleX(-1);         */
+		display: inline-block;
+	  vertical-align: top;
+	  transform: scaleX(-1); /* Or also:   rotateY(180deg) */
+	  -ms-filter: fliph;
+	  filter: fliph;
+}
+ul.flip {
+		list-style-type: none;
+		display: flex;
+		flex-direction: row;
+		margin: 0px;
+		padding:0px;
+}
+li.flip {
+		list-style-type: none;
+		list-style: none;
+		flex-grow: 2;
+		margin: px;
+		padding: 0px;
+		display: inline-block;
+		vertical-align: center;
+		transform: scaleX(-1); /* Or also:   rotateY(180deg) */
+		-ms-filter: fliph;
+		filter: fliph;
+}
+li.flop {
+		list-style-type: none;
+		list-style: none;
+		flex-grow: 2;
+		margin: px;
+		padding: 0px;
+		display: inline-block;
+		vertical-align: center;
+}
