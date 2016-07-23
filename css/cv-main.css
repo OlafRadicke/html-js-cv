@@ -2,7 +2,10 @@
 body {
 	background-color: #5b5555;
 }
-
+.warning {
+	background-color: red;
+	color: Black;
+}
 .headbox {
     position: fixed;
 		background-color: #5b5555;
