@@ -67,8 +67,8 @@
 		</div>
 		<script>
 			var ua = window.navigator.userAgent;
-			var msie = ua.indexOf("MSIE");
-			if ( !msie ) {
+			var msie = ua.indexOf("MSIE ");
+			if ( msie  > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
 					document.getElementById('warning').style.display = "";
 			}else {
 					document.getElementById('warning').style.display = "none";
