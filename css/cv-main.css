@@ -4,7 +4,12 @@ body {
 }
 .warning {
 	background-color: red;
-	color: Black;
+	color: white;
+	margin: 10px;
+	padding:30px;
+}
+div.warning h1 {
+	text-align: center;
 }
 .headbox {
     position: fixed;

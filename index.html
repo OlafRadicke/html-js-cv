@@ -17,7 +17,6 @@
 
 </head>
 <body>
-
 		<div class="headbox">
 				<ul class="menu">
 					<li><a href="#start">Start</a></li>
@@ -62,8 +61,20 @@
 				<h1 >Lebenslauf</h1>
 			</div>
 		</div> <!-- end titlebox -->
+		<div class="warning" id="warning">
+			<h1>Sorry, der Internet Internet Explorer wird nicht voll Unterstützt</h1>
+
+		</div>
+		<script>
+			var ua = window.navigator.userAgent;
+			var msie = ua.indexOf("MSIE ");
+			if ( !msie ) {
+					document.getElementById('warning').style.display = "";
+			}else {
+					document.getElementById('warning').style.display = "none";
+			}
+		</script>
 		<!--[if IE]>
-		  <div class="warning"><h2>Sorry, der Internet Internet Explorer wird nicht voll Unterstützt</h2></div>
 		<![endif]-->
 		<div class="personaldata">
 			<div class="personalpic_container">
