@@ -81,7 +81,7 @@
 	</script><!-- end warning -->
 
 
-  <div class="row" id="personaldata">
+  <div class="rd-flex align-content-start flex-wrap" id="personaldata">
     <div class="col-xs-6" id="personalpic_container">
 		<!-- <div class="personalpic_container"> -->
 			<img src="pics/radicke_olaf.jpg" height="320"  alt="cover">
@@ -101,26 +101,31 @@
 			</div>
 		</div>
    </div><!-- end personaldata -->
-
+   <br>
 
 
 	<!--<div class="mainbox">-->
-  <div class="row" id="mainbox">
+  <div class="rd-flex align-content-start flex-wrap" id="mainbox">
 		<!-- <div class="timeline_container"> -->
-    <div class="row" id="timeline_container">
+    <!-- <div class="row" id="timeline_container"> -->
+    <div class="d-flex align-content-start flex-wrap" id="timeline_container">
 			<div class="col-xs-12" id="timeline-item"><h2>Timeline</h2></div>
 			<div class="timeline">
 				<!-- <ul class="timeline-items"> -->
-        <div class="row" id="timeline-items">
-          <div class="col-xs-6" id="timeline-item"></div>
-          <div class="col-xs-6" id="timeline-item_inverted">
+
+        <div class="d-flex align-content-start flex-wrap" id="timeline-items">
+
+          <div class="col-md-6" id="timeline-item">
 
             <div class="panel panel-default">
-              <div class="panel-body">Panel Content</div>
-              <div class="panel-footer">Panel Footer</div>
+              <div class="panel-heading">JOB</div>
+              <div class="panel-body">Tätigkeit</div>
             </div>
 
-            <div class="panel panel-default">
+          </div> <!-- id="timeline-item" -->
+          <div class="col-md-6" id="timeline-item_inverted">
+
+            <div class="p-2 panel panel-default">
               <div class="panel-heading">Vortrag</div>
               <div class="panel-body">
                 <p><b>Thema:</b><br> Continuous delivery mit <i>GitLab CI</i></p>
@@ -130,9 +135,9 @@
               </div>
             </div>
 
-  					<div class="panel panel-default">
-  						<div class="panel-body">Konferenzbesuch</div>
-  						<div class="panel-footer">
+  					<div class="p-2 panel panel-default">
+  						<div class="panel-heading">Konferenzbesuch</div>
+  						<div class="panel-body">
     						<p>Besuch der <i>DevOpsCon</i> 2016 in Berlin</p>
     						<hr>
     						<b>6.2016</b>
@@ -140,8 +145,8 @@
   					</div>
 
   					<div class="panel panel-default">
-  						<div class="panel-body">Vortrag</div>
-  						<div class="panel-footer">
+  						<div class="panel-heading">Vortrag</div>
+  						<div class="panel-body">
     						<p><b>Thema:</b><br> <i>Ansible</i></p>
     						<p><b>URLs:</b><br><a href="http://www.meetup.com/de-DE/Linux-Stammtisch-Munchen/events/228968988/"><i>Linux-Stammtisch</i> in München</a></p>
     						<hr>
@@ -150,8 +155,8 @@
   					</div>
 
   					<div class="panel panel-default">
-  						<div class="panel-body">Vortrag</div>
-  						<div class="panel-footer">
+  						<div class="panel-heading">Vortrag</div>
+  						<div class="panel-body">
     						<p><b>Thema:</b> <br><i>Ansible</i></p>
     						<p><b>URLs:</b><br><a href="http://www.meetup.com/de-DE/web-and-wine/events/228400004/">meetup.com</a><br><a href="http://webandwine.org/">webandwine.org</a></p>
     						<hr>
@@ -161,7 +166,7 @@
           </div>
 				</div>
 
-				<h2 id="j2016">2016</h2>
+				<div class="col-xs-12"><h2 id="j2016">2016</h2></div>
 
 				<div class="row" id="timeline-items">
 
