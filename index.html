@@ -4,80 +4,90 @@
 <head>
 
   <title>Lebenslauf</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/timelify.css">
-  <link rel="stylesheet" href="css/cv-main.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <script src="js/d3.min.js" ></script>
-  <script src="js/liquidFillGauge.js" ></script>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
-	<script src="js/jquery-1.12.4.min.js"></script>
-	<script src="js/jquery.timelify.js"></script>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
 
 </head>
 <body>
-		<div class="headbox">
-				<ul class="menu">
-					<li><a href="#start">Start</a></li>
-					<li>|</li>
-					<li><a href="#j2016">2016</a></li>
-					<li>|</li>
-					<li><a href="#j2010">2010</a></li>
-					<li>|</li>
-					<li><a href="#j2000">2000</a></li>
-					<li>|</li>
-					<li><a href="#j1990">1990</a></li>
-					<li>|</li>
-					<li><a href="#j1980">1980</a></li>
-					<li>|</li>
-					<li><a href="#j1978">1978</a></li>
-				</ul>
-				<ul class="menu">
-					<li><a href="#cicd">Continuous Delivery</a></li>
-					<li>|</li>
-					<li><a href="#tools">Entwickler-Tools</a></li>
-					<li>|</li>
-					<li><a href="#proglang">Programmiersprachen</a></li>
-					<li>|</li>
-					<li><a href="#concepts">Methoden</a></li>
-					<li>|</li>
-					<li><a href="#database">Datenbanken</a></li>
-					<li>|</li>
-					<li><a href="#frameworks">Frameworks</a></li>
-					<li>|</li>
-					<li><a href="#langs">Sprachen</a></li>
-					<li>|</li>
-					<li><a href="#operationsystem">Betriebssystem</a></li>
-					<li>|</li>
-					<li><a href="#legend">Legende</a></li>
-					<li>|</li>
-					<li><a href="#handicap">Handicap</a></li>
-				</ul>
-		</div><!-- end headbox -->
+  <div class="container-fluid">
+    <div class="headbox">
+    	<ul class="menu">
+    		<li><a href="#start">Start</a></li>
+    		<li>|</li>
+    		<li><a href="#j2016">2016</a></li>
+    		<li>|</li>
+    		<li><a href="#j2010">2010</a></li>
+    		<li>|</li>
+    		<li><a href="#j2000">2000</a></li>
+    		<li>|</li>
+    		<li><a href="#j1990">1990</a></li>
+    		<li>|</li>
+    		<li><a href="#j1980">1980</a></li>
+    		<li>|</li>
+    		<li><a href="#j1978">1978</a></li>
+    	</ul>
+    	<ul class="menu">
+    		<li><a href="#cicd">Continuous Delivery</a></li>
+    		<li>|</li>
+    		<li><a href="#tools">Entwickler-Tools</a></li>
+    		<li>|</li>
+    		<li><a href="#proglang">Programmiersprachen</a></li>
+    		<li>|</li>
+    		<li><a href="#concepts">Methoden</a></li>
+    		<li>|</li>
+    		<li><a href="#database">Datenbanken</a></li>
+    		<li>|</li>
+    		<li><a href="#frameworks">Frameworks</a></li>
+    		<li>|</li>
+    		<li><a href="#langs">Sprachen</a></li>
+    		<li>|</li>
+    		<li><a href="#operationsystem">Betriebssystem</a></li>
+    		<li>|</li>
+    		<li><a href="#legend">Legende</a></li>
+    		<li>|</li>
+    		<li><a href="#handicap">Handicap</a></li>
+    	</ul>
+    </div><!-- end headbox -->
 
-		<div id="start" class="titlebox">
-			<div class="title_container">
-				<h1 >Lebenslauf</h1>
-			</div>
-		</div> <!-- end titlebox -->
-		<div class="warning" id="warning">
-			<h1>Sorry, der Internet Explorer wird nicht voll unterstützt!</h1>
+	<div id="start" class="titlebox">
+		<div class="title_container">
+			<h1 >Lebenslauf</h1>
 		</div>
-		<script>
-			var ua = window.navigator.userAgent;
-			var msie = ua.indexOf("MSIE ");
-			if ( msie  > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
-					document.getElementById('warning').style.display = "";
-			}else {
-					document.getElementById('warning').style.display = "none";
-			}
-		</script>
-		<div class="personaldata">
-			<div class="personalpic_container">
-				<img src="pics/radicke_olaf.jpg" height="320"  alt="cover">
-			</div>
-		<div class="personalextra_container">
+	</div> <!-- end titlebox -->
+
+
+	<div class="warning" id="warning">
+		<h1>Sorry, der Internet Explorer wird nicht voll unterstützt!</h1>
+	</div>
+	<script>
+		var ua = window.navigator.userAgent;
+		var msie = ua.indexOf("MSIE ");
+		if ( msie  > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
+				document.getElementById('warning').style.display = "";
+		}else {
+				document.getElementById('warning').style.display = "none";
+		}
+	</script><!-- end warning -->
+
+
+  <div class="row" id="personaldata">
+    <div class="col-xs-6" id="personalpic_container">
+		<!-- <div class="personalpic_container"> -->
+			<img src="pics/radicke_olaf.jpg" height="320"  alt="cover">
+		</div>
+    <div class="col-xs-6" id="personalpic_container">
+		<!-- <div class="personalextra_container"> -->
 			<div class="personaldata_container">
 				<ul>
 					<li><b>Name:</b> Olaf Radicke</li>
@@ -90,52 +100,70 @@
 				</ul>
 			</div>
 		</div>
-	</div>
-	<div class="mainbox">
-		<div class="timeline_container">
-			<h2>Timeline</h2>
+   </div><!-- end personaldata -->
+
+
+
+	<!--<div class="mainbox">-->
+  <div class="row" id="mainbox">
+		<!-- <div class="timeline_container"> -->
+    <div class="row" id="timeline_container">
+			<div class="col-xs-12" id="timeline-item"><h2>Timeline</h2></div>
 			<div class="timeline">
-				<ul class="timeline-items">
+				<!-- <ul class="timeline-items"> -->
+        <div class="row" id="timeline-items">
+          <div class="col-xs-6" id="timeline-item"></div>
+          <div class="col-xs-6" id="timeline-item_inverted">
 
-          <li class="timeline-item inverted">
-            <h3>Vortrag</h3>
-            <hr>
-            <p><b>Thema:</b><br> Continuous delivery mit <i>GitLab CI</i></p>
-            <p><b>URLs:</b><br><a href="https://github.com/web-and-wine/talks/blob/master/gitlab-ci-olaf-radicke.pdf"><i></i> Web&amp;Wine Meetup in Augsburg</a></p>
-            <hr>
-            <b>05.12.2016</b>
-          </li>
+            <div class="panel panel-default">
+              <div class="panel-body">Panel Content</div>
+              <div class="panel-footer">Panel Footer</div>
+            </div>
 
-					<li class="timeline-item inverted">
-						<h3>Konferenzbesuch</h3>
-						<hr>
-						<p>Besuch der <i>DevOpsCon</i> 2016 in Berlin</p>
-						<hr>
-						<b>6.2016</b>
-					</li>
+            <div class="panel panel-default">
+              <div class="panel-heading">Vortrag</div>
+              <div class="panel-body">
+                <p><b>Thema:</b><br> Continuous delivery mit <i>GitLab CI</i></p>
+                <p><b>URLs:</b><br><a href="https://github.com/web-and-wine/talks/blob/master/gitlab-ci-olaf-radicke.pdf"><i></i> Web&amp;Wine Meetup in Augsburg</a></p>
+                <hr>
+                <b>05.12.2016</b>
+              </div>
+            </div>
 
-					<li class="timeline-item inverted">
-						<h3>Vortrag</h3>
-						<hr>
-						<p><b>Thema:</b><br> <i>Ansible</i></p>
-						<p><b>URLs:</b><br><a href="http://www.meetup.com/de-DE/Linux-Stammtisch-Munchen/events/228968988/"><i>Linux-Stammtisch</i> in München</a></p>
-						<hr>
-						<b>22.03.2016</b>
-					</li>
+  					<div class="panel panel-default">
+  						<div class="panel-body">Konferenzbesuch</div>
+  						<div class="panel-footer">
+    						<p>Besuch der <i>DevOpsCon</i> 2016 in Berlin</p>
+    						<hr>
+    						<b>6.2016</b>
+              </div>
+  					</div>
 
-					<li class="timeline-item inverted">
-						<h3>Vortrag</h3>
-						<hr>
-						<p><b>Thema:</b> <br><i>Ansible</i></p>
-						<p><b>URLs:</b><br><a href="http://www.meetup.com/de-DE/web-and-wine/events/228400004/">meetup.com</a><br><a href="http://webandwine.org/">webandwine.org</a></p>
-						<hr>
-						<b>23.02.2016</b>
-					</li>
-				</ul>
+  					<div class="panel panel-default">
+  						<div class="panel-body">Vortrag</div>
+  						<div class="panel-footer">
+    						<p><b>Thema:</b><br> <i>Ansible</i></p>
+    						<p><b>URLs:</b><br><a href="http://www.meetup.com/de-DE/Linux-Stammtisch-Munchen/events/228968988/"><i>Linux-Stammtisch</i> in München</a></p>
+    						<hr>
+    						<b>22.03.2016</b>
+              </div>
+  					</div>
+
+  					<div class="panel panel-default">
+  						<div class="panel-body">Vortrag</div>
+  						<div class="panel-footer">
+    						<p><b>Thema:</b> <br><i>Ansible</i></p>
+    						<p><b>URLs:</b><br><a href="http://www.meetup.com/de-DE/web-and-wine/events/228400004/">meetup.com</a><br><a href="http://webandwine.org/">webandwine.org</a></p>
+    						<hr>
+    						<b>23.02.2016</b>
+              </div>
+  					</div>
+          </div>
+				</div>
 
 				<h2 id="j2016">2016</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 
 					<li class="timeline-item inverted">
 						<h3>Berufliches Projekt</h3>
@@ -198,11 +226,11 @@
 						<hr>
 						<b>1.1.2015</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2>2015</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item inverted">
 						<h3>Vortrag</h3>
 						<hr>
@@ -270,11 +298,11 @@
 						<hr>
 						<b>Anfang 2014 bis Sommer 2014</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2>2014</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item inverted">
 						<h3>Vortrag mit Workshop </h3>
 						<hr>
@@ -315,11 +343,11 @@
 						<hr>
 						<b>1.2013 bis 7.2014</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2>2013</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 
 					<li class="timeline-item">
 						<h3>Senior IT Consultant / Entwickler</h3>
@@ -359,11 +387,11 @@
 						<hr>
 						<b>Anfang 2012 (ca. zwei Manwochen)</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2>2012</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item inverted">
 						<h3>Berufliches Projekt</h3>
 						<hr>
@@ -386,11 +414,11 @@
 						<hr>
 						<b>Anfang 2011 bis Ende 2012</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2>2011</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item inverted">
 						<h3>Berufliches Projekt</h3>
 						<hr>
@@ -425,12 +453,12 @@
 						<hr>
 						<b>30.7.2010 bis 31.7.2012</b>
 					</li>
-				</ul>
+				</div>
 
 
 				<h2 id="j2010">2010</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item">
 						<h3>Heilerziehungspfleger</h3>
 						<hr>
@@ -489,11 +517,11 @@
 						<hr>
 						<b>1.1.2009 bis 30.6.2009</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2>2009</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item">
 						<h3>Heilerziehungspfleger</h3>
 						<hr>
@@ -527,11 +555,11 @@
 						<hr>
 						<b>4.2008 bis 6.2008</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2>2008</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item">
 						<h3>Praktikum</h3>
 						<hr>
@@ -547,11 +575,11 @@
 						<hr>
 						<b>17.4.2007 bis 31.7.2007</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2>2007</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item inverted">
 						<h3>Open Source Projekt</h3>
 						<hr>
@@ -571,11 +599,11 @@
 						<hr>
 						<b>Sommer 2006</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2>2006</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item">
 						<h3>Heilerziehungspfleger</h3>
 						<hr>
@@ -591,11 +619,11 @@
 						<hr>
 						<b>Sommer 2005</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2>2005</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item inverted">
 						<h3>Umzug</h3>
 						<hr>
@@ -611,11 +639,11 @@
 						<hr>
 						<b>31.7.2004 bis 10.6.2005</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2>2004</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item">
 						<h3>Heilerziehungspfleger</h3>
 						<hr>
@@ -623,11 +651,11 @@
 						<hr>
 						<b>1.8.2003 bis 31.7.2004</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2>2003</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item">
 						<h3>Heilerziehungspfleger</h3>
 						<hr>
@@ -635,11 +663,11 @@
 						<hr>
 						<b>1.3.2003 bis 31.7.2003</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2>2003</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item">
 						<h3>Praktikum</h3>
 						<hr>
@@ -647,11 +675,11 @@
 						<hr>
 						<b>7.5.2001 bis 17.7.2001</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2>2001</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item">
 						<h3>Praktikum</h3>
 						<hr>
@@ -676,11 +704,11 @@
 						<hr>
 						<b>Anfang 2000</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2 id="j2000">2000</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item">
 						<h3>Gemeinnützige-Arbeit</h3>
 						<hr>
@@ -695,11 +723,11 @@
 						<hr>
 						<b>6.4.1999 bis 7.5.1999</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2>1999</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item">
 						<h3>Hauskrankenpflegehelfer</h3>
 						<hr>
@@ -707,11 +735,11 @@
 						<hr>
 						<b>9.9.1998 bis 30.3.1999</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2>1998</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item">
 						<h3>Gemeinnützige-Arbeit</h3>
 						<hr>
@@ -719,11 +747,11 @@
 						<hr>
 						<b>25.5.1998 bis 8.9.1998</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2>1998</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item inverted">
 						<h3>Umzug</h3>
 						<hr>
@@ -731,11 +759,11 @@
 						<hr>
 						<b>3.1996</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2>1996</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item inverted">
 						<h3>Umzug</h3>
 						<hr>
@@ -743,11 +771,11 @@
 						<hr>
 						<b>7.1995</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2>1995</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item">
 						<h3>Freischaffender Künstler</h3>
 						<hr>
@@ -762,11 +790,11 @@
 						<hr>
 						<b>1.8.1991 bis 1.7.1994</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2>1994</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item">
 						<h3>Malergehilfe</h3>
 						<hr>
@@ -781,11 +809,11 @@
 						<hr>
 						<b>18.2.1991 bis 2.5.1991</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2>1991</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item">
 						<h3>Kochausbildung (abgebrochen)</h3>
 						<hr>
@@ -793,11 +821,11 @@
 						<hr>
 						<b>1.8.1990 bis 5.12.1990</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2 id="j1990">1990</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item">
 						<h3>Realschule</h3>
 						<hr>
@@ -805,11 +833,11 @@
 						<hr>
 						<b>1989/90</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2>1989</h2>
 
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item">
 						<h3>Gesamtschule</h3>
 						<hr>
@@ -817,12 +845,12 @@
 						<hr>
 						<b>1985 bis 1989</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2>1985</h2>
 
 				<h2 id="j1980">1980</h2>
-				<ul class="timeline-items">
+				<div class="row" id="timeline-items">
 					<li class="timeline-item">
 						<h3>Grundschule</h3>
 						<hr>
@@ -830,7 +858,7 @@
 						<hr>
 						<b>1978 bis 1985</b>
 					</li>
-				</ul>
+				</div>
 
 				<h2 id="j1978">1978</h2>
 			</div> <!-- end timeline class -->
@@ -1065,114 +1093,9 @@
 							<li class="flop">IE</li>
 						</ul>
 					</div>
-
-
-					<script >
-							var gauge_conf = liquidFillGaugeDefaultSettings();
-							gauge_conf.circleColor = "#5b5555";
-							gauge_conf.textColor = "white";
-							gauge_conf.waveTextColor = "#00acc1";
-							gauge_conf.waveColor = "white";
-							gauge_conf.circleThickness = 0.15;
-							gauge_conf.textVertPosition = 0.2;
-							gauge_conf.waveAnimateTime = 1000;
-							gauge_conf.waveHeight = 0.05;
-							gauge_conf.waveAnimate = false;
-							gauge_conf.waveOffset = 0.25;
-					    gauge_conf.waveCount = 3;
-					    gauge_conf.displayPercent = false;
-
-					    var gauge1 = loadLiquidFillGauge("fillgauge_rpm", 95, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_gitlab", 95, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_ansible", 95, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_docker", 95, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_jenkins", 75, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_salt", 75, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_gnumake", 75, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_qmake", 50, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_cmake", 50, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_puppet", 50, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_spacewalk", 50, gauge_conf);
-
-							var gauge1 = loadLiquidFillGauge("fillgauge_gnumake", 75, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_doxygen", 75, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_git", 75, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_artifactory", 75, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_svn", 75, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_qmake", 50, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_cmake", 50, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_cvs", 50, gauge_conf);
-
-					    var gauge1 = loadLiquidFillGauge("fillgauge_bash", 100, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_python", 95, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_net", 75, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_c", 75, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_tex", 75, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_php", 50, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_node", 50, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_rest", 75, gauge_conf);
-
-							var gauge1 = loadLiquidFillGauge("fillgauge_html", 75, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_oo", 75, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_agile", 75, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_serverclient", 75, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_tdd", 50, gauge_conf);
-
-					    var gauge1 = loadLiquidFillGauge("fillgauge_mysql", 75, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_psql", 75, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_sqlite", 75, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_sqlnormalisierung", 95, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_couchdb", 75, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_oracle", 50, gauge_conf);
-
-							var gauge1 = loadLiquidFillGauge("fillgauge_tntnet", 95, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_winforms", 75, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_ncurses", 75, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_bottle", 75, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_webpy", 75, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_bootstrap", 75, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_selenium", 75, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_express", 50, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_qt", 50, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_boost", 50, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_wt", 50, gauge_conf);
-
-							var gauge1 = loadLiquidFillGauge("fillgauge_linux", 95, gauge_conf);
-							var gauge1 = loadLiquidFillGauge("fillgauge_windows", 5, gauge_conf);
-
-					    var gauge1 = loadLiquidFillGauge("fillgauge_de", 95, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_en_in", 75, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_en_out", 50, gauge_conf);
-
-					    var gauge1 = loadLiquidFillGauge("fillgauge_verygood", 95, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_good", 75, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_basic", 50, gauge_conf);
-					    var gauge1 = loadLiquidFillGauge("fillgauge_null", 5, gauge_conf);
-
-					    var gauge1 = loadLiquidFillGauge("fillgauge_legasthenie", 50, gauge_conf);
-
-					    function NewValue(){
-					        if(Math.random() > .5){
-					            return Math.round(Math.random()*100);
-					        } else {
-					            return (Math.random()*100).toFixed(1);
-					        }
-					    }
-					</script>
-
 				</div> <!-- end skills_container -->
 		</div> <!-- end skills_container -->
 	</div> <!-- end mainbox -->
-
-	<script> <!-- timeline script -->
-		$('.timeline').timelify({
-				animLeft: "fadeInLeft",
-			animCenter: "fadeInUp",
-			animRight: "fadeInRight",
-			animSpeed: 600,
-			offset: 150
-		});
-	</script>
-
+  </div> <!-- class="container-fluid"> -->
 </body>
 </html>
