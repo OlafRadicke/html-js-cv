@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+  <title>Lebenslauf</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    // Mixin
+    .center-block() {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    // Usage
+    .container {
+      width: 940px;
+      .center-block();
+    }
+
+  </style>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+  <div class="container-fluid">
+
+    <div class="row" id="personaldata">
+      <div class="col-xs-12 col-md-4" id="personalpic_container">
+  		<!-- <div class="personalpic_container"> -->
+  			<img src="pics/radicke_olaf.jpg" height="320"  alt="cover">
+  		</div>
+      <div class="col-xs-12 col-md-8" id="personalpic_container">
+  		<!-- <div class="personalextra_container"> -->
+  			<div class="personaldata_container">
+  				<ul>
+  					<li><b>Name:</b> Olaf Radicke</li>
+  					<li><b>Geboren:</b> 12.7.1971 in Berlin</li>
+  					<li><b>Anschrift:</b> Alpenstr. 9, 86159 Augsburg</li>
+  					<li><b>Telefon:</b> 0176 – 23 187 609</li>
+  					<li><b>E-Mail:</b> <a href="mailto:briefkasten@olaf-radicke.de">briefkasten@olaf-radicke.de</a></li>
+  					<li><b>Xing:</b> <a href="https://www.xing.com/profile/Olaf_Radicke">https://www.xing.com/profile/Olaf_Radicke</a></li>
+  					<li><b>GitHub:</b> <a href="https://github.com/OlafRadicke">https://github.com/OlafRadicke</a></li>
+  				</ul>
+  			</div>
+  		</div>
+     </div><!-- end personaldata -->
+     <br>
+
+
+    	<!--<div class="mainbox">-->
+      <div class="row" id="mainbox">
+        <div class="col-xs-12 col-md-8" id="timeline_container">
+    			<div class="col-xs-12" id="timeline-item"><h2>Timeline</h2></div>
+          <div class="row" id="timeline-items">
+
+            {{ range $year  := $vita.Years }}
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+              {{ range $job := $year.Jobs }}
+              <div class="panel panel-default">
+                <div class="panel-heading">{{ $job.Heading }}</div>
+                <div class="panel-body">{{ $job.Body }}</div>
+              </div>
+              {{ end }}
+
+            </div>
+
+          <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+            {{ range $other := $year.OtherTasks}}
+            <div class="panel panel-default">
+              <div class="panel-heading">{{ $other.Heading }}</div>
+              <div class="panel-body">
+                <p><b>Thema:</b><br> {{ $other.Topic }}</p>
+                <p><b>URLs:</b><br> <a href="{{ $other.topic }}"><i>{{ $other.Uri }}</i></a></p>
+                <hr>
+                <b>{{ $other.Date }}</b>
+              </div>
+            </div>
+            {{ end }}
+
+
+  				<div class="col-xs-12 col-md-12"><h2 id="{{ $year.date }}">{{ $year.Date }}</h2></div>
+
+          {{ end}}
+
+    		</div> <!-- end timline_conainer -->
+
+        <div class="col-xs-12 col-md-4" id="skills_container">
+    				<h2>Skills</h2>
+            {{ range $skillSection  := $vita.SkillSections }}
+
+						<h3 id="cicd">{{ $skillSection.Title }}</h3>
+						<hr>
+
+            {{ range $skill  := $skillSection.Items }}
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped active" role="progressbar"
+              aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:{{ $skill.Score }}%">
+                {{ $skill.Topic }}
+              </div>
+            </div>
+            {{ end }}
+            {{ end }}
+
+    		</div> <!-- end skills_container -->
+    	</div> <!-- end mainbox -->
+    </div> <!-- class="container-fluid"> -->
+  </body>
+  </html>
