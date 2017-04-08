@@ -7,8 +7,8 @@
                     { "Heading": "Job", "Body": "Tester","Date": "01/2016"}
               ],
               "OtherTasks": [
-                    { "Heading": "Job", "Topic": "Einfürung in Git", "Uri": "https://exta.org","Date": "01/2016"},
-                    { "Heading": "Job", "Topic": "Einfürung in Git", "Uri": "https://exta.org","Date": "01/2016"}
+                    { "Heading": "Job", "Topic": "Einfürung in Git", "Url": "https://exta.org", "Date": "01/2016"},
+                    { "Heading": "Job", "Topic": "Einfürung in Git", "Url": "https://exta.org", "Date": "01/2016"}
               ],
               "Date": "2016"
             },
@@ -18,8 +18,8 @@
                     { "Heading": "Job", "Body": "DevOps","Date": "11/2015"}
               ],
               "OtherTasks": [
-                    { "Heading": "Job", "Topic": "Einfürung in Git", "Uri": "https://exta.org","Date": "04/2015"},
-                    { "Heading": "Job", "Topic": "Einfürung in Git", "Uri": "https://exta.org","Date": "08/2015"}
+                    { "Heading": "Job", "Topic": "Einfürung in Git", "Url": "https://exta.org", "Date": "04/2015"},
+                    { "Heading": "Job", "Topic": "Einfürung in Git II", "Url": "TEST", "Date": "08/2015"}
               ],
               "Date": "2015"}
             ],
