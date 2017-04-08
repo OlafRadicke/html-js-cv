@@ -10,11 +10,10 @@ import (
 
 // var persVita map[string]string
 
-
-
 type Jobs struct {
   Heading string `json:"Heading"`
   Body string `json:"Body"`
+  Date string `json:"Date"`
 }
 
 
@@ -22,6 +21,7 @@ type OtherTasks struct {
   Heading string `json:"Heading"`
   Topic string `json:"Topic"`
   Url string `json:"Url"`
+  Date string `json:"Date"`
 }
 
 type Years struct {
@@ -30,70 +30,51 @@ type Years struct {
     Date string `json:"Date"`
 }
 
-type SkillSections struct {
+type Items struct {
+     Score string `json:"Score"`
+     Topic string `json:"Topic"`
+
 }
+
+type SkillSections struct {
+    Title string `json:"Title"`
+    Items []Items `json:"Items"`
+}
+
 
 type PersVita struct {
     Years []Years `json:"Years"`
     SkillSections []SkillSections `json:"SkillSections"`
 }
-  // "Years": [
-  //           {
-  //             "Jobs": [
-  //                   { "Heading": "Job", "Body": "Entwickler"},
-  //                   { "Heading": "Job", "Body": "Tester"}
-  //             ],
-  //             "OtherTasks": [
-  //                   { "Heading": "Job", "Topic": "Einfürung in Git", "Uri": "https://exta.org"},
-  //                   { "Heading": "Job", "Topic": "Einfürung in Git", "Uri": "https://exta.org"}
-  //             ],
-  //             "Date": "2016"
-  //           },
-  //           {
-  //             "Jobs": [
-  //                   { "Heading": "Job", "Body": "Entwickler"},
-  //                   { "Heading": "Job", "Body": "DevOps"}
-  //             ],
-  //             "OtherTasks": [
-  //                   { "Heading": "Job", "Topic": "Einfürung in Git", "Uri": "https://exta.org"},
-  //                   { "Heading": "Job", "Topic": "Einfürung in Git", "Uri": "https://exta.org"}
-  //             ],
-  //             "Date": "2015"}
-  //           ],
-  // "SkillSections": [
-  //                   { "Title": "Entwicklertools",
-  //                     "Items": [
-  //                       { "Score": "30", "Topic": "Go: Basics" },
-  //                       { "Score": "60", "Topic": "Git: Gut" }'
-  //                     ]
-  //                   },
-  //                   { "Title": "CD",
-  //                     "Items": [
-  //                       { "Score": "30", "Topic": "Jenkins: Basics" },
-  //                       { "Score": "60", "Topic": "GitLab-CI: Gut" }'
-  //                     ]
-  //                   }
-  //                 ]
-// }
 
 
 func main() {
-    readConfig()
+    var persVita = readConfig()
+
+    fmt.Printf("read template...\n")
     t := template.New("html-cv.tmpl")
     t.ParseFiles("html-cv.tmpl")
-    err := t.Execute(os.Stdout, PersVita)
+
+    fmt.Printf("persVita value: %v\n", persVita)
+    fmt.Printf("execute template...\n")
+    err := t.Execute(os.Stdout, persVita)
     if err != nil {
         panic(err)
     }
 
 }
 
+func readConfig()(persVita  PersVita){
+    fmt.Printf("readConfig...\n")
+    // var persVita = PersVita{}
+    file, e := ioutil.ReadFile("./vita.json")
+    if e != nil {
+      fmt.Printf("File error: %v\n", e)
+      os.Exit(1)
+    }
 
-func readConfig(){
-  file, e := ioutil.ReadFile("./vita.json")
-  if e != nil {
-    fmt.Printf("File error: %v\n", e)
-    os.Exit(1)
-  }
-  json.Unmarshal(file, &persVita)
+    fmt.Printf("file value: %v\n", string(file))
+    json.Unmarshal(file, &persVita)
+    fmt.Printf("persVita.Years[0].Date: %v\n", persVita.Years[0].Date)
+    return persVita
 }
