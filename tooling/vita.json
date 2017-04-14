@@ -1,17 +1,23 @@
 {
 
   "Years": [
-            {
-              "Jobs": [
-                    { "Heading": "Job", "Body": "Entwickler","Date": "01/2016"},
-                    { "Heading": "Job", "Body": "Tester","Date": "01/2016"}
-              ],
-              "OtherTasks": [
-                    { "Heading": "Job", "Topic": "Einfürung in Git", "Url": "https://exta.org", "Date": "01/2016"},
-                    { "Heading": "Job", "Topic": "Einfürung in Git", "Url": "https://exta.org", "Date": "01/2016"}
-              ],
-              "Date": "2016"
-            },
+      {
+        "Jobs": [
+              { "Heading": "Job", "Body": "Entwickler","Date": "01/2016"},
+              { "Heading": "Job", "Body": "Tester","Date": "01/2016"}
+        ],
+        "OtherTasks": [
+              { "Heading": "Vortrag",
+                "Topic": "Continuous delivery mit <i>GitLab CI</i>",
+                "Url": "<a href=\"https://github.com/web-and-wine/talks/blob/master/gitlab-ci-olaf-radicke.pdf\">github.com</a>",
+                "Date": "05.12.2016"},
+              { "Heading": "Konferenzbesuch",
+                "Topic": "Besuch der <i>DevOpsCon</i> 2016 in Berlin",
+                "Url": "https://devopsconference.de/",
+                "Date": "6.2016"}
+        ],
+        "Date": "2016"
+      },
             {
               "Jobs": [
                     { "Heading": "Job", "Body": "Entwickler","Date": "01/2015"},
@@ -21,7 +27,8 @@
                     { "Heading": "Job", "Topic": "Einfürung in Git", "Url": "https://exta.org", "Date": "04/2015"},
                     { "Heading": "Job", "Topic": "Einfürung in Git II", "Url": "TEST", "Date": "08/2015"}
               ],
-              "Date": "2015"}
+              "Date": "2015"
+            }
             ],
   "SkillSections": [
                     { "Title": "Entwicklertools",
