@@ -2,10 +2,7 @@
 
   "Years": [
       {
-        "Jobs": [
-              { "Heading": "Job", "Body": "Entwickler","Date": "01/2016"},
-              { "Heading": "Job", "Body": "Tester","Date": "01/2016"}
-        ],
+        "Jobs": [],
         "OtherTasks": [
               { "Heading": "Vortrag",
                 "Topic": "Continuous delivery mit <i>GitLab CI</i>",
@@ -14,18 +11,30 @@
               { "Heading": "Konferenzbesuch",
                 "Topic": "Besuch der <i>DevOpsCon</i> 2016 in Berlin",
                 "Url": "https://devopsconference.de/",
-                "Date": "6.2016"}
+                "Date": "6.2016"},
+              { "Heading": "Vortrag",
+                "Topic": "<i>Ansible</i>",
+                "Url": "<a href=\"http://www.meetup.com/de-DE/Linux-Stammtisch-Munchen/events/228968988/\"><i>Linux-Stammtisch</i> in München</a>",
+                "Date": "22.03.201"},
+              { "Heading": "Vortrag",
+                "Topic": "<i>Ansible</i>",
+                "Url": "<a href=\"http://www.meetup.com/de-DE/web-and-wine/events/228400004/\">meetup.com</a><br><a href=\"http://webandwine.org/\">webandwine.org</a>",
+                "Date": "23.02.2016"}
         ],
         "Date": "2016"
       },
             {
               "Jobs": [
-                    { "Heading": "Job", "Body": "Entwickler","Date": "01/2015"},
-                    { "Heading": "Job", "Body": "DevOps","Date": "11/2015"}
+                    { "Heading": "Berufliches Projekt",
+                      "Body": "<p><b>Aufgabenstellung:</b><br>Embedded Buildumgebung in Docker-Conteiner realisieren</p> <p><b>Aufgabenbereich:</b><br>Analyse von C/C++-Code, Build-Tools und Build-Scripts; Dokumentation von Schnittstellen und Funktionsweisen. Anpassung von Build-Scrips. Erstellung von Dockerfils. Automatisierung von Docker-Builds. Ergebnispräsentation vor Team-Kollegen und Abteilungsleitern.</p> <p><b>Technogie-Stack:</b><br>Atlassian Confluence, C/C++, Bash, Make, Ptxdist, Debian, Cross-Compiler, Artifactory, Docker, Embedded-Systeme, Jenkins-CI, GitLab-CI</p>",
+                      "Date": "Herpst 2015 bis Sommer 201"},
+                    { "Heading": "Job",
+                      "Body": "DevOps",
+                      "Date": "11/2015"}
               ],
               "OtherTasks": [
-                    { "Heading": "Job", "Topic": "Einfürung in Git", "Url": "https://exta.org", "Date": "04/2015"},
-                    { "Heading": "Job", "Topic": "Einfürung in Git II", "Url": "TEST", "Date": "08/2015"}
+                    { "Heading": "other", "Topic": "Einfürung in Git", "Url": "https://exta.org", "Date": "04/2015"},
+                    { "Heading": "other", "Topic": "Einfürung in Git II", "Url": "TEST", "Date": "08/2015"}
               ],
               "Date": "2015"
             }
