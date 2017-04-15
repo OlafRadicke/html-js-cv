@@ -11,17 +11,22 @@ import (
 // var persVita map[string]string
 
 type Jobs struct {
-  Heading string `json:"Heading"`
-  Body string `json:"Body"`
-  Date string `json:"Date"`
+    Heading string `json:"Heading"`
+    Body string `json:"Body"`
+    Date string `json:"Date"`
 }
 
 
+type Parts struct {
+    Key string `json:"Key"`
+    Value string `json:"Value"`
+}
+
 type OtherTasks struct {
-  Heading string `json:"Heading"`
-  Topic string `json:"Topic"`
-  Url string `json:"Url"`
-  Date string `json:"Date"`
+    Heading string `json:"Heading"`
+    Parts []Parts `json:"Parts"`
+    Url string `json:"Url"`
+    Date string `json:"Date"`
 }
 
 type Years struct {
@@ -33,7 +38,6 @@ type Years struct {
 type Items struct {
      Score string `json:"Score"`
      Topic string `json:"Topic"`
-
 }
 
 type SkillSections struct {
