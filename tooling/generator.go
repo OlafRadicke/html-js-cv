@@ -54,6 +54,7 @@ type PersVita struct {
 
 func main() {
     var persVita = readConfig()
+    // fmt.Printf("persVita: %v\n", persVita)
     t := template.New("html-cv.tmpl")
     t.ParseFiles("html-cv.tmpl")
     err := t.Execute(os.Stdout, persVita)
@@ -68,6 +69,11 @@ func readConfig()(persVita  PersVita){
       fmt.Printf("File error: %v\n", e)
       os.Exit(1)
     }
-    json.Unmarshal(file, &persVita)
+    // fmt.Printf("file: %v\n", string(file))
+    e = json.Unmarshal(file, &persVita)
+    if e != nil {
+      fmt.Printf("json.Unmarshal error: %v\n", e)
+      os.Exit(1)
+    }
     return persVita
 }

@@ -2,62 +2,37 @@
 
   "Years": [
             {
-                "Jobs": [],
                 "OtherTasks": [
                       {
-                          "Heading": "Vortrag",
-                          "Parts":
-                              [
-                                  {
-                                      "Key": "Thema:",
-                                      "Value": "Continuous delivery mit <i>GitLab CI</i>"
-                                  },
-                                  {
-                                      "Key": "URL:",
-                                      "Value": "<a href=\"https://github.com/web-and-wine/talks/blob/master/gitlab-ci-olaf-radicke.pdf\">github.com</a>"
-                                  }
-                              ],
+                        "Heading": "Vortrag",
+                        "Parts":
+                          [
+                              {"Key": "Thema:", "Value": "Continuous delivery mit <i>GitLab CI</i>"},
+                              {"Key": "URL:", "Value": "<a href=\"https://github.com/web-and-wine/talks/blob/master/gitlab-ci-olaf-radicke.pdf\">github.com</a>"}
+                          ],
                         "Date": "05.12.2016"},
                       {
                           "Heading": "Konferenzbesuch",
                           "Parts":
                               [
-                                  {
-                                      "Key": "Thema:",
-                                      "Value": "Besuch der <i>DevOpsCon</i> 2016 in Berlin"
-                                  },
-                                  {
-                                      "Key": "URL:",
-                                      "Value": "https://devopsconference.de/"
-                                  }
+                                  { "Key": "Thema:", "Value": "Besuch der <i>DevOpsCon</i> 2016 in Berlin" },
+                                  { "Key": "URL:",   "Value": "https://devopsconference.de/" }
                               ],
                           "Date": "6.2016"},
                       {
                             "Heading": "Vortrag",
                             "Parts":
                               [
-                                  {
-                                      "Key": "Thema:",
-                                      "Value": "<i>Ansible</i>"
-                                  },
-                                  {
-                                      "Key": "URL:",
-                                      "Value": "<a href=\"http://www.meetup.com/de-DE/Linux-Stammtisch-Munchen/events/228968988/\"><i>Linux-Stammtisch</i> in München</a>"
-                                  }
+                                  { "Key": "Thema:", "Value": "<i>Ansible</i>" },
+                                  { "Key": "URL:", "Value": "<a href=\"http://www.meetup.com/de-DE/Linux-Stammtisch-Munchen/events/228968988/\"><i>Linux-Stammtisch</i> in München</a>"}
                               ],
                             "Date": "22.03.201"
                     },
                       { "Heading": "Vortrag",
                           "Parts":
                             [
-                                {
-                                    "Key": "Thema:",
-                                    "Value": "<i>Ansible</i>"
-                                },
-                                {
-                                    "Key": "URL:",
-                                    "Value": "<a href=\"http://www.meetup.com/de-DE/web-and-wine/events/228400004/\">meetup.com</a><br><a href=\"http://webandwine.org/\">webandwine.org</a>"
-                                }
+                                { "Key": "Thema:", "Value": "<i>Ansible</i>" },
+                                { "Key": "URL:", "Value": "<a href=\"http://www.meetup.com/de-DE/web-and-wine/events/228400004/\">meetup.com</a> <br><a href=\"http://webandwine.org/\">webandwine.org</a>" }
                             ],
                         "Date": "23.02.2016"}
                 ],
@@ -65,77 +40,120 @@
             },
             {
               "Jobs": [
-                    { "Heading": "DevOps Engineer",
-                      "Body": "<p>meteocontrol GmbH, Augsburg</p>",
-                      "Date": "15.8.2015 bis heute"},
-                    { "Heading": "Entwickler",
-                      "Body": "<p>MELOS GmbH, Gessertshausen</p>",
-                      "Date": "1.2.2015 bis 30.06.2015"}
+                    { "Heading": "DevOps Engineer", "Body": "<p>meteocontrol GmbH, Augsburg</p>", "Date": "15.8.2015 bis heute"},
+                    { "Heading": "Entwickler", "Body": "<p>MELOS GmbH, Gessertshausen</p>", "Date": "1.2.2015 bis 30.06.2015"},
+                    { "Heading": "Umzug", "Body": "<p>Umzug von München nach Augsburg</p>", "Date": "1.1.2015"}
               ],
               "OtherTasks": [
-                    { "Heading": "Berufliches Projekt",
+                    {
+                        "Heading": "Berufliches Projekt",
                         "Parts":
                           [
-                              {
-                                  "Key": "Aufgabenstellung:",
-                                  "Value": "Aufgabenstellung:</b><br>Embedded Buildumgebung in Docker-Conteiner realisieren"
-                              },
-                              {
-                                  "Key": "Aufgabenbereich:",
-                                  "Value": "Analyse von C/C++-Code, Build-Tools und Build-Scripts; Dokumentation von Schnittstellen und Funktionsweisen. Anpassung von Build-Scrips. Erstellung von Dockerfils. Automatisierung von Docker-Builds. Ergebnispräsentation vor Team-Kollegen und Abteilungsleitern."
-                              },
-                              {
-                                  "Key": "Technogie-Stack:",
-                                  "Value": "Atlassian Confluence, C/C++, Bash, Make, Ptxdist, Debian, Cross-Compiler, Artifactory, Docker, Embedded-Systeme, Jenkins-CI, GitLab-CI"
-                              }
+                              {"Key": "Aufgabenstellung:", "Value": "Aufgabenstellung:</b><br>Embedded Buildumgebung in Docker-Conteiner realisieren" },
+                              {"Key": "Aufgabenbereich:",  "Value": "Analyse von C/C++-Code, Build-Tools und Build-Scripts; Dokumentation von Schnittstellen und Funktionsweisen. Anpassung von Build-Scrips. Erstellung von Dockerfils. Automatisierung von Docker-Builds. Ergebnispräsentation vor Team-Kollegen und Abteilungsleitern."},
+                              {"Key": "Technogie-Stack:", "Value": "Atlassian Confluence, C/C++, Bash, Make, Ptxdist, Debian, Cross-Compiler, Artifactory, Docker, Embedded-Systeme, Jenkins-CI, GitLab-CI" }
                           ],
-                      "Date": "Herpst 2015 bis Sommer 201"},
-                    { "Heading": "Berufliches Projekt",
+                        "Date": "Herpst 2015 bis Sommer 201"
+                    },
+                    {
+                        "Heading": "Berufliches Projekt",
                         "Parts":
                           [
-                              {
-                                  "Key": "Aufgabenstellung:",
-                                  "vALUE": "Interne Anwendungen Dockerisieren"
-                              },
-                              {
-                                  "Key": "Aufgabenbereich:",
-                                  "Value": "Interne Anwendungen in Docker-Container packen. Server zum hosten von Docker Conteiner aufbauen. Eirichten einer interne Docker-Registry mit Artifactory. Automatisierten Build- und Deployment-Prozess erstellen."
-                              },
-                              {
-                                  "Key": "Technogie-Stack:",
-                                  "Value": "Ubuntu, CentOS, Artifactory, Docker (Swarm), Jenkins-CI, GitLab-CI, Nginx (Revers Proxy), NFS-Share, Ansible, Puppet, DNS, Systend, Keepalived (Floating IPs)"
-                              }
+                              {"Key": "Aufgabenstellung:", "vALUE": "Interne Anwendungen Dockerisieren" },
+                              {"Key": "Aufgabenbereich:", "Value": "Interne Anwendungen in Docker-Container packen. Server zum hosten von Docker Conteiner aufbauen. Eirichten einer interne Docker-Registry mit Artifactory. Automatisierten Build- und Deployment-Prozess erstellen." },
+                              {"Key": "Technogie-Stack:", "Value": "Ubuntu, CentOS, Artifactory, Docker (Swarm), Jenkins-CI, GitLab-CI, Nginx (Revers Proxy), NFS-Share, Ansible, Puppet, DNS, Systend, Keepalived (Floating IPs)" }
                           ],
-                      "Date": "Sommer 2015 bis heute"
-                  },
+                        "Date": "Sommer 2015 bis heute"
+                    },
                     {
                         "Heading": "Konferenzbesuch",
                         "Body": "<p>Besuch der <i>DevOpsCon</i> 2015 in München</p>",
                         "Date": "9.2015"
                     },
-                    { "Heading": "Berufliches Projekt",
+                    {
+                        "Heading": "Berufliches Projekt",
                         "Parts":
                           [
-                              {
-                                  "Key": "Aufgabenstellung:",
-                                  "vALUE": "Refactoring von Legacy Code"
-                              },
-                              {
-                                  "Key": "Aufgabenbereich:",
-                                  "Value": "Analyse von z.T. 20 Jahre altem C/C++-Code; Dokumentation von Schnittstellen und Funktionsweisen. Erstellung eines REST-Konzept. Implementierung eines WebClient mit MVC-Prinzip (mit Python/Bottle); Implementierung eines REST-Services mit Queue-Verwaltung und Nebenläufigkeit (in Python/Bottle). Implementierung eines REST-fähigen Backend-Prozesses in C++ (mit Curl-Lib). Konzeptdokumentation und Ergebnispräsentation"
-                              },
-                              {
-                                  "Key": "Technogie-Stack:",
-                                  "Value": "Atlassian Confluence, C/C++, Bash, Perl, Pyton, REST, WebInterface (MVC mit Bottle-Framework)"
-                              }
+                              {"Key": "Aufgabenstellung:", "Value": "Refactoring von Legacy Code"},
+                              {"Key": "Aufgabenbereich:", "Value": "Analyse von z.T. 20 Jahre altem C/C++-Code; Dokumentation von Schnittstellen und Funktionsweisen. Erstellung eines REST-Konzept. Implementierung eines WebClient mit MVC-Prinzip (mit Python/Bottle); Implementierung eines REST-Services mit Queue-Verwaltung und Nebenläufigkeit (in Python/Bottle). Implementierung eines REST-fähigen Backend-Prozesses in C++ (mit Curl-Lib). Konzeptdokumentation und Ergebnispräsentation" },
+                              {"Key": "Technogie-Stack:", "Value": "Atlassian Confluence, C/C++, Bash, Perl, Pyton, REST, WebInterface (MVC mit Bottle-Framework)" }
                           ],
-                          "Date": "2.2015 bis 6.2015"},
-                    { "Heading": "Umzug",
-                      "Body": "<p>Umzug von München nach Augsburg</p>",
-                      "Date": "1.1.2015"}
+                          "Date": "2.2015 bis 6.2015"
+                      }
               ],
               "Date": "2015"
-            }
+          },
+          {
+              "Jobs": [],
+              "OtherTasks": [
+                  {
+                      "Heading": "Vortrag" , "Date": "18.9.2014",
+                      "Parts":
+                        [
+                            {"Key": "Thema:", "Value": "<i>Webprogrammierung mit C++</i>" },
+                            {"Key": "URLs:", "Value": "<a href=\"http://blog.it-agenten.com/events/27/webprogrammierung-mit-c/\">it-agenten.com</a>" }
+                        ]
+                  },
+                  {
+                      "Heading": "Vortrag", "Date": "",
+                      "Parts":
+                        [
+                            {"Key": "Thema:", "Value": "<i>FirefoxOS</i>" },
+                            {"Key": "URLs:", "Value": "<a href=\"https://www.opensourcetreffen.de/archiv.html\">opensourcetreffen.de</a>" }
+                        ]
+                  },
+                  {
+                      "Heading": "Berufliches Projekt", "Date": "Sommer 2014 bis Januar 2015",
+                      "Parts":
+                        [
+                            {"Key": "Aufgabenstellung:", "Value": "Einführung eines Konfigurationsmanagements für ein Kundenprojekt" },
+                            {
+                                "Key": "Aufgabenbereich:",
+                                "Value": "Einarbeitung und Evaluierung von Salt Stack; Proof of Concept; Implementierung von Salt Stack; Dokumentation und Workshops durchgeführt;"
+                            },
+                            {"Key": "Technogie-Stack:", "Value": "Linux, Salt Stack, Git, Apache, MySQL, iptables, revers proxy, sftp" }
+                        ]
+                  },
+                  {
+                      "Heading": "Vortrag", "Date": "29.5.2014",
+                      "Parts":
+                        [
+                            {"Key": "Thema:", "Value": "<i>An overview of C++ Webframeworks</i>" },
+                            {"Key": "URLs:", "Value": "<a href=\"http://www.meetup.com/de-DE/MUCplusplus/events/172625892/\">meetup.com</a><br><a href=\"http://slides.com/olafradicke/webprogrammierung-mit-c#/8\">slides.com</a>" }
+                        ]
+                  },
+                  {
+                      "Heading": "Fachartikel", "Date": "04.2014",
+                      "Parts":
+                        [
+                            {"Key": "Entwickler Magazin 5.14:", "Value": "<i>Webprogrammierung mit C++ - Welches Framework darf es sein?</i>" },
+                            {"Key": "URLs:", "Value": "<a href=\"https://entwickler.de/online/welches-framework-darf-es-sein-114619.html\">entwickler.de</a>" },
+                            {"Key": "", "Value": "<img src=\"pics/entwickler_5_14.jpg\" height=\"200\" width=\"160\" alt=\"cover\">" }
+                        ]
+                  },
+                  {
+                      "Heading": "Fachartikel", "Date": "01.2014",
+                      "Parts":
+                        [
+                            {"Key": "Linux-Magazin 01/2014:", "Value": "<i>Webanwendungen in C++ mit Tntnet</i>" },
+                            {"Key": "URLs:", "Value": "<a href=\"http://www.linux-magazin.de/Ausgaben/2014/01/Tntnet\">linux-magazin.de</a>" },
+                            {"Key": "", "Value": "<img src=\"pics/linuxmagazin_2014_01.jpg\" height=\"200\" width=\"160\" alt=\"cover\">" }
+                        ]
+                  },
+                  {
+                      "Heading": "Berufliches Projekt", "Date": "Anfang 2014 bis Sommer 2014",
+                      "Parts":
+                        [
+                            {"Key": "Aufgabenstellung:", "Value": "Webfrontent für Telefonanlage zum Anzeigen der sich im Gespräch befindender Mitarbeiter, für das Foyer" },
+                            {"Key": "Aufgabenbereich:",  "Value": "Einarbeitung in RubyOnRails. Analyse der Schnittstellen der Telefonanlage. Implementierung und Rollout.  Reimplementierung mit Node.js unter Verwendung von Bootstrap (CSS-Lib). Implementierung einer Schnittstelle zu einem externen Webservice."},
+                            {"Key": "Technogie-Stack:", "Value": "Linux, Raspberry PI, RubyOnRails, Node.js, Bootstrap, JavaScript, asterisk/starface-API" },
+                            {"Key": "URLs:", "Value": "<a href=\"https://github.com/OlafRadicke/onair2\">github.comgithub.com</a>" }
+                        ]
+                  }
+
+              ],
+              "Date": "2014"
+          }
             ],
   "SkillSections": [
                     { "Title": "Entwicklertools",
