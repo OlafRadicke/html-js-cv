@@ -84,8 +84,8 @@
               "Date": "2015"
           },
           {
-              "Jobs": [],
-              "OtherTasks": [
+                "Jobs": [],
+                "OtherTasks": [
                   {
                       "Heading": "Vortrag" , "Date": "18.9.2014",
                       "Parts":
@@ -109,7 +109,7 @@
                             {"Key": "Aufgabenstellung:", "Value": "Einführung eines Konfigurationsmanagements für ein Kundenprojekt" },
                             {
                                 "Key": "Aufgabenbereich:",
-                                "Value": "Einarbeitung und Evaluierung von Salt Stack; Proof of Concept; Implementierung von Salt Stack; Dokumentation und Workshops durchgeführt;"
+                                "Value": "Einarbeitung und Evaluierun   g von Salt Stack; Proof of Concept; Implementierung von Salt Stack; Dokumentation und Workshops durchgeführt;"
                             },
                             {"Key": "Technogie-Stack:", "Value": "Linux, Salt Stack, Git, Apache, MySQL, iptables, revers proxy, sftp" }
                         ]
@@ -151,10 +151,89 @@
                         ]
                   }
 
-              ],
-              "Date": "2014"
-          }
-            ],
+                ],
+                "Date": "2014"
+            },
+            {
+                "Jobs": [],
+                "OtherTasks": [
+                  {
+                      "Heading": "Vortrag mit Workshop" , "Date": "25.10.2013",
+                      "Parts":
+                        [
+                            {"Key": "Thema:", "Value": "RPM-Paketbau" },
+                            {"Key": "URLs:", "Value": "<a href=\"https://www.opensourcetreffen.de/archiv.html\">opensourcetreffen.de</a>" }
+                        ]
+                  },
+                  {
+                      "Heading": "Berufliches Projekt" , "Date": "Sommer 2013 bis Sommer 2014",
+                      "Parts":
+                        [
+                            {"Key": "Aufgabenstellung:", "Value": "Implementierung eines RPM-basierten vollautomatischen Rollout-Prozesses" },
+                            {"Key": "Aufgabenbereich:", "Value": "Erstellung des Konzeptes; Erstellung von RPM-Templates; Erstellung von automatischen Builds-Scripts; Einrichtung und Abstimmung von Server-Komponenten; Komunikation, Koordination und Abstimmung mit Kunden und Service-Partnern; Dokumentation; Tests und Abnahme."},
+                            {"Key": "Technogie-Stack:", "Value": "Linux, Jenkins, YUM, RPM, Bash, PHP, Apache, MySQL, Mercurial" }
+                        ]
+                  },
+                  {
+                      "Heading": "Open Source Projekt" , "Date": "1.2013 bis 7.201",
+                      "Parts":
+                        [
+                            {"Key": "Aufgabenstellung:", "Value": "Webanwendung zum Katalogisieren von Bibelstellen" },
+                            {"Key": "Aufgabenbereich:", "Value": "Ein-Mann-Projekt; Erstellung des Konzepts; Programmierung des Webfontend; Konzeption und Umsetzung des Backend; Konzept und Gestaltung mit CSS; Dokumentation."},
+                            {"Key": "Technogie-Stack:", "Value": "Linux, C++, Tntnet, SQLite, HTML5, CSS3" }
+                        ]
+                  },
+                  {
+                      "Heading": "Open Source Projekt" , "Date": "1.2013 bis 7.2014",
+                      "Parts":
+                        [
+                            {"Key": "Aufgabenstellung:", "Value": "<i>TNTNET</i> ein Framework zur Erstellung von Webanwendungen mit C++" },
+                            {"Key": "Aufgabenbereich:", "Value": "Konzeptionierung, Implementierung und Test eines neuen MVC-Konzepts; Erstellung von Dokumentationen; Öffentlichkeitsarbeit; Verbesserung    der Infrastruktur (u.a. Umstellung auf Git)"},
+                            {"Key": "Technogie-Stack:", "Value": "Linux, C++, Tntnet, SQLite, HTML5, CSS3, Markdown, SVN2Git, Pressearbeit, Social-Networking" },
+                            {"Key": "Url:", "Value": "<a href=\"http://tntnet.org/\">tntnet.org</a>" }
+                        ]
+                  }
+                ],
+                "Date": "2013"
+            },
+            {
+
+                  "Jobs": [
+                        { "Heading": "Senior IT Consultant / Entwickler", "Body": "<p>ATIX AG, Unterschleißheim</p>", "Date": "1.8.2012 bis 1.2.2015"}
+                  ],
+                  "OtherTasks": [
+                      {
+                          "Heading": "Open Source Projekt", "Date": "5.2012 bis 8.2012",
+                          "Parts":
+                            [
+                                {"Key": "Aufgabenstellung:", "Value": "Eine Deutsche Variante des <i>Belief-O-Matic</i>" },
+                                {"Key": "Aufgabenbereich:",  "Value": "Ein-Mann-Projekt: Erstellung des Konzepts; Programmierung des Webfontend; Konzeption und Umsetzung des Backend; Konzept und Gestaltung mit CSS; Dokumentation."},
+                                {"Key": "Technogie-Stack:", "Value": "Linux, Python, WebPy, SQLite, HTML, CSS" },
+                                {"Key": "Url:", "Value": "<a href=\"https://github.com/OlafRadicke/belief-matching\">github.com</a><br><a href=\"http://www.beliefnet.com/entertainment/quizzes/beliefomatic.aspx\">Belief-O-Matic</a>" }
+                            ]
+                      },
+                      {
+                          "Heading": "Berufliche Aufgabe", "Date": "Anfang 2012 bis Januar 2015",
+                          "Parts":
+                            [
+                                {"Key": "Aufgabenstellung:", "Value": "Beschwerdemanagement / Presales" },
+                                {"Key": "Aufgabenbereich:",  "Value": "Beratung zu betrieblichen Abläufen; Unterstürzung bei der Suche von Lösungsansätzen; Fehleranalysen; Koordination von verschiedenen Dienstleistern und Abteilungen"},
+                                {"Key": "Technogie-Stack:", "Value": "Rechenzentrum, Beratung, Projektbetreuung, Beschwerdemanagement, Presales" }
+                            ]
+                      },
+                      {
+                          "Heading": "Berufliches Projekt", "Date": "Anfang 2012 (ca. zwei Manwochen)",
+                          "Parts":
+                            [
+                                {"Key": "Aufgabenstellung:", "Value": "Entwicklung eines leichtgewichtigen Webfrontend für Release-Prozess" },
+                                {"Key": "Aufgabenbereich:",  "Value": "Erstellung des Konzept. Programmierung der Webfontend mit WebPy, HTML und CSS. Programmierung eines Session-Handlings mit ACL. Implementierung einer textbasierten Konfiguration. Backend-Programmierung mit SQLIte. Dokumentation,  Tests und Abnahme"},
+                                {"Key": "Technogie-Stack:", "Value": "Linux, Python, WebPy, SQLite, HTML, CSS, ACL" }
+                            ]
+                      }
+                  ],
+                  "Date": "2012"
+            }
+],
   "SkillSections": [
                     { "Title": "Entwicklertools",
                       "Items": [
