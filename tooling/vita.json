@@ -260,7 +260,7 @@
                   "Date": "2011"
             },
             {
-                  "Jobs": [{"Heading": "Ausbildung zum Fachinformatiker - Anwendungsentwicklung", "Body": "<p>ATIX AG, Unterschleißheim</p>", "Date": "30.7.2010 bis 31.7.2012"}],
+                  "Jobs": [{"Heading": "Ausbildung zum Fachinformatiker - Anwendungsentwicklung", "Body": "ATIX AG, Unterschleißheim", "Date": "30.7.2010 bis 31.7.2012"}],
                   "OtherTasks": [
                       {
                           "Heading": "Berufliches Projekt", "Date": "Ende 2010 bis Sommer 2013",
@@ -287,11 +287,55 @@
                             ]
                       }
                   ],
-                  "Date": "2011"
+                  "Date": "2010"
+            },
+            {
+                  "Jobs": [
+                      {"Heading": "Heilerziehungspfleger", "Body": "Pfennigparade Stationäre Wohngruppen GmbH, Schüleraußenwohngruppe, München", "Date": "1.7.2009 bis 30.7.2010"},
+                      {"Heading": "Heilerziehungspfleger", "Body": "Lebenshilfe, Wohnbereich Leutstettender Str, Starnberg", "Date": "1.1.2009 bis 30.6.2009"}
+
+                  ],
+                  "OtherTasks": [
+                      {
+                          "Heading": "Projekt", "Date": "6.2009 bis 12.2009",
+                          "Parts":
+                            [
+                                {"Key": "Aufgabenstellung:", "Value": "Wiederauflage eines Buches von 1825" },
+                                {"Key": "Aufgabenbereich:", "Value": "Projektplanung, Team-Führung; Zusammenstellung und Einrichtung der Tools und Infrastruktur; Schulung der Teammitglieder auf die Entwicklungs-Tools; Zeitplan- und Budget-Kontrolle; Texterkennung (OCR); Textsatz; Indexierung; Textstruktur; Versionskontrolle" },
+                                {"Key": "Technogie-Stack:", "Value": "LiveTex, KOMA-Script, Git-Versionskontrolle, Kate, Kile, Notepad++, OCR-ToolsLinux, Windows XP, Mediawiki." },
+                                {"Key": "Url:",  "Value": "<a href=\"https://books.google.pl/books?id=AElzCwAAQBAJ&printsec=frontcover&hl=de\">books.google.com</a> <br><a href=\"https://github.com/OlafRadicke/penn_okkk/tree/auflage_04\">github.com</a>"}
+                            ]
+                      },
+                      {
+                          "Heading": "Vortrag/Workshop", "Date": "20.4.2010",
+                          "Parts":
+                            [
+                                {"Key": "", "Value": "Auf dem Techtalk des <i>Open Source Press</i> Verlag. Thema: <i>Git</i>" }
+                            ]
+                      },
+                      {
+                          "Heading": "Open Source Projekt", "Date": "3.2010 bis 7.2010",
+                          "Parts":
+                            [
+                                {"Key": "Aufgabenstellung:", "Value": "<i>BibleVCE</i>, Weiterentwicklung bzw. Fork von <i>BibleMemorizer</i>" },
+                                {"Key": "Aufgabenbereich:", "Value": "Refactoring; Code von Qt3 auf Qt4 portiert; QT-GUI komplett neu geschrieben; Schnittstellendefinition; In- und Exportfunktionen zu anderen Programmen implementiert; Backend von XML-Files auf SQLite umgestellt; Dokumentation erstellt; Doxygen; UML-Diakgramm; Video-Tutorials" },
+                                {"Key": "Technogie-Stack:", "Value": "Linux, C++, Qt, qmake, SQLite, XML, Doxygen, Git" },
+                                {"Key": "Url:",  "Value": "<a href=\"http://sourceforge.net/projects/biblevce/\">sourceforge.net</a>"}
+                            ]
+                      },
+                      {
+                          "Heading": "Open Source Projekt", "Date": "3.2010 bis 7.2010",
+                          "Parts":
+                            [
+                                {"Key": "Aufgabenstellung:", "Value": "Alternatives GUI-Konzept für <i>BibleTime</i> (Proof of Concept)" },
+                                {"Key": "Aufgabenbereich:", "Value": "Alternative GUI für kleine Displays (Netbooks) mit Qt erstellt; Aufrufparameter erweitert; kleinere Patches; den Umstieg der Projektes von SVN zu Git angeregt" },
+                                {"Key": "Technogie-Stack:", "Value": "Linux, C++, Qt, qmake, SWord, Git, SVN" },
+                                {"Key": "Url:",  "Value": "<a href=\"http://www.bibletime.info\">bibletime.info</a>"}
+                            ]
+                      }
+                  ],
+                  "Date": "2009"
             }
-
-
-
         ],
   "SkillSections": [
                     { "Title": "Entwicklertools",
