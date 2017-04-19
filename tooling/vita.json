@@ -232,8 +232,67 @@
                       }
                   ],
                   "Date": "2012"
+            },
+            {
+
+                  "Jobs": [],
+                  "OtherTasks": [
+                      {
+                          "Heading": "Berufliches Projekt", "Date": "Anfang 2011 bis Sommer 2013",
+                          "Parts":
+                            [
+                                {"Key": "Aufgabenstellung:", "Value": "Modernisierung der Entwicklungsinfrastruktur" },
+                                {"Key": "Aufgabenbereich:",  "Value": "QA; Make-File-Bau; RPM-Bau; QA-Virtualisirungs-Infrastruktur: Reorganisation und Betreuung; Rekonzeptionierung des Entwicklungs-Workflow: Einführung von Git, Migration bestehender Projekte von CVS zu Git, Überführung in öffentliche Entwicklungsprozesse, Einbindung neuer Tools, Schulung für neue Tools, Jenkins Continuous Integration (CI): Installation, Evaluierung, Einführung von Jenkins CI in den Workflow, Betreuung der Jenkins-Systeme,Pogrammierung umfangreicher vollautomatischer Testabläufe für CI (Bash), Python-Scripting zum Generieren von Reports mit Daten aus Bugzilla (in Text, HTML und DocBook); Spacewalk (Deployment-Server): Installation, Evaluierung, Mercurial (verteiltes Versionskontrollsystem), Einrichtung einer Infrastruktur, Unterstürzung der Benutzer bei der Einführung und Wartung der Systeme"},
+                                {"Key": "Technogie-Stack:", "Value": "Linux, Clusrterin, Enterprise, QA, Infrastruktur, Community, Entwicklung, Virtualisierung (KVM), Automatisierung, Scripting, Deployment" }
+                            ]
+                      },
+                      {
+                          "Heading": "Berufliches Projekt", "Date": "Anfang 2011 bis Ende 2012",
+                          "Parts":
+                            [
+                                {"Key": "Aufgabenstellung:", "Value": "Produktentwicklung: Dracut-Module (initramfs)" },
+                                {"Key": "Aufgabenbereich:",  "Value": "Erstellung von Dokumentation: Online: Pflege, Erstellung und Übersetzuung von Fedora-Wiki-Artikel und Offline: mit LaTeX und robodoc, UML-Diagramme (mit dem Programm Dia); Anpassung der Software an neue Version von Fedora-Linux; Kommunikation mit (deutscher) Fedora-Comunity; Proof of Concept für objektorientierte Programmierung mit AWK; Rrstellung eines Dracut-Moduls speziell zum Debuggen; Refactorings"},
+                                {"Key": "Technogie-Stack:", "Value": "Linux, Dracut, AWK, dash, Fedora-Linux, boot-Prozess, Community" },
+                                {"Key": "Url:", "Value": "<a href=\"https://fedoraproject.org/w/index.php?title=Features/Opensharedroot/de&action=history\">fedoraproject.org</a><br> <A href=\"https://github.com/OlafRadicke/comoonics-Dracut\">github.com</a><br> <a href=\"https://de.wikibooks.org/wiki/Awk:_Grundlagen:_Objektorientierte_Programmierung\">de.wikibooks.org</a>" }
+                            ]
+                      }
+                  ],
+                  "Date": "2011"
+            },
+            {
+                  "Jobs": [{"Heading": "Ausbildung zum Fachinformatiker - Anwendungsentwicklung", "Body": "<p>ATIX AG, Unterschleißheim</p>", "Date": "30.7.2010 bis 31.7.2012"}],
+                  "OtherTasks": [
+                      {
+                          "Heading": "Berufliches Projekt", "Date": "Ende 2010 bis Sommer 2013",
+                          "Parts":
+                            [
+                                {"Key": "Aufgabenstellung:", "Value": "Pflege, Überarbeitung und Ausbau firmeneigener Websites" },
+                                {"Key": "Aufgabenbereich:",  "Value": "Koordination zwischen Entwicklung, Redaktion und Administration; Installation bzw. Rollout des Relaunch; Einspielen von Updates und Upgrades; Risikobewertung und Umsetzung von Sicherheitsmaßnahmen; Konzept und Umsetzung einer Backup-Strategie;    Blog-Pflege (Themenfindung und Verfassung von Artikeln)"},
+                                {"Key": "Technogie-Stack:", "Value": "LLinux, Zope, Plone, Piwik, MySQL, PHP, Python, httpd, RPM- und Deb-Paket-Bau" }
+                            ]
+                      },
+                      {
+                          "Heading": "Vortrag", "Date": "18.9.2010",
+                          "Parts":
+                            [
+                                {"Key": "Thema:", "Value": "<i>Git für Ein- und Umsteiger</i>" },
+                                {"Key": "Url:",  "Value": "<a href=\"http://linuxwiki.de/SoftwareFreedomDay2010\">linuxwiki.de</a>"}
+                            ]
+                      },
+                      {
+                          "Heading": "Software Freedom Day 2010", "Date": "2010",
+                          "Parts":
+                            [
+                                {"Key": "", "Value": "Beteiligung an der Organisation und Durchfürung des Software Freedom Day 2010 in München." }
+                            ]
+                      }
+                  ],
+                  "Date": "2011"
             }
-],
+
+
+
+        ],
   "SkillSections": [
                     { "Title": "Entwicklertools",
                       "Items": [
