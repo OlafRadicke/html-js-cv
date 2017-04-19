@@ -335,6 +335,25 @@
                       }
                   ],
                   "Date": "2009"
+            },
+            {
+                  "Jobs": [
+                      {"Heading": "Heilerziehungspfleger", "Body": "Lebenshilfe, Wohnbereich St.-Quirin-Straße, München", "Date": "1.9.2008 bis 31.12.2008"},
+                      {"Heading": "Heilerziehungspfleger", "Body": "time more (Personaldienstleistung), Einsatzort u.a. Münchner Förderzentrum Gmbh", "Date": "9.6.2008 bis 31.8.2008"},
+                      {"Heading": "Umzug", "Body": "Umzug von Berlin nach Münchnen", "Date": "1.6.2008"}
+                  ],
+                  "OtherTasks": [
+                      {
+                          "Heading": "Projekt", "Date": "4.2008 bis 6.2008",
+                          "Parts":
+                            [
+                                {"Key": "Aufgabenstellung:", "Value": "Netzwerk-Installations-Server, der Programme installiert und in Baumkaskaden über Netzwerke weiterverteilt, Auftragsarbeit unter BSD-Lizenz" },
+                                {"Key": "Aufgabenbereich:", "Value": "Ein-Mann-Projekt (Entwurf, Machbarkeitsstudie, Umsetzung, Dokumentation, Abnahme)" },
+                                {"Key": "Technogie-Stack:", "Value": ".NET, C#, WinForms, Mono-Projekt, Tcp/IP, XML Serialisierung, Sicherheitskonzepte, differenzierte Logging-Modi, MD5-Authentifizierung" }
+                            ]
+                      }
+                  ],
+                  "Date": "2008"
             }
         ],
   "SkillSections": [
