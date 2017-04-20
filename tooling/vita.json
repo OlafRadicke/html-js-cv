@@ -381,7 +381,96 @@
                         }
                     ],
                     "Date": "2006"
+              },
+              {
+                    "Jobs": [
+                        {"Heading": "Heilerziehungspfleger", "Body": "In der Pflege von Chorea-Huntington-Patienten, Gesellschaft für Gerontopsychiatrische Senioreneinrichtungen, \"Langer Peter\", Itzehoe", "Date": "10.6.2005 bis 12.7.2005"},
+                        {"Heading": "Umzug", "Body": "Umzug nach Itzehoe", "Date": "Sommer 2005"}
+                    ],
+                    "OtherTasks": [],
+                    "Date": "2005"
+              },
+              {
+                    "Jobs": [
+                        {"Heading": "Umzug", "Body": "Umzug nach Hamburg", "Date": "12.2004"},
+                        {"Heading": "Sabbatjahr", "Body": "Reisen nach Sri Lanka, Thailand und Malaysia", "Date": "31.7.2004 bis 10.6.2005"}
+                    ],
+                    "OtherTasks": [],
+                    "Date": "2004"
+              },
+              {
+                    "Jobs": [
+                        {"Heading": "Heilerziehungspfleger", "Body": "In Wohneinrichtungen des UHWs, Berlin", "Date": "1.8.2003 bis 31.7.2004"},
+                        {"Heading": "Heilerziehungspfleger", "Body": "<strong>ABM:</strong> Tagesstrukturierende Angebote für behinderte Kinder und Jugendlicher und Beratung der Angehörigen, Berlin", "Date": "1.3.2003 bis 31.7.2003"}
+                    ],
+                    "OtherTasks": [],
+                    "Date": "2003"
+              },
+              {
+                    "Jobs": [
+                        {"Heading": "Praktikum", "Body": "Zweites Ausbildungspraktikum, Unionhilfswerk Wohngemeinschaft Siemensstr., Berlin", "Date": "7.5.2001 bis 17.7.2001"}
+                    ],
+                    "OtherTasks": [],
+                    "Date": "2001"
+              },
+              {
+                    "Jobs": [
+                        {"Heading": "Praktikum", "Body": "Erstes Ausbildungspraktikum, Ev. Wohnstäten Siloah, Berlin", "Date": "5.9.2000 bis 23.11.2000"},
+                        {"Heading": "Ausbildung zu Heilerziehungspfleger", "Body": "1.Staatlichen Fachschule für Heilerziehungspflege, Berlin. Abschlus mit staatlicher Anerkennung", "Date": "10.2.2000 bis 1.3.2003"}
+                    ],
+                    "OtherTasks": [
+                        {
+                            "Heading": "Beginn mit Linux", "Date": "Anfang 2000",
+                            "Parts":
+                              [
+                                  {"Key": "", "Value": "Beginn mit der Verwendung von Linux durch den Umstieg von Windows 98 auf Linux RedHat 6.1 bzw Debian 2.2 (Linuxland)" },
+                                  {"Key": "", "Value": "<img src=\"pics/redhat-box.png\" alt=\"redhat box\" height=\"200\" width=\"160\"><img src=\"pics/debian-22.png\" alt=\"linuxland box\" height=\"200\" width=\"160\">" }
+                              ]
+                        }
+                    ],
+                    "Date": "2000"
+              },
+              {
+                    "Jobs": [
+                        {"Heading": "Gemeinnützige-Arbeit", "Body": "Auf dem pädagogisch betreuten Kinderspielplatz \"PBS-Otto-Park\", Berlin", "Date": "8.5.1999 bis 10.2.2000"},
+                        {"Heading": "Hauskrankenpflegehelfer", "Body": "Diakoniestation Tiergarten-Nord, Berlin", "Date": "6.4.1999 bis 7.5.1999"}
+                    ],
+                    "OtherTasks": [],
+                    "Date": "1999"
+              },
+              {
+                    "Jobs": [
+                        {"Heading": "Hauskrankenpflegehelfer", "Body": "DRK Sozialstation Schöneberg/Wilmersdorf, Berlin", "Date": "9.9.1998 bis 30.3.1999"},
+                        {"Heading": "Gemeinnützige-Arbeit", "Body": "DRK Altersheim, Berlin", "Date": "25.5.1998 bis 8.9.1998"}
+                    ],
+                    "OtherTasks": [],
+                    "Date": "1998"
+              },
+              {
+                    "Jobs": [
+                        {"Heading": "Umzug", "Body": "Umzug nach Berlin", "Date": "3.1996"}
+                    ],
+                    "OtherTasks": [],
+                    "Date": "1996"
+              },
+              {
+                    "Jobs": [
+                        {"Heading": "Umzug", "Body": "Umzug nach Freiburg", "Date": "7.1995"}
+                    ],
+                    "OtherTasks": [],
+                    "Date": "1995"
+              },
+              {
+                    "Jobs": [
+                        {"Heading": "Freischaffender Künstler", "Body": "Zeichnen, Malerei, plastische Gestaltung und Bildhauerei sowie Bühnenbildgestaltung", "Date": "2.7.1994 bis 24.5.1998"},
+                        {"Heading": "Schauwerbegestalter-Ausbildung", "Body": "Schauwerbegestalter-Ausbildung mit Abschluss", "Date": "1.8.1991 bis 1.7.1994"}  
+                    ],
+                    "OtherTasks": [],
+                    "Date": "1994"
               }
+
+
+
         ],
   "SkillSections": [
                     { "Title": "Entwicklertools",
