@@ -463,26 +463,69 @@
               {
                     "Jobs": [
                         {"Heading": "Freischaffender Künstler", "Body": "Zeichnen, Malerei, plastische Gestaltung und Bildhauerei sowie Bühnenbildgestaltung", "Date": "2.7.1994 bis 24.5.1998"},
-                        {"Heading": "Schauwerbegestalter-Ausbildung", "Body": "Schauwerbegestalter-Ausbildung mit Abschluss", "Date": "1.8.1991 bis 1.7.1994"}  
+                        {"Heading": "Schauwerbegestalter-Ausbildung", "Body": "Schauwerbegestalter-Ausbildung mit Abschluss", "Date": "1.8.1991 bis 1.7.1994"}
                     ],
                     "OtherTasks": [],
                     "Date": "1994"
+              },
+              {
+                    "Jobs": [
+                        {"Heading": "Malergehilfe", "Body": "Fa. Bernd Guse, Berlin", "Date": "7.5.1991 bis 31.7.1991"},
+                        {"Heading": "Schnellrestaurant (McDonalds)", "Body": "Ham Restaurant GmbH, Berlin", "Date": "18.2.1991 bis 2.5.1991"}
+                    ],
+                    "OtherTasks": [],
+                    "Date": "1991"
+              },
+              {
+                    "Jobs": [
+                        {"Heading": "Kochausbildung (abgebrochen)", "Body": "Bistrol Hotel Kempinski, Berlin", "Date": "1.8.1990 bis 5.12.1990"}
+                    ],
+                    "OtherTasks": [],
+                    "Date": "1990"
+              },
+              {
+                    "Jobs": [
+                        {"Heading": "Realschule", "Body": "Ohne Abschluss, Berlin", "Date": "1989/90"}
+                    ],
+                    "OtherTasks": [],
+                    "Date": "1989"
+              },
+              {
+                    "Jobs": [
+                        {"Heading": "Gesamtschule", "Body": "Erweiterter Hauptschulabschluss, Berlin", "Date": "1985 bis 1989"}
+                    ],
+                    "OtherTasks": [],
+                    "Date": "1985"
+              },
+              {
+                    "Jobs": [
+                        {"Heading": "Grundschule", "Body": "Berlin (West)", "Date": "1978 bis 198"}
+                    ],
+                    "OtherTasks": [],
+                    "Date": "1978"
               }
-
-
-
         ],
   "SkillSections": [
-                    { "Title": "Entwicklertools",
+                    { "Title": "Continuous Delivery",
                       "Items": [
-                        { "Score": "30", "Topic": "Go: Basics" },
-                        { "Score": "60", "Topic": "Git: Gut" }
+                        { "Score": "95", "Topic": "Ansible" },
+                        { "Score": "95", "Topic": "Docker" },
+                        { "Score": "95", "Topic": "rpm- und deb-Paketbau" },
+                        { "Score": "95", "Topic": "GitLab CI" },
+                        { "Score": "75", "Topic": "Jenkins" },
+                        { "Score": "75", "Topic": "Salt Stack" },
+                        { "Score": "50", "Topic": "Puppet" },
+                        { "Score": "50", "Topic": "Spacewalk" }
                       ]
                     },
-                    { "Title": "CD",
+                    { "Title": "Entwickler-Tools",
                       "Items": [
-                        { "Score": "30", "Topic": "Jenkins: Basics" },
-                        { "Score": "60", "Topic": "GitLab-CI: Gut" }
+                        { "Score": "75", "Topic": "Git" },
+                        { "Score": "75", "Topic": "Artifactory" },
+                        { "Score": "50", "Topic": "Subversion(SVN)" },
+                        { "Score": "50", "Topic": "GNUmake/qmake/cmake" },
+                        { "Score": "50", "Topic": "CVS" },
+                        { "Score": "50", "Topic": "GitLab-CI: Gut" }
                       ]
                     }
                   ]

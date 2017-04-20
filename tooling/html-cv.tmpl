@@ -67,6 +67,11 @@
         color:  #563b37;
        background-color: #99dfd8;
    }
+   div.progress-bar, div.progress-bar-info{
+      background-image: none;
+      color: white;
+      background-color:  #563b37;
+  }
   </style>
 
 </head>
@@ -194,7 +199,7 @@
                         <div class="progress">
                           <div class="progress-bar progress-bar-info" role="progressbar"
                           aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:{{ .Score }}%">
-                            {{ .Topic }}
+                            {{ .Topic }} ({{ .Score }}%)
                           </div>
                         </div>
 
