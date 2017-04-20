@@ -19,25 +19,53 @@
   <!-- color customization -->
   <script src="js/bootstrap.min.js"></script>
   <style type="text/css">
-     body { background:   #563b37 ; }
-     nav.navbar {
-        background-color: #99dfd8 ;
-        color:  #563b37 ;
-     }
+     body { background:   #563b37; }
+     h2, h3, sub, small, a { color: white; }
+
      ul.dropdown-menu {
-        background-color: #99dfd8 ;
-        color:  #563b37 ;
+        color:  #563b37;
+        background-color: #99dfd8;
      }
-     h2 { color: white; }
-     h3 { color: white; }
+     .navbar-default {
+         background-color: #99dfd8;
+         border-color: #99dfd8;
+     }
+     /* Title */
+     .navbar-default .navbar-brand {
+         color: #563b37;
+     }
+     .navbar-default .navbar-brand:hover,
+     .navbar-default .navbar-brand:focus {
+         color: #563b37;
+     }
+     .navbar-default .navbar-nav > li > a {
+         color: #563b37;
+     }
+     .navbar-default .navbar-nav > li > a:hover,
+     .navbar-default .navbar-nav > li > a:focus {
+         color: #563b37;
+     }
+     .navbar-default .navbar-nav > .active > a,
+     .navbar-default .navbar-nav > .active > a:hover,
+     .navbar-default .navbar-nav > .active > a:focus {
+         color: white;
+         background-color:  #7e5b54
+     }
+     .navbar-default .navbar-nav > .open > a,
+     .navbar-default .navbar-nav > .open > a:hover,
+     .navbar-default .navbar-nav > .open > a:focus {
+         color: white;
+         background-color:  #7e5b54;
+     }
+
      .panel > .panel-heading {
         background-image: none;
-        background-color:  #7e5b54 ;
         color: white;
+        background-color:  #7e5b54;
     }
     .panel {
-       background-color: #99dfd8 ;
-       color:  #563b37 ;
+        color:  #563b37;
+       background-color: #99dfd8;
    }
   </style>
 
@@ -48,7 +76,7 @@
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -57,10 +85,10 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="main-navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Spring zum Jahr<span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Springe zum Jahr<span class="caret"></span></a>
                         <ul class="dropdown-menu">
 {{ range .Years }}
                             <li><a href="#{{ .Date }}">{{ .Date }}</a></li>
@@ -68,7 +96,7 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Spring zum SKill<span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Springe zum SKill<span class="caret"></span></a>
                         <ul class="dropdown-menu">
 {{ range .SkillSections }}
                             <li><a href="#{{ .Title }}">{{ .Title }}</a></li>
@@ -142,7 +170,12 @@
             </div><!-- end timeline-item_inverted -->
 
 
-                  <div class="col-xs-12 col-md-12"><hr><h3 id="{{ .Date }}">{{ .Date }}</h3><hr></div>
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="{{ .Date }}">{{ .Date }} <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
 {{ end}}
 
               </div> <!--row timeline-items  -->

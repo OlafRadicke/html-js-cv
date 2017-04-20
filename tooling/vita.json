@@ -354,7 +354,34 @@
                       }
                   ],
                   "Date": "2008"
-            }
+            },
+            {
+                  "Jobs": [
+                      {"Heading": "Praktikum", "Body": "Regionale Beschäftigung Mitte (RBM) II, Dong Heng InterkulturellerHospiz e.V., Berlin", "Date": "1.10.2007 bis 31.12.2007"},
+                      {"Heading": "Praktikum", "Body": "Regionale Beschäftigung Mitte (RBM) II, Typo 3 Cluster Ltd. Co. KG, Berlin", "Date": "17.4.2007 bis 31.7.2007"}
+
+                  ],
+                  "OtherTasks": [],
+                  "Date": "2007"
+              },
+              {
+                    "Jobs": [
+                        {"Heading": "Umzug", "Body": "Umzug von Itzehoe nach Berlin", "Date": "Sommer 2006"}
+                    ],
+                    "OtherTasks": [
+                        {
+                            "Heading": "Open Source Projekt", "Date": "8.2006 bis 12.201",
+                            "Parts":
+                              [
+                                  {"Key": "Aufgabenstellung:", "Value": "<i>ARTIKEL 23 CRM</i>, ein Programm für kleine Büros und Homeoffices mit  Schwerpunkt auf Verwaltung von Personenprofilen, geeignet für private Arbeitsvermittler und Arbeitslosen-Initativen, sowie für Fundraising und Wohnungssuche mit Funktionen für Teamarbeit und Dokumentenverwaltung, mit Segelsimulation als rundenbasiertes Netzwerkspiel (Gimmick), mit Nutzung geometrischer Datentypen von PostgreSQL." },
+                                  {"Key": "Aufgabenbereich:", "Value": "Projektplanung; Schnittstellendefinition; Entwurf, Datenmodell; Team-Führung; Event- und Messeplanung + Durchführung; Release- und Qualitätsmanagement; Datenbank-Normalisierung; Datenbank-Refactoring; Refactoring; Debugging; Support; Beta-Test; Usability und GUI-Programmierung; Datenbank-Programmierung; Dokumentation" },
+                                  {"Key": "Technogie-Stack:", "Value": "sourceforge.net, SVN, .NET, C#, PostgreSQL, XML, XML-Serialisierung, Lokalisierung, HTML, WinForms, Linux, Windows, Make, NSIS, LaTeX, Mono-Projekt" },
+                                  {"Key": "URL:", "Value": "<a href=\"https://sourceforge.net/projects/artikel23/\">sourceforge.net</a>" }
+                              ]
+                        }
+                    ],
+                    "Date": "2006"
+              }
         ],
   "SkillSections": [
                     { "Title": "Entwicklertools",
