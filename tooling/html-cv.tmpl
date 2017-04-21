@@ -19,59 +19,94 @@
   <!-- color customization -->
   <script src="js/bootstrap.min.js"></script>
   <style type="text/css">
-     body { background:   #563b37; }
-     h2, h3, sub, small, a { color: white; }
+    body { background:   #563b37; }
+    h2,
+    h3,
+    sub,
+    small,
+    a { color: white; }
+    div.panel-body a { color: #517470; }
+    div.panel-body sub { color: #517470; }
 
-     ul.dropdown-menu {
+    ul.dropdown-menu {
         color:  #563b37;
         background-color: #99dfd8;
-     }
-     .navbar-default {
+    }
+    .navbar-default {
          background-color: #99dfd8;
          border-color: #99dfd8;
-     }
-     /* Title */
-     .navbar-default .navbar-brand {
-         color: #563b37;
-     }
-     .navbar-default .navbar-brand:hover,
-     .navbar-default .navbar-brand:focus {
-         color: #563b37;
-     }
-     .navbar-default .navbar-nav > li > a {
-         color: #563b37;
-     }
-     .navbar-default .navbar-nav > li > a:hover,
-     .navbar-default .navbar-nav > li > a:focus {
-         color: #563b37;
-     }
-     .navbar-default .navbar-nav > .active > a,
-     .navbar-default .navbar-nav > .active > a:hover,
-     .navbar-default .navbar-nav > .active > a:focus {
+    }
+    /* Title */
+    .navbar-default .navbar-brand {
+        color: #563b37;
+    }
+    .navbar-default .navbar-brand:hover,
+    .navbar-default .navbar-brand:focus {
+        color: #563b37;
+    }
+    .navbar-default .navbar-nav > li > a {
+     color: #563b37;
+    }
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus {
+        color: #563b37;
+    }
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
          color: white;
          background-color:  #7e5b54
-     }
-     .navbar-default .navbar-nav > .open > a,
-     .navbar-default .navbar-nav > .open > a:hover,
-     .navbar-default .navbar-nav > .open > a:focus {
+    }
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:hover,
+    .navbar-default .navbar-nav > .open > a:focus {
          color: white;
          background-color:  #7e5b54;
-     }
+    }
 
-     .panel > .panel-heading {
+    .panel > .panel-heading {
         background-image: none;
         color: white;
         background-color:  #7e5b54;
     }
     .panel {
         color:  #563b37;
-       background-color: #99dfd8;
-   }
-   div.progress-bar, div.progress-bar-info{
+        background-color: #99dfd8;
+    }
+    div.progress-bar, div.progress-bar-info{
       background-image: none;
       color: white;
       background-color:  #563b37;
-  }
+    }
+
+
+    ul.flip {
+        list-style-type: none;
+        flex-direction: row;
+        margin: 0px;
+        padding:0px;
+    }
+    li.flip {
+        list-style-type: none;
+        list-style: none;
+        flex-grow: 2;
+        margin: px;
+        padding: 0px;
+        display: inline-block;
+        vertical-align: center;
+        transform: scaleX(-1); /* Or also:   rotateY(180deg) */
+        -ms-filter: fliph;
+        filter: fliph;
+    }
+    li.flop {
+        list-style-type: none;
+        list-style: none;
+        flex-grow: 2;
+        margin: px;
+        padding: 0px;
+        display: inline-block;
+        vertical-align: center;
+    }
   </style>
 
 </head>
@@ -101,11 +136,12 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Springe zum SKill<span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Springe zum Skill<span class="caret"></span></a>
                         <ul class="dropdown-menu">
 {{ range .SkillSections }}
                             <li><a href="#{{ .Title }}">{{ .Title }}</a></li>
 {{ end}}
+                            <li><a href="#Handicap">Handicap</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -192,7 +228,9 @@
             <hr>
 {{ range .SkillSections }}
             <div class="panel panel-default">
-                  <div class="panel-heading" id="{{ .Title }}">{{ .Title }}</div>
+                  <div class="panel-heading" id="{{ .Title }}">
+                      <b>{{ .Title }}</b> <sub><a href="#main-navbar-collapse">nach oben</a></sub>
+                  </div>
                   <div class="panel-body">
     {{ range .Items }}
 
@@ -208,7 +246,30 @@
             </div>
 {{ end }}
 
-            </div> <!-- end skills_container -->
+            <div class="panel panel-default">
+                <div class="panel-heading" id="Handicap">
+                    <b>Handicap</b>  <sub><a href="#main-navbar-collapse">nach oben</a></sub>
+                </div>
+                <div class="panel-body">
+                    <ul class="flip">
+                        <li class="flop">L</li>
+                        <li class="flip">E</li>
+                        <li class="flop">G</li>
+                        <li class="flop">A</li>
+                        <li class="flip">S</li>
+                        <li class="flop">T</li>
+                        <li class="flop">H</li>
+                        <li class="flop">E</li>
+                        <li class="flip">N</li>
+                        <li class="flop">I</li>
+                        <li class="flop">E</li>
+                        <li class="flop"><sub>(Siehe <a href+"https://de.wikipedia.org/wiki/Lese-_und_Rechtschreibst%C3%B6rung">Wikipedia</a>)</sub></li>
+                    </ul>
+
+                </div>  <!-- class="panel-body" -->
+            </div> <!-- class="panel panel-default" -->
+
+        </div> <!-- class="col-xs-12 col-md-4" id="skills_container" -->
         </div> <!-- class="row" id="mainbox" -->
     </div> <!-- class="container-fluid"> -->
   </body>
