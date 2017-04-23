@@ -16,7 +16,7 @@
                           "Parts":
                               [
                                   { "Key": "Thema:", "Value": "Besuch der <i>DevOpsCon</i> 2016 in Berlin" },
-                                  { "Key": "URL:",   "Value": "https://devopsconference.de/" }
+                                  { "Key": "URL:",   "Value": "<a href=\"https://devopsconference.de/\">devopsconference.de</a>" }
                               ],
                           "Date": "6.2016"},
                       {

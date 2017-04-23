@@ -1,16 +1,14 @@
-
 <!DOCTYPE html>
 <html lang="de">
 <head>
 
   <title>Lebenslauf</title>
+  <script src="js/jquery-3.2.1.min.js"></script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -18,1087 +16,2040 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 
+  <script src="js/bootstrap.min.js"></script>
+  <!-- color customization -->
+  <link href="css/customization.css" rel="stylesheet">
+
 </head>
 <body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                  </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="main-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Springe zum Jahr<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+
+                            <li><a href="#2016">2016</a></li>
+
+                            <li><a href="#2015">2015</a></li>
+
+                            <li><a href="#2014">2014</a></li>
+
+                            <li><a href="#2013">2013</a></li>
+
+                            <li><a href="#2012">2012</a></li>
+
+                            <li><a href="#2011">2011</a></li>
+
+                            <li><a href="#2010">2010</a></li>
+
+                            <li><a href="#2009">2009</a></li>
+
+                            <li><a href="#2008">2008</a></li>
+
+                            <li><a href="#2007">2007</a></li>
+
+                            <li><a href="#2006">2006</a></li>
+
+                            <li><a href="#2005">2005</a></li>
+
+                            <li><a href="#2004">2004</a></li>
+
+                            <li><a href="#2003">2003</a></li>
+
+                            <li><a href="#2001">2001</a></li>
+
+                            <li><a href="#2000">2000</a></li>
+
+                            <li><a href="#1999">1999</a></li>
+
+                            <li><a href="#1998">1998</a></li>
+
+                            <li><a href="#1996">1996</a></li>
+
+                            <li><a href="#1995">1995</a></li>
+
+                            <li><a href="#1994">1994</a></li>
+
+                            <li><a href="#1991">1991</a></li>
+
+                            <li><a href="#1990">1990</a></li>
+
+                            <li><a href="#1989">1989</a></li>
+
+                            <li><a href="#1985">1985</a></li>
+
+                            <li><a href="#1978">1978</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Springe zum Skill<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+
+                            <li><a href="#Continuous Delivery">Continuous Delivery</a></li>
+
+                            <li><a href="#Entwickler-Tools">Entwickler-Tools</a></li>
+
+                            <li><a href="#Programmier- und Auszeichnungsprachen">Programmier- und Auszeichnungsprachen</a></li>
+
+                            <li><a href="#Methoden, Techniken und Konzepte">Methoden, Techniken und Konzepte</a></li>
+
+                            <li><a href="#Datenbanken">Datenbanken</a></li>
+
+                            <li><a href="#Frameworks">Frameworks</a></li>
+
+                            <li><a href="#Sprachen">Sprachen</a></li>
+
+                            <li><a href="#Betriebssystem">Betriebssystem</a></li>
+
+                            <li><a href="#Legende">Legende</a></li>
+
+                            <li><a href="#Handicap">Handicap</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
   <div class="container-fluid">
-    <div class="headbox">
-    	<ul class="menu">
-    		<li><a href="#start">Start</a></li>
-    		<li>|</li>
-    		<li><a href="#j2016">2016</a></li>
-    		<li>|</li>
-    		<li><a href="#j2010">2010</a></li>
-    		<li>|</li>
-    		<li><a href="#j2000">2000</a></li>
-    		<li>|</li>
-    		<li><a href="#j1990">1990</a></li>
-    		<li>|</li>
-    		<li><a href="#j1980">1980</a></li>
-    		<li>|</li>
-    		<li><a href="#j1978">1978</a></li>
-    	</ul>
-    	<ul class="menu">
-    		<li><a href="#cicd">Continuous Delivery</a></li>
-    		<li>|</li>
-    		<li><a href="#tools">Entwickler-Tools</a></li>
-    		<li>|</li>
-    		<li><a href="#proglang">Programmiersprachen</a></li>
-    		<li>|</li>
-    		<li><a href="#concepts">Methoden</a></li>
-    		<li>|</li>
-    		<li><a href="#database">Datenbanken</a></li>
-    		<li>|</li>
-    		<li><a href="#frameworks">Frameworks</a></li>
-    		<li>|</li>
-    		<li><a href="#langs">Sprachen</a></li>
-    		<li>|</li>
-    		<li><a href="#operationsystem">Betriebssystem</a></li>
-    		<li>|</li>
-    		<li><a href="#legend">Legende</a></li>
-    		<li>|</li>
-    		<li><a href="#handicap">Handicap</a></li>
-    	</ul>
-    </div><!-- end headbox -->
 
-	<div id="start" class="titlebox">
-		<div class="title_container">
-			<h1 >Lebenslauf</h1>
-		</div>
-	</div> <!-- end titlebox -->
+    <div class="row" id="personaldata">
+         <div class="p-2 panel panel-default">
+             <div class="panel-body">
+                    <div class="col-xs-12 col-md-4" id="personalpic_container">
+                        <img src="pics/radicke_olaf.jpg" height="320"  alt="cover">
+                    </div>
+                    <div class="col-xs-12 col-md-8" id="personalpic_container">
+                        <b>Name:</b> Olaf Radicke<br>
+                        <b>Geboren:</b> 12.7.1971 in Berlin<br>
+                        <b>Anschrift:</b> Alpenstr. 9, 86159 Augsburg<br>
+                        <b>Telefon:</b> 0176 – 23 187 609<br>
+                        <b>E-Mail:</b> <a href="mailto:briefkasten@olaf-radicke.de">briefkasten@olaf-radicke.de</a><br>
+                        <b>Xing:</b> <a href="https://www.xing.com/profile/Olaf_Radicke">https://www.xing.com/profile/Olaf_Radicke</a><br>
+                        <b>GitHub:</b> <a href="https://github.com/OlafRadicke">https://github.com/OlafRadicke</a><br>
+                    </div><!-- class="col-xs-12 col-md-8" id="personalpic_container" -->
+             </div> <!--  class="panel-body" -->
+        </div> <!-- p-2 panel panel-default -->
+     </div><!-- class="row" id="personaldata" -->
+     <br>
 
 
-	<div class="warning" id="warning">
-		<h1>Sorry, der Internet Explorer wird nicht voll unterstützt!</h1>
-	</div>
-	<script>
-		var ua = window.navigator.userAgent;
-		var msie = ua.indexOf("MSIE ");
-		if ( msie  > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
-				document.getElementById('warning').style.display = "";
-		}else {
-				document.getElementById('warning').style.display = "none";
-		}
-	</script><!-- end warning -->
+        <!--<div class="mainbox">-->
+      <div class="row" id="mainbox">
+        <div class="col-xs-12 col-md-8" id="timeline_container">
+          <div class="col-xs-12" id="timeline-item"><hr><h2>Timeline</h2><hr></div>
+          <div class="row" id="timeline-items">
 
 
-  <div class="row" id="personaldata">
-    <div class="col-xs-4 col-md-4" id="personalpic_container">
-		<!-- <div class="personalpic_container"> -->
-			<img src="pics/radicke_olaf.jpg" height="320"  alt="cover">
-		</div>
-    <div class="col-xs-8 col-md-8" id="personalpic_container">
-		<!-- <div class="personalextra_container"> -->
-			<div class="personaldata_container">
-				<ul>
-					<li><b>Name:</b> Olaf Radicke</li>
-					<li><b>Geboren:</b> 12.7.1971 in Berlin</li>
-					<li><b>Anschrift:</b> Alpenstr. 9, 86159 Augsburg</li>
-					<li><b>Telefon:</b> 0176 – 23 187 609</li>
-					<li><b>E-Mail:</b> <a href="mailto:briefkasten@olaf-radicke.de">briefkasten@olaf-radicke.de</a></li>
-					<li><b>Xing:</b> <a href="https://www.xing.com/profile/Olaf_Radicke">https://www.xing.com/profile/Olaf_Radicke</a></li>
-					<li><b>GitHub:</b> <a href="https://github.com/OlafRadicke">https://github.com/OlafRadicke</a></li>
-				</ul>
-			</div>
-		</div>
-   </div><!-- end personaldata -->
-   <br>
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Vortrag</div>
+                      <div class="panel-body">
+                
+                            <p><b>Thema:</b><br> Continuous delivery mit <i>GitLab CI</i></p>
+                
+                            <p><b>URL:</b><br> <a href="https://github.com/web-and-wine/talks/blob/master/gitlab-ci-olaf-radicke.pdf">github.com</a></p>
+                
+                            <hr>
+                            <b>05.12.2016</b>
+                      </div>
+                </div>
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Konferenzbesuch</div>
+                      <div class="panel-body">
+                
+                            <p><b>Thema:</b><br> Besuch der <i>DevOpsCon</i> 2016 in Berlin</p>
+                
+                            <p><b>URL:</b><br> <a href="https://devopsconference.de/">devopsconference.de</a></p>
+                
+                            <hr>
+                            <b>6.2016</b>
+                      </div>
+                </div>
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Vortrag</div>
+                      <div class="panel-body">
+                
+                            <p><b>Thema:</b><br> <i>Ansible</i></p>
+                
+                            <p><b>URL:</b><br> <a href="http://www.meetup.com/de-DE/Linux-Stammtisch-Munchen/events/228968988/"><i>Linux-Stammtisch</i> in München</a></p>
+                
+                            <hr>
+                            <b>22.03.201</b>
+                      </div>
+                </div>
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Vortrag</div>
+                      <div class="panel-body">
+                
+                            <p><b>Thema:</b><br> <i>Ansible</i></p>
+                
+                            <p><b>URL:</b><br> <a href="http://www.meetup.com/de-DE/web-and-wine/events/228400004/">meetup.com</a> <br><a href="http://webandwine.org/">webandwine.org</a></p>
+                
+                            <hr>
+                            <b>23.02.2016</b>
+                      </div>
+                </div>
+    
+            </div><!-- end timeline-item_inverted -->
 
 
-	<!--<div class="mainbox">-->
-  <div class="row" id="mainbox">
-    <div class="col-xs-6 col-md-6" id="timeline_container">
-			<div class="col-xs-12" id="timeline-item"><h2>Timeline</h2></div>
-			<div class="timeline">
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="2016">2016 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
 
-        <div class="row" id="timeline-items">
+            <div class="col-xs-12 col-md-6" id="timeline-item">
 
-          <div class="col-xs-6 col-md-6" id="timeline-item">
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>DevOps Engineer</b></div>
+                    <div class="panel-body">
+                        <p>meteocontrol GmbH, Augsburg</p>
+                        <hr>
+                        <b>15.8.2015 bis heute</b>
+                    </div>
+                </div>
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Entwickler</b></div>
+                    <div class="panel-body">
+                        <p>MELOS GmbH, Gessertshausen</p>
+                        <hr>
+                        <b>1.2.2015 bis 30.06.2015</b>
+                    </div>
+                </div>
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Umzug</b></div>
+                    <div class="panel-body">
+                        <p>Umzug von München nach Augsburg</p>
+                        <hr>
+                        <b>1.1.2015</b>
+                    </div>
+                </div>
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Berufliches Projekt</div>
+                      <div class="panel-body">
+                
+                            <p><b>Aufgabenstellung:</b><br> Aufgabenstellung:</b><br>Embedded Buildumgebung in Docker-Conteiner realisieren</p>
+                
+                            <p><b>Aufgabenbereich:</b><br> Analyse von C/C++-Code, Build-Tools und Build-Scripts; Dokumentation von Schnittstellen und Funktionsweisen. Anpassung von Build-Scrips. Erstellung von Dockerfils. Automatisierung von Docker-Builds. Ergebnispräsentation vor Team-Kollegen und Abteilungsleitern.</p>
+                
+                            <p><b>Technogie-Stack:</b><br> Atlassian Confluence, C/C++, Bash, Make, Ptxdist, Debian, Cross-Compiler, Artifactory, Docker, Embedded-Systeme, Jenkins-CI, GitLab-CI</p>
+                
+                            <hr>
+                            <b>Herpst 2015 bis Sommer 201</b>
+                      </div>
+                </div>
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Berufliches Projekt</div>
+                      <div class="panel-body">
+                
+                            <p><b>Aufgabenstellung:</b><br> Interne Anwendungen Dockerisieren</p>
+                
+                            <p><b>Aufgabenbereich:</b><br> Interne Anwendungen in Docker-Container packen. Server zum hosten von Docker Conteiner aufbauen. Eirichten einer interne Docker-Registry mit Artifactory. Automatisierten Build- und Deployment-Prozess erstellen.</p>
+                
+                            <p><b>Technogie-Stack:</b><br> Ubuntu, CentOS, Artifactory, Docker (Swarm), Jenkins-CI, GitLab-CI, Nginx (Revers Proxy), NFS-Share, Ansible, Puppet, DNS, Systend, Keepalived (Floating IPs)</p>
+                
+                            <hr>
+                            <b>Sommer 2015 bis heute</b>
+                      </div>
+                </div>
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Konferenzbesuch</div>
+                      <div class="panel-body">
+                
+                            <hr>
+                            <b>9.2015</b>
+                      </div>
+                </div>
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Berufliches Projekt</div>
+                      <div class="panel-body">
+                
+                            <p><b>Aufgabenstellung:</b><br> Refactoring von Legacy Code</p>
+                
+                            <p><b>Aufgabenbereich:</b><br> Analyse von z.T. 20 Jahre altem C/C++-Code; Dokumentation von Schnittstellen und Funktionsweisen. Erstellung eines REST-Konzept. Implementierung eines WebClient mit MVC-Prinzip (mit Python/Bottle); Implementierung eines REST-Services mit Queue-Verwaltung und Nebenläufigkeit (in Python/Bottle). Implementierung eines REST-fähigen Backend-Prozesses in C++ (mit Curl-Lib). Konzeptdokumentation und Ergebnispräsentation</p>
+                
+                            <p><b>Technogie-Stack:</b><br> Atlassian Confluence, C/C++, Bash, Perl, Pyton, REST, WebInterface (MVC mit Bottle-Framework)</p>
+                
+                            <hr>
+                            <b>2.2015 bis 6.2015</b>
+                      </div>
+                </div>
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="2015">2015 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Vortrag</div>
+                      <div class="panel-body">
+                
+                            <p><b>Thema:</b><br> <i>Webprogrammierung mit C++</i></p>
+                
+                            <p><b>URLs:</b><br> <a href="http://blog.it-agenten.com/events/27/webprogrammierung-mit-c/">it-agenten.com</a></p>
+                
+                            <hr>
+                            <b>18.9.2014</b>
+                      </div>
+                </div>
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Vortrag</div>
+                      <div class="panel-body">
+                
+                            <p><b>Thema:</b><br> <i>FirefoxOS</i></p>
+                
+                            <p><b>URLs:</b><br> <a href="https://www.opensourcetreffen.de/archiv.html">opensourcetreffen.de</a></p>
+                
+                            <hr>
+                            <b></b>
+                      </div>
+                </div>
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Berufliches Projekt</div>
+                      <div class="panel-body">
+                
+                            <p><b>Aufgabenstellung:</b><br> Einführung eines Konfigurationsmanagements für ein Kundenprojekt</p>
+                
+                            <p><b>Aufgabenbereich:</b><br> Einarbeitung und Evaluierun   g von Salt Stack; Proof of Concept; Implementierung von Salt Stack; Dokumentation und Workshops durchgeführt;</p>
+                
+                            <p><b>Technogie-Stack:</b><br> Linux, Salt Stack, Git, Apache, MySQL, iptables, revers proxy, sftp</p>
+                
+                            <hr>
+                            <b>Sommer 2014 bis Januar 2015</b>
+                      </div>
+                </div>
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Vortrag</div>
+                      <div class="panel-body">
+                
+                            <p><b>Thema:</b><br> <i>An overview of C++ Webframeworks</i></p>
+                
+                            <p><b>URLs:</b><br> <a href="http://www.meetup.com/de-DE/MUCplusplus/events/172625892/">meetup.com</a><br><a href="http://slides.com/olafradicke/webprogrammierung-mit-c#/8">slides.com</a></p>
+                
+                            <hr>
+                            <b>29.5.2014</b>
+                      </div>
+                </div>
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Fachartikel</div>
+                      <div class="panel-body">
+                
+                            <p><b>Entwickler Magazin 5.14:</b><br> <i>Webprogrammierung mit C++ - Welches Framework darf es sein?</i></p>
+                
+                            <p><b>URLs:</b><br> <a href="https://entwickler.de/online/welches-framework-darf-es-sein-114619.html">entwickler.de</a></p>
+                
+                            <p><b></b><br> <img src="pics/entwickler_5_14.jpg" height="200" width="160" alt="cover"></p>
+                
+                            <hr>
+                            <b>04.2014</b>
+                      </div>
+                </div>
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Fachartikel</div>
+                      <div class="panel-body">
+                
+                            <p><b>Linux-Magazin 01/2014:</b><br> <i>Webanwendungen in C++ mit Tntnet</i></p>
+                
+                            <p><b>URLs:</b><br> <a href="http://www.linux-magazin.de/Ausgaben/2014/01/Tntnet">linux-magazin.de</a></p>
+                
+                            <p><b></b><br> <img src="pics/linuxmagazin_2014_01.jpg" height="200" width="160" alt="cover"></p>
+                
+                            <hr>
+                            <b>01.2014</b>
+                      </div>
+                </div>
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Berufliches Projekt</div>
+                      <div class="panel-body">
+                
+                            <p><b>Aufgabenstellung:</b><br> Webfrontent für Telefonanlage zum Anzeigen der sich im Gespräch befindender Mitarbeiter, für das Foyer</p>
+                
+                            <p><b>Aufgabenbereich:</b><br> Einarbeitung in RubyOnRails. Analyse der Schnittstellen der Telefonanlage. Implementierung und Rollout.  Reimplementierung mit Node.js unter Verwendung von Bootstrap (CSS-Lib). Implementierung einer Schnittstelle zu einem externen Webservice.</p>
+                
+                            <p><b>Technogie-Stack:</b><br> Linux, Raspberry PI, RubyOnRails, Node.js, Bootstrap, JavaScript, asterisk/starface-API</p>
+                
+                            <p><b>URLs:</b><br> <a href="https://github.com/OlafRadicke/onair2">github.comgithub.com</a></p>
+                
+                            <hr>
+                            <b>Anfang 2014 bis Sommer 2014</b>
+                      </div>
+                </div>
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="2014">2014 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Vortrag mit Workshop</div>
+                      <div class="panel-body">
+                
+                            <p><b>Thema:</b><br> RPM-Paketbau</p>
+                
+                            <p><b>URLs:</b><br> <a href="https://www.opensourcetreffen.de/archiv.html">opensourcetreffen.de</a></p>
+                
+                            <hr>
+                            <b>25.10.2013</b>
+                      </div>
+                </div>
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Berufliches Projekt</div>
+                      <div class="panel-body">
+                
+                            <p><b>Aufgabenstellung:</b><br> Implementierung eines RPM-basierten vollautomatischen Rollout-Prozesses</p>
+                
+                            <p><b>Aufgabenbereich:</b><br> Erstellung des Konzeptes; Erstellung von RPM-Templates; Erstellung von automatischen Builds-Scripts; Einrichtung und Abstimmung von Server-Komponenten; Komunikation, Koordination und Abstimmung mit Kunden und Service-Partnern; Dokumentation; Tests und Abnahme.</p>
+                
+                            <p><b>Technogie-Stack:</b><br> Linux, Jenkins, YUM, RPM, Bash, PHP, Apache, MySQL, Mercurial</p>
+                
+                            <hr>
+                            <b>Sommer 2013 bis Sommer 2014</b>
+                      </div>
+                </div>
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Open Source Projekt</div>
+                      <div class="panel-body">
+                
+                            <p><b>Aufgabenstellung:</b><br> Webanwendung zum Katalogisieren von Bibelstellen</p>
+                
+                            <p><b>Aufgabenbereich:</b><br> Ein-Mann-Projekt; Erstellung des Konzepts; Programmierung des Webfontend; Konzeption und Umsetzung des Backend; Konzept und Gestaltung mit CSS; Dokumentation.</p>
+                
+                            <p><b>Technogie-Stack:</b><br> Linux, C++, Tntnet, SQLite, HTML5, CSS3</p>
+                
+                            <hr>
+                            <b>1.2013 bis 7.201</b>
+                      </div>
+                </div>
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Open Source Projekt</div>
+                      <div class="panel-body">
+                
+                            <p><b>Aufgabenstellung:</b><br> <i>TNTNET</i> ein Framework zur Erstellung von Webanwendungen mit C++</p>
+                
+                            <p><b>Aufgabenbereich:</b><br> Konzeptionierung, Implementierung und Test eines neuen MVC-Konzepts; Erstellung von Dokumentationen; Öffentlichkeitsarbeit; Verbesserung    der Infrastruktur (u.a. Umstellung auf Git)</p>
+                
+                            <p><b>Technogie-Stack:</b><br> Linux, C++, Tntnet, SQLite, HTML5, CSS3, Markdown, SVN2Git, Pressearbeit, Social-Networking</p>
+                
+                            <p><b>Url:</b><br> <a href="http://tntnet.org/">tntnet.org</a></p>
+                
+                            <hr>
+                            <b>1.2013 bis 7.2014</b>
+                      </div>
+                </div>
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="2013">2013 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Senior IT Consultant / Entwickler</b></div>
+                    <div class="panel-body">
+                        <p>ATIX AG, Unterschleißheim</p>
+                        <hr>
+                        <b>1.8.2012 bis 1.2.2015</b>
+                    </div>
+                </div>
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Open Source Projekt</div>
+                      <div class="panel-body">
+                
+                            <p><b>Aufgabenstellung:</b><br> Eine Deutsche Variante des <i>Belief-O-Matic</i></p>
+                
+                            <p><b>Aufgabenbereich:</b><br> Ein-Mann-Projekt: Erstellung des Konzepts; Programmierung des Webfontend; Konzeption und Umsetzung des Backend; Konzept und Gestaltung mit CSS; Dokumentation.</p>
+                
+                            <p><b>Technogie-Stack:</b><br> Linux, Python, WebPy, SQLite, HTML, CSS</p>
+                
+                            <p><b>Url:</b><br> <a href="https://github.com/OlafRadicke/belief-matching">github.com</a><br><a href="http://www.beliefnet.com/entertainment/quizzes/beliefomatic.aspx">Belief-O-Matic</a></p>
+                
+                            <hr>
+                            <b>5.2012 bis 8.2012</b>
+                      </div>
+                </div>
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Berufliche Aufgabe</div>
+                      <div class="panel-body">
+                
+                            <p><b>Aufgabenstellung:</b><br> Beschwerdemanagement / Presales</p>
+                
+                            <p><b>Aufgabenbereich:</b><br> Beratung zu betrieblichen Abläufen; Unterstürzung bei der Suche von Lösungsansätzen; Fehleranalysen; Koordination von verschiedenen Dienstleistern und Abteilungen</p>
+                
+                            <p><b>Technogie-Stack:</b><br> Rechenzentrum, Beratung, Projektbetreuung, Beschwerdemanagement, Presales</p>
+                
+                            <hr>
+                            <b>Anfang 2012 bis Januar 2015</b>
+                      </div>
+                </div>
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Berufliches Projekt</div>
+                      <div class="panel-body">
+                
+                            <p><b>Aufgabenstellung:</b><br> Entwicklung eines leichtgewichtigen Webfrontend für Release-Prozess</p>
+                
+                            <p><b>Aufgabenbereich:</b><br> Erstellung des Konzept. Programmierung der Webfontend mit WebPy, HTML und CSS. Programmierung eines Session-Handlings mit ACL. Implementierung einer textbasierten Konfiguration. Backend-Programmierung mit SQLIte. Dokumentation,  Tests und Abnahme</p>
+                
+                            <p><b>Technogie-Stack:</b><br> Linux, Python, WebPy, SQLite, HTML, CSS, ACL</p>
+                
+                            <hr>
+                            <b>Anfang 2012 (ca. zwei Manwochen)</b>
+                      </div>
+                </div>
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="2012">2012 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Berufliches Projekt</div>
+                      <div class="panel-body">
+                
+                            <p><b>Aufgabenstellung:</b><br> Modernisierung der Entwicklungsinfrastruktur</p>
+                
+                            <p><b>Aufgabenbereich:</b><br> QA; Make-File-Bau; RPM-Bau; QA-Virtualisirungs-Infrastruktur: Reorganisation und Betreuung; Rekonzeptionierung des Entwicklungs-Workflow: Einführung von Git, Migration bestehender Projekte von CVS zu Git, Überführung in öffentliche Entwicklungsprozesse, Einbindung neuer Tools, Schulung für neue Tools, Jenkins Continuous Integration (CI): Installation, Evaluierung, Einführung von Jenkins CI in den Workflow, Betreuung der Jenkins-Systeme,Pogrammierung umfangreicher vollautomatischer Testabläufe für CI (Bash), Python-Scripting zum Generieren von Reports mit Daten aus Bugzilla (in Text, HTML und DocBook); Spacewalk (Deployment-Server): Installation, Evaluierung, Mercurial (verteiltes Versionskontrollsystem), Einrichtung einer Infrastruktur, Unterstürzung der Benutzer bei der Einführung und Wartung der Systeme</p>
+                
+                            <p><b>Technogie-Stack:</b><br> Linux, Clusrterin, Enterprise, QA, Infrastruktur, Community, Entwicklung, Virtualisierung (KVM), Automatisierung, Scripting, Deployment</p>
+                
+                            <hr>
+                            <b>Anfang 2011 bis Sommer 2013</b>
+                      </div>
+                </div>
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Berufliches Projekt</div>
+                      <div class="panel-body">
+                
+                            <p><b>Aufgabenstellung:</b><br> Produktentwicklung: Dracut-Module (initramfs)</p>
+                
+                            <p><b>Aufgabenbereich:</b><br> Erstellung von Dokumentation: Online: Pflege, Erstellung und Übersetzuung von Fedora-Wiki-Artikel und Offline: mit LaTeX und robodoc, UML-Diagramme (mit dem Programm Dia); Anpassung der Software an neue Version von Fedora-Linux; Kommunikation mit (deutscher) Fedora-Comunity; Proof of Concept für objektorientierte Programmierung mit AWK; Rrstellung eines Dracut-Moduls speziell zum Debuggen; Refactorings</p>
+                
+                            <p><b>Technogie-Stack:</b><br> Linux, Dracut, AWK, dash, Fedora-Linux, boot-Prozess, Community</p>
+                
+                            <p><b>Url:</b><br> <a href="https://fedoraproject.org/w/index.php?title=Features/Opensharedroot/de&action=history">fedoraproject.org</a><br> <A href="https://github.com/OlafRadicke/comoonics-Dracut">github.com</a><br> <a href="https://de.wikibooks.org/wiki/Awk:_Grundlagen:_Objektorientierte_Programmierung">de.wikibooks.org</a></p>
+                
+                            <hr>
+                            <b>Anfang 2011 bis Ende 2012</b>
+                      </div>
+                </div>
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="2011">2011 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Ausbildung zum Fachinformatiker - Anwendungsentwicklung</b></div>
+                    <div class="panel-body">
+                        ATIX AG, Unterschleißheim
+                        <hr>
+                        <b>30.7.2010 bis 31.7.2012</b>
+                    </div>
+                </div>
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Berufliches Projekt</div>
+                      <div class="panel-body">
+                
+                            <p><b>Aufgabenstellung:</b><br> Pflege, Überarbeitung und Ausbau firmeneigener Websites</p>
+                
+                            <p><b>Aufgabenbereich:</b><br> Koordination zwischen Entwicklung, Redaktion und Administration; Installation bzw. Rollout des Relaunch; Einspielen von Updates und Upgrades; Risikobewertung und Umsetzung von Sicherheitsmaßnahmen; Konzept und Umsetzung einer Backup-Strategie;    Blog-Pflege (Themenfindung und Verfassung von Artikeln)</p>
+                
+                            <p><b>Technogie-Stack:</b><br> LLinux, Zope, Plone, Piwik, MySQL, PHP, Python, httpd, RPM- und Deb-Paket-Bau</p>
+                
+                            <hr>
+                            <b>Ende 2010 bis Sommer 2013</b>
+                      </div>
+                </div>
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Vortrag</div>
+                      <div class="panel-body">
+                
+                            <p><b>Thema:</b><br> <i>Git für Ein- und Umsteiger</i></p>
+                
+                            <p><b>Url:</b><br> <a href="http://linuxwiki.de/SoftwareFreedomDay2010">linuxwiki.de</a></p>
+                
+                            <hr>
+                            <b>18.9.2010</b>
+                      </div>
+                </div>
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Software Freedom Day 2010</div>
+                      <div class="panel-body">
+                
+                            <p><b></b><br> Beteiligung an der Organisation und Durchfürung des Software Freedom Day 2010 in München.</p>
+                
+                            <hr>
+                            <b>2010</b>
+                      </div>
+                </div>
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="2010">2010 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Heilerziehungspfleger</b></div>
+                    <div class="panel-body">
+                        Pfennigparade Stationäre Wohngruppen GmbH, Schüleraußenwohngruppe, München
+                        <hr>
+                        <b>1.7.2009 bis 30.7.2010</b>
+                    </div>
+                </div>
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Heilerziehungspfleger</b></div>
+                    <div class="panel-body">
+                        Lebenshilfe, Wohnbereich Leutstettender Str, Starnberg
+                        <hr>
+                        <b>1.1.2009 bis 30.6.2009</b>
+                    </div>
+                </div>
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Projekt</div>
+                      <div class="panel-body">
+                
+                            <p><b>Aufgabenstellung:</b><br> Wiederauflage eines Buches von 1825</p>
+                
+                            <p><b>Aufgabenbereich:</b><br> Projektplanung, Team-Führung; Zusammenstellung und Einrichtung der Tools und Infrastruktur; Schulung der Teammitglieder auf die Entwicklungs-Tools; Zeitplan- und Budget-Kontrolle; Texterkennung (OCR); Textsatz; Indexierung; Textstruktur; Versionskontrolle</p>
+                
+                            <p><b>Technogie-Stack:</b><br> LiveTex, KOMA-Script, Git-Versionskontrolle, Kate, Kile, Notepad++, OCR-ToolsLinux, Windows XP, Mediawiki.</p>
+                
+                            <p><b>Url:</b><br> <a href="https://books.google.pl/books?id=AElzCwAAQBAJ&printsec=frontcover&hl=de">books.google.com</a> <br><a href="https://github.com/OlafRadicke/penn_okkk/tree/auflage_04">github.com</a></p>
+                
+                            <hr>
+                            <b>6.2009 bis 12.2009</b>
+                      </div>
+                </div>
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Vortrag/Workshop</div>
+                      <div class="panel-body">
+                
+                            <p><b></b><br> Auf dem Techtalk des <i>Open Source Press</i> Verlag. Thema: <i>Git</i></p>
+                
+                            <hr>
+                            <b>20.4.2010</b>
+                      </div>
+                </div>
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Open Source Projekt</div>
+                      <div class="panel-body">
+                
+                            <p><b>Aufgabenstellung:</b><br> <i>BibleVCE</i>, Weiterentwicklung bzw. Fork von <i>BibleMemorizer</i></p>
+                
+                            <p><b>Aufgabenbereich:</b><br> Refactoring; Code von Qt3 auf Qt4 portiert; QT-GUI komplett neu geschrieben; Schnittstellendefinition; In- und Exportfunktionen zu anderen Programmen implementiert; Backend von XML-Files auf SQLite umgestellt; Dokumentation erstellt; Doxygen; UML-Diakgramm; Video-Tutorials</p>
+                
+                            <p><b>Technogie-Stack:</b><br> Linux, C++, Qt, qmake, SQLite, XML, Doxygen, Git</p>
+                
+                            <p><b>Url:</b><br> <a href="http://sourceforge.net/projects/biblevce/">sourceforge.net</a></p>
+                
+                            <hr>
+                            <b>3.2010 bis 7.2010</b>
+                      </div>
+                </div>
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Open Source Projekt</div>
+                      <div class="panel-body">
+                
+                            <p><b>Aufgabenstellung:</b><br> Alternatives GUI-Konzept für <i>BibleTime</i> (Proof of Concept)</p>
+                
+                            <p><b>Aufgabenbereich:</b><br> Alternative GUI für kleine Displays (Netbooks) mit Qt erstellt; Aufrufparameter erweitert; kleinere Patches; den Umstieg der Projektes von SVN zu Git angeregt</p>
+                
+                            <p><b>Technogie-Stack:</b><br> Linux, C++, Qt, qmake, SWord, Git, SVN</p>
+                
+                            <p><b>Url:</b><br> <a href="http://www.bibletime.info">bibletime.info</a></p>
+                
+                            <hr>
+                            <b>3.2010 bis 7.2010</b>
+                      </div>
+                </div>
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="2009">2009 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Heilerziehungspfleger</b></div>
+                    <div class="panel-body">
+                        Lebenshilfe, Wohnbereich St.-Quirin-Straße, München
+                        <hr>
+                        <b>1.9.2008 bis 31.12.2008</b>
+                    </div>
+                </div>
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Heilerziehungspfleger</b></div>
+                    <div class="panel-body">
+                        time more (Personaldienstleistung), Einsatzort u.a. Münchner Förderzentrum Gmbh
+                        <hr>
+                        <b>9.6.2008 bis 31.8.2008</b>
+                    </div>
+                </div>
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Umzug</b></div>
+                    <div class="panel-body">
+                        Umzug von Berlin nach Münchnen
+                        <hr>
+                        <b>1.6.2008</b>
+                    </div>
+                </div>
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Projekt</div>
+                      <div class="panel-body">
+                
+                            <p><b>Aufgabenstellung:</b><br> Netzwerk-Installations-Server, der Programme installiert und in Baumkaskaden über Netzwerke weiterverteilt, Auftragsarbeit unter BSD-Lizenz</p>
+                
+                            <p><b>Aufgabenbereich:</b><br> Ein-Mann-Projekt (Entwurf, Machbarkeitsstudie, Umsetzung, Dokumentation, Abnahme)</p>
+                
+                            <p><b>Technogie-Stack:</b><br> .NET, C#, WinForms, Mono-Projekt, Tcp/IP, XML Serialisierung, Sicherheitskonzepte, differenzierte Logging-Modi, MD5-Authentifizierung</p>
+                
+                            <hr>
+                            <b>4.2008 bis 6.2008</b>
+                      </div>
+                </div>
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="2008">2008 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Praktikum</b></div>
+                    <div class="panel-body">
+                        Regionale Beschäftigung Mitte (RBM) II, Dong Heng InterkulturellerHospiz e.V., Berlin
+                        <hr>
+                        <b>1.10.2007 bis 31.12.2007</b>
+                    </div>
+                </div>
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Praktikum</b></div>
+                    <div class="panel-body">
+                        Regionale Beschäftigung Mitte (RBM) II, Typo 3 Cluster Ltd. Co. KG, Berlin
+                        <hr>
+                        <b>17.4.2007 bis 31.7.2007</b>
+                    </div>
+                </div>
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="2007">2007 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Umzug</b></div>
+                    <div class="panel-body">
+                        Umzug von Itzehoe nach Berlin
+                        <hr>
+                        <b>Sommer 2006</b>
+                    </div>
+                </div>
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Open Source Projekt</div>
+                      <div class="panel-body">
+                
+                            <p><b>Aufgabenstellung:</b><br> <i>ARTIKEL 23 CRM</i>, ein Programm für kleine Büros und Homeoffices mit  Schwerpunkt auf Verwaltung von Personenprofilen, geeignet für private Arbeitsvermittler und Arbeitslosen-Initativen, sowie für Fundraising und Wohnungssuche mit Funktionen für Teamarbeit und Dokumentenverwaltung, mit Segelsimulation als rundenbasiertes Netzwerkspiel (Gimmick), mit Nutzung geometrischer Datentypen von PostgreSQL.</p>
+                
+                            <p><b>Aufgabenbereich:</b><br> Projektplanung; Schnittstellendefinition; Entwurf, Datenmodell; Team-Führung; Event- und Messeplanung + Durchführung; Release- und Qualitätsmanagement; Datenbank-Normalisierung; Datenbank-Refactoring; Refactoring; Debugging; Support; Beta-Test; Usability und GUI-Programmierung; Datenbank-Programmierung; Dokumentation</p>
+                
+                            <p><b>Technogie-Stack:</b><br> sourceforge.net, SVN, .NET, C#, PostgreSQL, XML, XML-Serialisierung, Lokalisierung, HTML, WinForms, Linux, Windows, Make, NSIS, LaTeX, Mono-Projekt</p>
+                
+                            <p><b>URL:</b><br> <a href="https://sourceforge.net/projects/artikel23/">sourceforge.net</a></p>
+                
+                            <hr>
+                            <b>8.2006 bis 12.201</b>
+                      </div>
+                </div>
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="2006">2006 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Heilerziehungspfleger</b></div>
+                    <div class="panel-body">
+                        In der Pflege von Chorea-Huntington-Patienten, Gesellschaft für Gerontopsychiatrische Senioreneinrichtungen, "Langer Peter", Itzehoe
+                        <hr>
+                        <b>10.6.2005 bis 12.7.2005</b>
+                    </div>
+                </div>
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Umzug</b></div>
+                    <div class="panel-body">
+                        Umzug nach Itzehoe
+                        <hr>
+                        <b>Sommer 2005</b>
+                    </div>
+                </div>
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="2005">2005 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Umzug</b></div>
+                    <div class="panel-body">
+                        Umzug nach Hamburg
+                        <hr>
+                        <b>12.2004</b>
+                    </div>
+                </div>
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Sabbatjahr</b></div>
+                    <div class="panel-body">
+                        Reisen nach Sri Lanka, Thailand und Malaysia
+                        <hr>
+                        <b>31.7.2004 bis 10.6.2005</b>
+                    </div>
+                </div>
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="2004">2004 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Heilerziehungspfleger</b></div>
+                    <div class="panel-body">
+                        In Wohneinrichtungen des UHWs, Berlin
+                        <hr>
+                        <b>1.8.2003 bis 31.7.2004</b>
+                    </div>
+                </div>
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Heilerziehungspfleger</b></div>
+                    <div class="panel-body">
+                        <strong>ABM:</strong> Tagesstrukturierende Angebote für behinderte Kinder und Jugendlicher und Beratung der Angehörigen, Berlin
+                        <hr>
+                        <b>1.3.2003 bis 31.7.2003</b>
+                    </div>
+                </div>
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="2003">2003 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Praktikum</b></div>
+                    <div class="panel-body">
+                        Zweites Ausbildungspraktikum, Unionhilfswerk Wohngemeinschaft Siemensstr., Berlin
+                        <hr>
+                        <b>7.5.2001 bis 17.7.2001</b>
+                    </div>
+                </div>
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="2001">2001 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Praktikum</b></div>
+                    <div class="panel-body">
+                        Erstes Ausbildungspraktikum, Ev. Wohnstäten Siloah, Berlin
+                        <hr>
+                        <b>5.9.2000 bis 23.11.2000</b>
+                    </div>
+                </div>
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Ausbildung zu Heilerziehungspfleger</b></div>
+                    <div class="panel-body">
+                        1.Staatlichen Fachschule für Heilerziehungspflege, Berlin. Abschlus mit staatlicher Anerkennung
+                        <hr>
+                        <b>10.2.2000 bis 1.3.2003</b>
+                    </div>
+                </div>
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+                <div class="panel panel-default">
+                      <div class="panel-heading">Beginn mit Linux</div>
+                      <div class="panel-body">
+                
+                            <p><b></b><br> Beginn mit der Verwendung von Linux durch den Umstieg von Windows 98 auf Linux RedHat 6.1 bzw Debian 2.2 (Linuxland)</p>
+                
+                            <p><b></b><br> <img src="pics/redhat-box.png" alt="redhat box" height="200" width="160"><img src="pics/debian-22.png" alt="linuxland box" height="200" width="160"></p>
+                
+                            <hr>
+                            <b>Anfang 2000</b>
+                      </div>
+                </div>
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="2000">2000 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Gemeinnützige-Arbeit</b></div>
+                    <div class="panel-body">
+                        Auf dem pädagogisch betreuten Kinderspielplatz "PBS-Otto-Park", Berlin
+                        <hr>
+                        <b>8.5.1999 bis 10.2.2000</b>
+                    </div>
+                </div>
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Hauskrankenpflegehelfer</b></div>
+                    <div class="panel-body">
+                        Diakoniestation Tiergarten-Nord, Berlin
+                        <hr>
+                        <b>6.4.1999 bis 7.5.1999</b>
+                    </div>
+                </div>
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="1999">1999 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Hauskrankenpflegehelfer</b></div>
+                    <div class="panel-body">
+                        DRK Sozialstation Schöneberg/Wilmersdorf, Berlin
+                        <hr>
+                        <b>9.9.1998 bis 30.3.1999</b>
+                    </div>
+                </div>
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Gemeinnützige-Arbeit</b></div>
+                    <div class="panel-body">
+                        DRK Altersheim, Berlin
+                        <hr>
+                        <b>25.5.1998 bis 8.9.1998</b>
+                    </div>
+                </div>
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="1998">1998 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Umzug</b></div>
+                    <div class="panel-body">
+                        Umzug nach Berlin
+                        <hr>
+                        <b>3.1996</b>
+                    </div>
+                </div>
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="1996">1996 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Umzug</b></div>
+                    <div class="panel-body">
+                        Umzug nach Freiburg
+                        <hr>
+                        <b>7.1995</b>
+                    </div>
+                </div>
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="1995">1995 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Freischaffender Künstler</b></div>
+                    <div class="panel-body">
+                        Zeichnen, Malerei, plastische Gestaltung und Bildhauerei sowie Bühnenbildgestaltung
+                        <hr>
+                        <b>2.7.1994 bis 24.5.1998</b>
+                    </div>
+                </div>
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Schauwerbegestalter-Ausbildung</b></div>
+                    <div class="panel-body">
+                        Schauwerbegestalter-Ausbildung mit Abschluss
+                        <hr>
+                        <b>1.8.1991 bis 1.7.1994</b>
+                    </div>
+                </div>
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="1994">1994 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Malergehilfe</b></div>
+                    <div class="panel-body">
+                        Fa. Bernd Guse, Berlin
+                        <hr>
+                        <b>7.5.1991 bis 31.7.1991</b>
+                    </div>
+                </div>
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Schnellrestaurant (McDonalds)</b></div>
+                    <div class="panel-body">
+                        Ham Restaurant GmbH, Berlin
+                        <hr>
+                        <b>18.2.1991 bis 2.5.1991</b>
+                    </div>
+                </div>
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="1991">1991 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Kochausbildung (abgebrochen)</b></div>
+                    <div class="panel-body">
+                        Bistrol Hotel Kempinski, Berlin
+                        <hr>
+                        <b>1.8.1990 bis 5.12.1990</b>
+                    </div>
+                </div>
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="1990">1990 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Realschule</b></div>
+                    <div class="panel-body">
+                        Ohne Abschluss, Berlin
+                        <hr>
+                        <b>1989/90</b>
+                    </div>
+                </div>
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="1989">1989 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Gesamtschule</b></div>
+                    <div class="panel-body">
+                        Erweiterter Hauptschulabschluss, Berlin
+                        <hr>
+                        <b>1985 bis 1989</b>
+                    </div>
+                </div>
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="1985">1985 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+            <div class="col-xs-12 col-md-6" id="timeline-item">
+
+    
+                <div class="panel panel-default">
+                    <div class="panel-heading"><small>HAUPTTÄTIGKEIT:</small><br> <b>Grundschule</b></div>
+                    <div class="panel-body">
+                        Berlin (West)
+                        <hr>
+                        <b>1978 bis 198</b>
+                    </div>
+                </div>
+    
+
+            </div><!-- end timeline-item -->
+
+            <div class="col-xs-12 col-md-6" id="timeline-item_inverted">
+
+    
+            </div><!-- end timeline-item_inverted -->
+
+
+                  <div class="col-xs-12 col-md-12">
+                      <hr>
+                      <h3 id="1978">1978 <small><a href="#main-navbar-collapse">nach oben</a></small>
+                      </h3>
+                      <hr>
+                  </div>
+
+
+              </div> <!--row timeline-items  -->
+            </div> <!--class="col-xs-12 col-md-8" id="timeline_container"  -->
+
+        <div class="col-xs-12 col-md-4" id="skills_container">
+            <hr>
+            <h2>Skills</h2>
+            <hr>
 
             <div class="panel panel-default">
-              <div class="panel-heading">JOB</div>
-              <div class="panel-body">Tätigkeit</div>
+                  <div class="panel-heading" id="Continuous Delivery">
+                      <b>Continuous Delivery</b> <sub><a href="#main-navbar-collapse">nach oben</a></sub>
+                  </div>
+                  <div class="panel-body">
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                            Ansible (95%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                            Docker (95%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                            rpm- und deb-Paketbau (95%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                            GitLab CI (95%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            Jenkins (75%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            Salt Stack (75%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                            Puppet (50%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                            Spacewalk (50%)
+                          </div>
+                        </div>
+
+    
+                </div>
             </div>
 
-          <div class="col-xs-6 col-md-6" id="timeline-item_inverted">
+            <div class="panel panel-default">
+                  <div class="panel-heading" id="Entwickler-Tools">
+                      <b>Entwickler-Tools</b> <sub><a href="#main-navbar-collapse">nach oben</a></sub>
+                  </div>
+                  <div class="panel-body">
+    
 
-            <div class="p-2 panel panel-default">
-              <div class="panel-heading">Vortrag</div>
-              <div class="panel-body">
-                <p><b>Thema:</b><br> Continuous delivery mit <i>GitLab CI</i></p>
-                <p><b>URLs:</b><br><a href="https://github.com/web-and-wine/talks/blob/master/gitlab-ci-olaf-radicke.pdf"><i></i> Web&amp;Wine Meetup in Augsburg</a></p>
-                <hr>
-                <b>05.12.2016</b>
-              </div>
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            Git (75%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            Artifactory (75%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                            Subversion(SVN) (50%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                            GNUmake/qmake/cmake (50%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                            CVS (50%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                            GitLab-CI: Gut (50%)
+                          </div>
+                        </div>
+
+    
+                </div>
             </div>
 
-  					<div class="p-2 panel panel-default">
-  						<div class="panel-heading">Konferenzbesuch</div>
-  						<div class="panel-body">
-    						<p>Besuch der <i>DevOpsCon</i> 2016 in Berlin</p>
-    						<hr>
-    						<b>6.2016</b>
-              </div>
-  					</div>
-
-  					<div class="panel panel-default">
-  						<div class="panel-heading">Vortrag</div>
-  						<div class="panel-body">
-    						<p><b>Thema:</b><br> <i>Ansible</i></p>
-    						<p><b>URLs:</b><br><a href="http://www.meetup.com/de-DE/Linux-Stammtisch-Munchen/events/228968988/"><i>Linux-Stammtisch</i> in München</a></p>
-    						<hr>
-    						<b>22.03.2016</b>
-              </div>
-  					</div>
-
-  					<div class="panel panel-default">
-  						<div class="panel-heading">Vortrag</div>
-  						<div class="panel-body">
-    						<p><b>Thema:</b> <br><i>Ansible</i></p>
-    						<p><b>URLs:</b><br><a href="http://www.meetup.com/de-DE/web-and-wine/events/228400004/">meetup.com</a><br><a href="http://webandwine.org/">webandwine.org</a></p>
-    						<hr>
-    						<b>23.02.2016</b>
-              </div>
-  					</div>
-          </div>
-				</div>
-
-				<div class="col-xs-12"><h2 id="j2016">2016</h2></div>
-
-				<div class="row" id="timeline-items">
-
-					<li class="timeline-item inverted">
-						<h3>Berufliches Projekt</h3>
-						<hr>
-						<p><b>Aufgabenstellung:</b><br>Embedded Buildumgebung in Docker-Conteiner realisieren</p>
-						<p><b>Aufgabenbereich:</b><br>Analyse von C/C++-Code, Build-Tools und Build-Scripts; Dokumentation von Schnittstellen und Funktionsweisen. Anpassung von Build-Scrips. Erstellung von Dockerfils. Automatisierung von Docker-Builds. Ergebnispräsentation vor Team-Kollegen und Abteilungsleitern.</p>
-						<p><b>Technogie-Stack:</b><br>Atlassian Confluence, C/C++, Bash, Make, Ptxdist, Debian, Cross-Compiler, Artifactory, Docker, Embedded-Systeme, Jenkins-CI, GitLab-CI</p>
-						<hr>
-						<b>Herpst 2015 bis Sommer 2015</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Berufliches Projekt</h3>
-						<hr>
-						<p><b>Aufgabenstellung:</b><br>Interne Anwendungen Dockerisieren</p>
-						<p><b>Aufgabenbereich:</b><br>Interne Anwendungen in Docker-Container packen. Server zum hosten von Docker Conteiner aufbauen. Eirichten einer interne Docker-Registry mit Artifactory. Automatisierten Build- und Deployment-Prozess erstellen.</p>
-						<p><b>Technogie-Stack:</b><br>Ubuntu, CentOS, Artifactory, Docker, Jenkins-CI, GitLab-CI, Nginx (Revers Proxy), NFS-Share, Ansible, Puppet, DNS, Systend</p>
-						<hr>
-						<b>Sommer 2015 bis heute</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Konferenzbesuch</h3>
-						<hr>
-						<p>Besuch der <i>DevOpsCon</i> 2015 in München</p>
-						<hr>
-						<b>9.2015</b>
-					</li>
-
-					<li class="timeline-item">
-						<h3>DevOps Engineer</h3>
-						<hr>
-						<p>meteocontrol GmbH, Augsburg</p>
-						<hr>
-						<b>15.8.2015 bis heute</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Berufliches Projekt</h3>
-						<hr>
-						<p><b>Aufgabenstellung:</b><br>Refactoring von Legacy Code</p>
-						<p><b>Aufgabenbereich:</b><br>Analyse von z.T. 20 Jahre altem C/C++-Code; Dokumentation von Schnittstellen und Funktionsweisen. Erstellung eines REST-Konzept. Implementierung eines WebClient mit MVC-Prinzip (mit Python/Bottle); Implementierung eines REST-Services mit Queue-Verwaltung und Nebenläufigkeit (in Python/Bottle). Implementierung eines REST-fähigen Backend-Prozesses in C++ (mit Curl-Lib). Konzeptdokumentation und Ergebnispräsentation</p>
-						<p><b>Technogie-Stack:</b><br>Atlassian Confluence, C/C++, Bash, Perl, Pyton, REST, WebInterface (MVC mit Bottle-Framework)</p>
-						<hr>
-						<b>2.2015 bis 6.2015</b>
-					</li>
-
-					<li class="timeline-item">
-						<h3>Entwickler</h3>
-						<hr>
-						<p>MELOS GmbH, Gessertshausen</p>
-						<hr>
-						<b>1.2.2015 bis 30.06.2015</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Umzug</h3>
-						<hr>
-						<p>Umzug von München nach Augsburg</p>
-						<hr>
-						<b>1.1.2015</b>
-					</li>
-				</div>
-
-				<h2>2015</h2>
-
-
-				<div class="row" id="timeline-items">
-					<li class="timeline-item inverted">
-						<h3>Vortrag</h3>
-						<hr>
-						<p><b>Thema:</b><br> <i>Webprogrammierung mit C++</i></p>
-						<p><b>URLs:</b><br><a href="http://blog.it-agenten.com/events/27/webprogrammierung-mit-c/">it-agenten.com</a></p>
-						<hr>
-						<b>18.9.2014</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Vortrag</h3>
-						<hr>
-						<p><b>Thema:</b><br> <i>FirefoxOS</i></p>
-						<p><b>URLs:</b><br><a href="https://www.opensourcetreffen.de/archiv.html">opensourcetreffen.de</a></p>
-						<hr>
-						<b>25.7.2014</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Berufliches Projekt</h3>
-						<hr>
-						<p><b>Aufgabenstellung:</b><br>Einführung eines Konfigurationsmanagements für ein Kundenprojekt</p>
-						<p><b>Aufgabenbereich:</b><br>Einarbeitung und Evaluierung von Salt Stack; Proof of	Concept; Implementierung von Salt Stack; Dokumentation und Workshops durchgeführt;</p>
-						<p><b>Technogie-Stack:</b><br>Linux, Salt Stack, Git, Apache, MySQL, iptables, revers proxy, sftp</p>
-						<hr>
-						<b>Sommer 2014 bis Januar 2015</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Vortrag</h3>
-						<hr>
-						<p><b>Titel:</b><br> <i>An overview of C++ Webframeworks</i></p>
-						<p><b>URLs:</b><br> <a href="http://www.meetup.com/de-DE/MUCplusplus/events/172625892/">meetup.com</a><br><a href="http://slides.com/olafradicke/webprogrammierung-mit-c#/8">slides.com</a></p>
-						<hr>
-						<b>29.5.2014</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Fachartikel</h3>
-						<hr>
-						<p><b>Entwickler Magazin 5.14:</b><br> <i>Webprogrammierung mit C++ - Welches Framework darf es sein?</i></p>
-						<p><b>URLs:</b><br><a href="https://entwickler.de/online/welches-framework-darf-es-sein-114619.html">entwickler.de</a></p>
-						<p><img src="pics/entwickler_5_14.jpg" height="200" width="160" alt="cover"></p>
-						<hr>
-						<b>04.2014</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Fachartikel</h3>
-						<hr>
-						<p><b>Linux-Magazin 01/2014:</b><br> <i>Webanwendungen in C++ mit Tntnet</i></p>
-						<p><b>URLs:</b><br><a href="http://www.linux-magazin.de/Ausgaben/2014/01/Tntnet">linux-magazin.de</a></p>
-						<p><img src="pics/linuxmagazin_2014_01.jpg" height="200" width="160" alt="cover"></p>
-						<hr>
-						<b>01.2014</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Berufliches Projekt</h3>
-						<hr>
-						<p><b>Aufgabenstellung:</b><br>Webfrontent für Telefonanlage zum Anzeigen der sich im Gespräch befindender Mitarbeiter, für das Foyer</p>
-						<p><b>Aufgabenbereich:</b><br>Einarbeitung in RubyOnRails. Analyse der Schnittstellen	der Telefonanlage. Implementierung und Rollout.  Reimplementierung mit Node.js	unter Verwendung von Bootstrap (CSS-Lib). Implementierung einer Schnittstelle zu einem externen Webservice.</p>
-						<p><b>Technogie-Stack:</b><br>Linux, Raspberry PI, RubyOnRails, Node.js, Bootstrap, JavaScript, asterisk/starface-API</p>
-						<p><b>URLs:</b><br><a href="https://github.com/OlafRadicke/onair2">github.comgithub.com</a></p>
-						<hr>
-						<b>Anfang 2014 bis Sommer 2014</b>
-					</li>
-				</div>
-
-				<h2>2014</h2>
-
-				<div class="row" id="timeline-items">
-					<li class="timeline-item inverted">
-						<h3>Vortrag mit Workshop </h3>
-						<hr>
-						<p><b>Titel:</b><br> <i>RPM-Paketbau</i></p>
-						<p><b>URLs:</b><br> <a href="https://www.opensourcetreffen.de/archiv.html">opensourcetreffen.de</a></p>
-						<hr>
-						<b>25.10.2013</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Berufliches Projekt</h3>
-						<hr>
-						<p><b>Aufgabenstellung:</b><br>Implementierung eines RPM-basierten vollautomatischen Rollout-Prozesses</p>
-						<p><b>Aufgabenbereich:</b><br>Erstellung des Konzeptes; Erstellung von RPM-Templates; Erstellung von automatischen Builds-Scripts; Einrichtung und Abstimmung von Server-Komponenten; Komunikation, Koordination und Abstimmung mit Kunden und Service-Partnern; Dokumentation; Tests und Abnahme.</p>
-						<p><b>Technogie-Stack:</b><br>Linux, Jenkins, YUM, RPM, Bash, PHP, Apache, MySQL, Mercurial</p>
-						<hr>
-						<b>Sommer 2013 bis Sommer 2014</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Open Source Projekt</h3>
-						<hr>
-						<p><b>Aufgabenstellung:</b><br>Webanwendung zum Katalogisieren von Bibelstellen</p>
-						<p><b>Aufgabenbereich:</b><br>Ein-Mann-Projekt; Erstellung des Konzepts; Programmierung des Webfontend; Konzeption und Umsetzung des Backend; Konzept und Gestaltung mit CSS; Dokumentation.</p>
-						<p><b>Technogie-Stack:</b><br>Linux, C++, Tntnet, SQLite, HTML5, CSS3</p>
-						<p><b>URLs:</b><br> <a href="https://github.com/OlafRadicke/peruschim_cpp">github.com</a></p>
-						<hr>
-						<b>1.2013 bis 7.2015</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Open Source Projekt</h3>
-						<hr>
-						<p><b>Aufgabenstellung:</b><br><i>TNTNET</i> ein Framework zur Erstellung von Webanwendungen mit C++</p>
-						<p><b>Aufgabenbereich:</b><br>Konzeptionierung, Implementierung und Test eines neuen MVC-Konzepts; Erstellung von Dokumentationen; Öffentlichkeitsarbeit; Verbesserung	der Infrastruktur (u.a. Umstellung auf Git)</p>
-						<p><b>Technogie-Stack:</b><br>Linux, C++, Tntnet, SQLite, HTML5, CSS3, Markdown, SVN2Git, Pressearbeit, Social-Networking</p>
-						<p><b>URLs:</b><br><a href="http://tntnet.org/">tntnet.org</a></p>
-						<hr>
-						<b>1.2013 bis 7.2014</b>
-					</li>
-				</div>
-
-				<h2>2013</h2>
-				<div class="row" id="timeline-items">
-
-					<li class="timeline-item">
-						<h3>Senior IT Consultant / Entwickler</h3>
-						<hr>
-						<p>ATIX AG, Unterschleißheim</p>
-						<hr>
-						<b>1.8.2012 bis 1.2.2015</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Open Source Projekt</h3>
-						<hr>
-						<p><b>Aufgabenstellung:</b>,br>Deutsche Variante des <i>Belief-O-Matic</i></p>
-						<p><b>Aufgabenbereich:</b><br>Ein-Mann-Projekt: Erstellung des Konzepts; Programmierung des Webfontend; Konzeption und Umsetzung des Backend; Konzept und Gestaltung mit CSS; Dokumentation.</p>
-						<p><b>Technogie-Stack:</b><br>Linux, Python, WebPy, SQLite, HTML, CSS</p>
-						<p><b>URLs:</b><br><a href="https://github.com/OlafRadicke/belief-matching">github.com</a><br><a href="http://www.beliefnet.com/entertainment/quizzes/beliefomatic.aspx">Belief-O-Matic</a></p>
-						<hr>
-						<b>5.2012 bis 8.2012</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Berufliche Aufgabe</h3>
-						<hr>
-						<p><b>Aufgabenstellung:</b><br>Beschwerdemanagement / Presales</p>
-						<p><b>Aufgabenbereich:</b><br>Beratung zu betrieblichen Abläufen; Unterstürzung bei der	Suche von Lösungsansätzen; Fehleranalysen; Koordination von verschiedenen Dienstleistern und Abteilungen</p>
-						<p><b>Technogie-Stack:</b><br>Rechenzentrum, Beratung, Projektbetreuung, Beschwerdemanagement, Presales</p>
-						<hr>
-						<b>Anfang 2012 bis Januar 2015</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Berufliches Projekt</h3>
-						<hr>
-						<p><b>Aufgabenstellung:</b><br>Entwicklung eines leichtgewichtigen Webfrontend für Release-Prozess</p>
-						<p><b>Aufgabenbereich:</b><br>Erstellung des Konzept. Programmierung der Webfontend mit WebPy, HTML und CSS. Programmierung eines Session-Handlings mit ACL. Implementierung einer textbasierten Konfiguration. Backend-Programmierung mit SQLIte. Dokumentation,	Tests und Abnahme</p>
-						<p><b>Technogie-Stack:</b><br>Linux, Python, WebPy, SQLite, HTML, CSS, ACL</p>
-						<hr>
-						<b>Anfang 2012 (ca. zwei Manwochen)</b>
-					</li>
-				</div>
-
-				<h2>2012</h2>
-
-				<div class="row" id="timeline-items">
-					<li class="timeline-item inverted">
-						<h3>Berufliches Projekt</h3>
-						<hr>
-						<p><b>Aufgabenstellung:</b><br>Modernisierung der Entwicklungsinfrastruktur</p>
-						<p><b>Aufgabenbereich:</b><br>QA; Make-File-Bau; RPM-Bau; QA-Virtualisirungs-Infrastruktur: Reorganisation und Betreuung; Rekonzeptionierung des Entwicklungs-Workflow: Einführung von Git, Migration bestehender Projekte von CVS zu Git,	Überführung in öffentliche Entwicklungsprozesse, Einbindung neuer Tools, Schulung für neue Tools,	Jenkins Continuous Integration (CI): Installation, Evaluierung, Einführung von Jenkins CI in den Workflow,	Betreuung der Jenkins-Systeme,Pogrammierung umfangreicher vollautomatischer Testabläufe für CI (Bash), Python-Scripting zum	Generieren von Reports mit Daten aus Bugzilla (in Text, HTML und DocBook);	Spacewalk (Deployment-Server): Installation, Evaluierung, Mercurial (verteiltes Versionskontrollsystem),	Einrichtung einer Infrastruktur, Unterstürzung der Benutzer bei der Einführung	und Wartung der Systeme</p>
-						<p><b>Technogie-Stack:</b><br>Linux, Clusrterin, Enterprise, QA, Infrastruktur, Community, Entwicklung, Virtualisierung (KVM), Automatisierung, Scripting, Deployment</p>
-						<hr>
-						<b>Anfang 2011 bis Sommer 2013</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Berufliches Projekt</h3>
-						<hr>
-						<p><b>Aufgabenstellung:</b><br>Produktentwicklung: Dracut-Module (initramfs)</p>
-						<p><b>Aufgabenbereich:</b><br>Erstellung von Dokumentation:	Online: Pflege, Erstellung und Übersetzuung	von Fedora-Wiki-Artikel und Offline: mit LaTeX und robodoc,	UML-Diagramme (mit dem Programm Dia); Anpassung der Software an neue Version von Fedora-Linux; Kommunikation mit (deutscher) Fedora-Comunity;	Proof of Concept für objektorientierte Programmierung mit AWK; Rrstellung eines	Dracut-Moduls speziell zum Debuggen; Refactorings</p>
-						<p><b>Technogie-Stack:</b><br>Linux, Dracut, AWK, dash, Fedora-Linux, boot-Prozess, Community</p>
-						<p><b>URLs:</b><br><a href="https://fedoraproject.org/w/index.php?title=Features/Opensharedroot/de&action=history">fedoraproject.org</a><br>
-							<A href="https://github.com/OlafRadicke/comoonics-Dracut">github.com</a><br>
-						  <a href="https://de.wikibooks.org/wiki/Awk:_Grundlagen:_Objektorientierte_Programmierung">de.wikibooks.org</a></p>
-						<hr>
-						<b>Anfang 2011 bis Ende 2012</b>
-					</li>
-				</div>
-
-				<h2>2011</h2>
-                
-				<div class="row" id="timeline-items">
-					<li class="timeline-item inverted">
-						<h3>Berufliches Projekt</h3>
-						<hr>
-						<p><b>Aufgabenstellung:</b><br>Pflege, Überarbeitung und Ausbau firmeneigener Websites</p>
-						<p><b>Aufgabenbereich:</b><br>Koordination zwischen Entwicklung, Redaktion und Administration; Installation bzw. Rollout des Relaunch; Einspielen von Updates und Upgrades;	Risikobewertung und Umsetzung von Sicherheitsmaßnahmen;	Konzept und Umsetzung einer Backup-Strategie;	Blog-Pflege (Themenfindung und Verfassung von Artikeln)</p>
-						<p><b>Technogie-Stack:</b><br>Linux, Zope, Plone, Piwik, MySQL, PHP, Python, httpd, RPM- und Deb-Bau</p>
-						<hr>
-						<b>Ende 2010 bis Sommer 2013</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Vortrag</h3>
-						<hr>
-						<p><b>Thema</b><br><i>Git für Ein- und Umsteiger</i></p>
-						<p><b>URLs:</b><br><a href="http://linuxwiki.de/SoftwareFreedomDay2010">linuxwiki.de</a></p>
-						<hr>
-						<b>18.9.2010</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Software Freedom Day 2010</h3>
-						<hr>
-						<p>Beteiligung an der Organisation und Durchfürung des Software Freedom Day 2010 in München.</p>
-						<hr>
-						<b>2010</b>
-					</li>
-
-					<li class="timeline-item">
-						<h3>Ausbildung zum Fachinformatiker - Anwendungsentwicklung</h3>
-						<hr>
-						<p>ATIX AG, Unterschleißheim</p>
-						<hr>
-						<b>30.7.2010 bis 31.7.2012</b>
-					</li>
-				</div>
-
-
-				<h2 id="j2010">2010</h2>
-
-				<div class="row" id="timeline-items">
-					<li class="timeline-item">
-						<h3>Heilerziehungspfleger</h3>
-						<hr>
-						<p>Pfennigparade Stationäre Wohngruppen GmbH, Schüleraußenwohngruppe, München</p>
-						<hr>
-						<b>1.7.2009 bis 30.7.2010</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Projekt</h3>
-						<hr>
-						<p><b>Aufgabenstellung:</b><br>Wiederauflage eines Buches von 1825</p>
-						<p><b>Aufgabenbereich:</b><br>Projektplanung, Team-Führung; Zusammenstellung und Einrichtung der Tools und Infrastruktur;	Schulung der Teammitglieder auf die Entwicklungs-Tools; Zeitplan- und Budget-Kontrolle; Texterkennung (OCR); Textsatz; Indexierung; Textstruktur; Versionskontrolle</p>
-						<p><b>Technogie-Stack:</b><br>LiveTex, KOMA-Script, Git-Versionskontrolle, Kate, Kile, Notepad++, OCR-ToolsLinux, Windows XP, Mediawiki.</p>
-						<p><b>URLs:</b><br><a href="https://books.google.pl/books?id=AElzCwAAQBAJ&printsec=frontcover&hl=de">books.google.com</a><br>
-								<a href="https://github.com/OlafRadicke/penn_okkk/tree/auflage_04">github.com</a>
-						</p>
-						<hr>
-						<b>6.2009 bis 12.2009</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Vortrag/Workshop</h3>
-						<hr>
-						<p>Auf dem Techtalk des <i>Open Source Press</i> Verlag. Thema: <i>Git</i></p>
-						<hr>
-						<b>20.4.2010</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Open Source Projekt</h3>
-						<hr>
-						<p><b>Aufgabenstellung:</b><br><i>BibleVCE</i>, Weiterentwicklung bzw. Fork von <i>BibleMemorizer</i></p>
-						<p><b>Aufgabenbereich:</b><br>Refactoring; Code von Qt3 auf Qt4 portiert; QT-GUI komplett neu geschrieben; Schnittstellendefinition;	In- und Exportfunktionen zu anderen Programmen implementiert; Backend von XML-Files auf SQLite umgestellt;	Dokumentation erstellt;	Doxygen; UML-Diakgramm; Video-Tutorials</p>
-						<p><b>Technogie-Stack:</b><br>Linux, C++, Qt, qmake, SQLite, XML, Doxygen, Git</p>
-						<p><b>URLs:</b><br><a href="http://sourceforge.net/projects/biblevce/">sourceforge.net</a></p>
-						<hr>
-						<b>3.2010 bis 7.2010</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Open Source Projekt</h3>
-						<hr>
-						<p><b>Aufgabenstellung:</b><BR>Alternatives GUI-Konzept für <i>BibleTime</i> (Proof of Concept)</p>
-						<p><b>Aufgabenbereich:</b><BR>Alternative GUI für kleine Displays (Netbooks) mit Qt erstellt; Aufrufparameter erweitert; kleinere Patches; den Umstieg der Projektes von SVN zu Git angeregt</p>
-						<p><b>Technogie-Stack:</b><br>Linux, C++, Qt, qmake, SWord, Git, SVN</p>
-						<p><b>URLs:</b><br><a href="http://www.bibletime.info">bibletime.info</a></p>
-						<hr>
-						<b>3.2010 bis 7.2010</b>
-					</li>
-
-					<li class="timeline-item">
-						<h3>Heilerziehungspfleger</h3>
-						<hr>
-						<p>Lebenshilfe, Wohnbereich Leutstettender Str, Starnberg</p>
-						<hr>
-						<b>1.1.2009 bis 30.6.2009</b>
-					</li>
-				</div>
-
-				<h2>2009</h2>
-
-<!-- bis hier -->
-				<div class="row" id="timeline-items">
-					<li class="timeline-item">
-						<h3>Heilerziehungspfleger</h3>
-						<hr>
-						<p>Lebenshilfe, Wohnbereich St.-Quirin-Straße, München</p>
-						<hr>
-						<b>1.9.2008 bis 31.12.2008</b>
-					</li>
-
-					<li class="timeline-item">
-						<h3>Heilerziehungspfleger</h3>
-						<hr>
-						<p>time more (Personaldienstleistung), Einsatzort u.a. Münchner Förderzentrum Gmbh</p>
-						<hr>
-						<b>9.6.2008 bis 31.8.2008</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Umzug</h3>
-						<hr>
-						<p>Umzug von Berlin nach Münchnen</p>
-						<hr>
-						<b>1.6.2008</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Projekt</h3>
-						<hr>
-						<p><b>Aufgabenstellung:</b><br>Netzwerk-Installations-Server, der Programme installiert und in Baumkaskaden über Netzwerke weiterverteilt, Auftragsarbeit unter BSD-Lizenz</p>
-						<p><b>Aufgabenbereich:</b><br>Ein-Mann-Projekt (Entwurf, Machbarkeitsstudie, Umsetzung,	Dokumentation, Abnahme)</p>
-						<p><b>Technogie-Stack:</b><br>.NET, C#, WinForms, Mono-Projekt, Tcp/IP, XML Serialisierung,	Sicherheitskonzepte, differenzierte Logging-Modi, MD5-Authentifizierung</p>
-						<hr>
-						<b>4.2008 bis 6.2008</b>
-					</li>
-				</div>
-
-				<h2>2008</h2>
-
-				<div class="row" id="timeline-items">
-					<li class="timeline-item">
-						<h3>Praktikum</h3>
-						<hr>
-						<p>Regionale Beschäftigung Mitte (RBM) II, Dong Heng InterkulturellerHospiz e.V., Berlin</p>
-						<hr>
-						<b>1.10.2007 bis 31.12.2007</b>
-					</li>
-
-					<li class="timeline-item">
-						<h3>Praktikum</h3>
-						<hr>
-						<p>Regionale Beschäftigung Mitte (RBM) II, Typo 3 Cluster Ltd. Co. KG, Berlin</p>
-						<hr>
-						<b>17.4.2007 bis 31.7.2007</b>
-					</li>
-				</div>
-
-				<h2>2007</h2>
-
-				<div class="row" id="timeline-items">
-					<li class="timeline-item inverted">
-						<h3>Open Source Projekt</h3>
-						<hr>
-						<!-- <p><img src="pics/a23-logo.png" alt="redhat box" height="80" width="80"></p> -->
-						<p><b>Aufgabenstellung:</b><br><i>ARTIKEL 23 CRM</i>, ein Programm für kleine Büros und Homeoffices mit	Schwerpunkt auf Verwaltung von Personenprofilen, geeignet für private Arbeitsvermittler und Arbeitslosen-Initativen, sowie für Fundraising und Wohnungssuche mit Funktionen für Teamarbeit und Dokumentenverwaltung, mit Segelsimulation als rundenbasiertes Netzwerkspiel (Gimmick), mit Nutzung geometrischer	Datentypen von PostgreSQL.</p>
-						<p><b>Aufgabenbereich:</b><br>Projektplanung;	Schnittstellendefinition; Entwurf, Datenmodell;	Team-Führung; Event- und Messeplanung + Durchführung;	Release- und Qualitätsmanagement; Datenbank-Normalisierung; Datenbank-Refactoring; Refactoring; Debugging;	Support; Beta-Test; Usability und GUI-Programmierung;	Datenbank-Programmierung; Dokumentation</p>
-						<p><b>Technogie-Stack:</b><br>sourceforge.net, SVN, .NET, C#, PostgreSQL,	XML, XML-Serialisierung, Lokalisierung, HTML, WinForms, Linux, Windows,	Make, NSIS, LaTeX, Mono-Projekt</p>
-						<p><b>URLs:</b><br><a href="https://sourceforge.net/projects/artikel23/">sourceforge.net</a></p>
-						<hr>
-						<b>8.2006 bis 12.2010</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Umzug</h3>
-						<hr>
-						<p>Umzug von Itzehoe nach Berlin</p>
-						<hr>
-						<b>Sommer 2006</b>
-					</li>
-				</div>
-
-				<h2>2006</h2>
-
-				<div class="row" id="timeline-items">
-					<li class="timeline-item">
-						<h3>Heilerziehungspfleger</h3>
-						<hr>
-						<p>In der Pflege von Chorea-Huntington-Patienten, Gesellschaft für Gerontopsychiatrische Senioreneinrichtungen, "Langer Peter", Itzehoe</p>
-						<hr>
-						<b>10.6.2005 bis 12.7.2005</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Umzug</h3>
-						<hr>
-						<p>Umzug nach Itzehoe</p>
-						<hr>
-						<b>Sommer 2005</b>
-					</li>
-				</div>
-
-				<h2>2005</h2>
-
-				<div class="row" id="timeline-items">
-					<li class="timeline-item inverted">
-						<h3>Umzug</h3>
-						<hr>
-						<p>Umzug nach Hamburg</p>
-						<hr>
-						<b>12.2004</b>
-					</li>
-
-					<li class="timeline-item inverted">
-						<h3>Sabbatjahr</h3>
-						<hr>
-						<p>Reisen nach Sri Lanka, Thailand und Malaysia</p>
-						<hr>
-						<b>31.7.2004 bis 10.6.2005</b>
-					</li>
-				</div>
-
-				<h2>2004</h2>
-
-				<div class="row" id="timeline-items">
-					<li class="timeline-item">
-						<h3>Heilerziehungspfleger</h3>
-						<hr>
-						<p>In Wohneinrichtungen des UHWs, Berlin</p>
-						<hr>
-						<b>1.8.2003 bis 31.7.2004</b>
-					</li>
-				</div>
-
-				<h2>2003</h2>
-
-				<div class="row" id="timeline-items">
-					<li class="timeline-item">
-						<h3>Heilerziehungspfleger</h3>
-						<hr>
-						<p><strong>ABM:</strong> Tagesstrukturierende Angebote für behinderte Kinder und Jugendlicher und Beratung der Angehörigen, Berlin</p>
-						<hr>
-						<b>1.3.2003 bis 31.7.2003</b>
-					</li>
-				</div>
-
-				<h2>2003</h2>
-
-				<div class="row" id="timeline-items">
-					<li class="timeline-item">
-						<h3>Praktikum</h3>
-						<hr>
-						<p>Zweites Ausbildungspraktikum, Unionhilfswerk Wohngemeinschaft Siemensstr., Berlin</p>
-						<hr>
-						<b>7.5.2001 bis 17.7.2001</b>
-					</li>
-				</div>
-
-				<h2>2001</h2>
-
-				<div class="row" id="timeline-items">
-					<li class="timeline-item">
-						<h3>Praktikum</h3>
-						<hr>
-						<p>Erstes Ausbildungspraktikum, Ev. Wohnstäten Siloah, Berlin</p>
-						<hr>
-						<b>5.9.2000 bis 23.11.2000</b>
-					</li>
-
-					<li class="timeline-item">
-						<h3>Ausbildung zu Heilerziehungspfleger</h3>
-						<hr>
-						<p>1.Staatlichen Fachschule für Heilerziehungspflege, Berlin. Abschlus mit staatlicher Anerkennung </p>
-						<hr>
-						<b>10.2.2000 bis 1.3.2003</b>
-					</li>
-
-					<li class="timeline-item  inverted">
-						<h3>Beginn mit Linux</h3>
-						<hr>
-						<p>Beginn mit der Verwendung von Linux durch den Umstieg von Windows 98 auf Linux RedHat 6.1 bzw Debian 2.2 (Linuxland)</p>
-						<p><img src="pics/redhat-box.png" alt="redhat box" height="200" width="160"><img src="pics/debian-22.png" alt="linuxland box" height="200" width="160"></p>
-						<hr>
-						<b>Anfang 2000</b>
-					</li>
-				</div>
-
-				<h2 id="j2000">2000</h2>
-
-				<div class="row" id="timeline-items">
-					<li class="timeline-item">
-						<h3>Gemeinnützige-Arbeit</h3>
-						<hr>
-						<p>Auf dem pädagogisch betreuten Kinderspielplatz "PBS-Otto-Park", Berlin</p>
-						<hr>
-						<b>8.5.1999 bis 10.2.2000</b>
-					</li>
-					<li class="timeline-item">
-						<h3>Hauskrankenpflegehelfer</h3>
-						<hr>
-						<p>Diakoniestation Tiergarten-Nord, Berlin</p>
-						<hr>
-						<b>6.4.1999 bis 7.5.1999</b>
-					</li>
-				</div>
-
-				<h2>1999</h2>
-
-				<div class="row" id="timeline-items">
-					<li class="timeline-item">
-						<h3>Hauskrankenpflegehelfer</h3>
-						<hr>
-						<p>DRK Sozialstation Schöneberg/Wilmersdorf, Berlin</p>
-						<hr>
-						<b>9.9.1998 bis 30.3.1999</b>
-					</li>
-				</div>
-
-				<h2>1998</h2>
-
-				<div class="row" id="timeline-items">
-					<li class="timeline-item">
-						<h3>Gemeinnützige-Arbeit</h3>
-						<hr>
-						<p>DRK Altersheim, Berlin</p>
-						<hr>
-						<b>25.5.1998 bis 8.9.1998</b>
-					</li>
-				</div>
-
-				<h2>1998</h2>
-
-				<div class="row" id="timeline-items">
-					<li class="timeline-item inverted">
-						<h3>Umzug</h3>
-						<hr>
-						<p>Umzug nach Berlin</p>
-						<hr>
-						<b>3.1996</b>
-					</li>
-				</div>
-
-				<h2>1996</h2>
-
-				<div class="row" id="timeline-items">
-					<li class="timeline-item inverted">
-						<h3>Umzug</h3>
-						<hr>
-						<p>Umzug nach Freiburg</p>
-						<hr>
-						<b>7.1995</b>
-					</li>
-				</div>
-
-				<h2>1995</h2>
-
-				<div class="row" id="timeline-items">
-					<li class="timeline-item">
-						<h3>Freischaffender Künstler</h3>
-						<hr>
-						<p>Zeichnen, Malerei, plastische Gestaltung und Bildhauerei sowie Bühnenbildgestaltung</p>
-						<hr>
-						<b>2.7.1994 bis 24.5.1998</b>
-					</li>
-					<li class="timeline-item">
-						<h3>Schauwerbegestalter-Ausbildung</h3>
-						<hr>
-						<p>Schauwerbegestalter-Ausbildung mit Abschluss</p>
-						<hr>
-						<b>1.8.1991 bis 1.7.1994</b>
-					</li>
-				</div>
-
-				<h2>1994</h2>
-
-				<div class="row" id="timeline-items">
-					<li class="timeline-item">
-						<h3>Malergehilfe</h3>
-						<hr>
-						<p>Fa. Bernd Guse, Berlin</p>
-						<hr>
-						<b>7.5.1991 bis 31.7.1991</b>
-					</li>
-					<li class="timeline-item">
-						<h3>Schnellrestaurant (McDonalds)</h3>
-						<hr>
-						<p>Ham Restaurant GmbH, Berlin</p>
-						<hr>
-						<b>18.2.1991 bis 2.5.1991</b>
-					</li>
-				</div>
-
-				<h2>1991</h2>
-
-				<div class="row" id="timeline-items">
-					<li class="timeline-item">
-						<h3>Kochausbildung (abgebrochen)</h3>
-						<hr>
-						<p>Bistrol Hotel Kempinski, Berlin</p>
-						<hr>
-						<b>1.8.1990 bis 5.12.1990</b>
-					</li>
-				</div>
-
-				<h2 id="j1990">1990</h2>
-
-				<div class="row" id="timeline-items">
-					<li class="timeline-item">
-						<h3>Realschule</h3>
-						<hr>
-						<p>Ohne Abschluss, Berlin</p>
-						<hr>
-						<b>1989/90</b>
-					</li>
-				</div>
-
-				<h2>1989</h2>
-
-				<div class="row" id="timeline-items">
-					<li class="timeline-item">
-						<h3>Gesamtschule</h3>
-						<hr>
-						<p>Erweiterter Hauptschulabschluss, Berlin</p>
-						<hr>
-						<b>1985 bis 1989</b>
-					</li>
-				</div>
-
-				<h2>1985</h2>
-
-				<h2 id="j1980">1980</h2>
-				<div class="row" id="timeline-items">
-					<li class="timeline-item">
-						<h3>Grundschule</h3>
-						<hr>
-						<p>Berlin (West)</p>
-						<hr>
-						<b>1978 bis 1985</b>
-					</li>
-				</div>
-
-				<h2 id="j1978">1978</h2>
-			</div> <!-- end timeline class -->
-		</div> <!-- end timline_conainer -->
-
-    <div class="col-xs-4 col-md-4" id="skills_container">
-				<h2>Skills</h2>
-
-				<div class="skillsbox">
-
-					<div class="skillsbox_section">
-						<h3 id="cicd">Continuous Delivery</h3>
-						<hr>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_ansible"></svg>
-						<p>Ansible</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_docker"></svg>
-						<p>Docker</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_rpm"></svg>
-						<p>rpm- und deb-Paketbau</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_gitlab"></svg>
-						<p>GitLab CI Runner</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_jenkins"></svg>
-						<p>Jenkins</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_salt"></svg>
-						<p>Salt Stack</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_puppet"></svg>
-						<p>Puppet</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_spacewalk"></svg>
-						<p>Spacewalk</p>
-
-					</div>
-
-					<div class="skillsbox_section">
-						<h3 id="tools">Entwickler-Tools</h3>
-						<hr>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_git"></svg>
-						<p>Git</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_artifactory"></svg>
-						<p>Artifactory</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_doxygen"></svg>
-						<p>Doxygen</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_svn"></svg>
-						<p>Subversion(SVN)</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_gnumake"></svg>
-						<p>GNUmake</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_qmake"></svg>
-						<p>qmake</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_cmake"></svg>
-						<p>cmake</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_cvs"></svg>
-						<p>CVS</p>
-
-					</div>
-
-					<div class="skillsbox_section">
-						<h3 id="proglang">Programmiersprachen</h3>
-						<hr>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_bash"></svg>
-						<p>bash, dash, AWK</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_python"></svg>
-						<p>Python 2 und 3</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_net"></svg>
-						<p>C#/.NET (unter Linux)e</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_c"></svg>
-						<p>C/C++</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_tex"></svg>
-						<p>LaTeX, KOMA-Script</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_php"></svg>
-						<p>Java, RubyOnRails, PHP</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_node"></svg>
-						<p>JavaScript, Node.js</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_html"></svg>
-						<p>XML, HTML, CSS, Json</p>
-					</div>
-
-					<div class="skillsbox_section">
-						<h3 id="concepts">Methoden, Techniken und Konzepte</h3>
-						<hr>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_serverclient"></svg>
-						<p>Server/Client-Programmierung(Tcp/IP)</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_rest"></svg>
-						<p>RESTful</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_oo"></svg>
-						<p>OO-Programmierung</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_agile"></svg>
-						<p>Agile Softwareentwicklung</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_tdd"></svg>
-						<p>Test-Driven Development (TDD)</p>
-					</div>
-
-					<div class="skillsbox_section">
-						<h3 id="database">Datenbanken</h3>
-						<hr>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_mysql"></svg>
-						<p>MySQL, MariaDB</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_psql"></svg>
-						<p>PostgreSQL</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_sqlite"></svg>
-						<p>SQLite</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_sqlnormalisierung"></svg>
-						<p>Datenbank Normalisierung</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_couchdb"></svg>
-						<p>CouchDB</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_oracle"></svg>
-						<p>Oracle</p>
-					</div>
-
-					<div class="skillsbox_section">
-						<h3 id="frameworks">Frameworks</h3>
-						<hr>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_tntnet"></svg>
-						<p>Tntnet Webframework(C++)</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_winforms"></svg>
-						<p>Winforms(C#)</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_ncurses"></svg>
-						<p>Ncurses(Bash,C)</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_bottle"></svg>
-						<p>Bottle(python)</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_webpy"></svg>
-						<p>WebPy(Python)</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_bootstrap"></svg>
-						<p>Bootstrap(CSS)</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_selenium"></svg>
-						<p>Selenium (PhantomJS)</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_express"></svg>
-						<p>Express(Node.js)</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_qt"></svg>
-						<p>Qt(C++)</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_boost"></svg>
-						<p>Boost(C++)</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_wt"></svg>
-						<p>Wt -<i>Witty</i>(C++)</p>
-
-
-					</div>
-
-					<div class="skillsbox_section">
-						<h3 id="langs">Sprachen</h3>
-						<hr>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_de"></svg>
-						<p>Deutsch</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_en_in"></svg>
-						<p>Englisch passiv</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_en_out"></svg>
-						<p>Englisch aktiv</p>
-					</div>
-
-					<div class="skillsbox_section">
-						<h3 id="operationsystem">Betriebssystem</h3>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_linux"></svg>
-						<p>Linux</p>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_windows"></svg>
-						<p>Windows</p>
-					</div>
-
-
-					<div class="skillsbox_section">
-						<h3 id="legend">Legende</h3>
-						<hr>
-
-						<svg height="100px" class="fillgauge" id="fillgauge_verygood"></svg>
-						<p>Sehr gute Kenntnisse</p>
-						<svg height="100px" class="fillgauge" id="fillgauge_good"></svg>
-						<p>Gute Kenntnisse</p>
-						<svg height="100px" class="fillgauge" id="fillgauge_basic"></svg>
-						<p>Grundkenntnisse</p>
-						<svg height="100px" class="fillgauge" id="fillgauge_null"></svg>
-						<p>Fast keine Kenntnisse</p>
-					</div>
-
-					<div class="skillsbox_section">
-						<h3 id="handicap">Handicap</h3>
-						<hr>
-
-						<ul class="flip">
-							<li class="flop">L</li>
-							<li class="flip">E</li>
-							<li class="flop">GA</li>
-							<li class="flip">S</li>
-							<li class="flop">THE</li>
-							<li class="flip">N</li>
-							<li class="flop">IE</li>
-						</ul>
-					</div>
-				</div> <!-- end skills_container -->
-		</div> <!-- end skills_container -->
-	</div> <!-- end mainbox -->
-  </div> <!-- class="container-fluid"> -->
-</body>
-</html>
+            <div class="panel panel-default">
+                  <div class="panel-heading" id="Programmier- und Auszeichnungsprachen">
+                      <b>Programmier- und Auszeichnungsprachen</b> <sub><a href="#main-navbar-collapse">nach oben</a></sub>
+                  </div>
+                  <div class="panel-body">
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                            bash, dash, AWK (95%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                            LaTeX, KOMA-Script, Markdown (95%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            Python 2 und 3 (75%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            Go (75%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            C#/.NET (unter Linux) (75%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            C/C++ (75%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            JXML, HTML, CSS, Json (75%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                            Java, RubyOnRails, PHP (50%)
+                          </div>
+                        </div>
+
+    
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                  <div class="panel-heading" id="Methoden, Techniken und Konzepte">
+                      <b>Methoden, Techniken und Konzepte</b> <sub><a href="#main-navbar-collapse">nach oben</a></sub>
+                  </div>
+                  <div class="panel-body">
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                            Server/Client-Programmierung(Tcp/IP) (95%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            RESTful/Micro-services (75%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            OO-Programmierung (75%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            Agile Softwareentwicklung (75%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                            Test-Driven Development (TDD) (50%)
+                          </div>
+                        </div>
+
+    
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                  <div class="panel-heading" id="Datenbanken">
+                      <b>Datenbanken</b> <sub><a href="#main-navbar-collapse">nach oben</a></sub>
+                  </div>
+                  <div class="panel-body">
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                            Datenbank Normalisierung (95%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            MySQL/MariaDB (75%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            PostgreSQL (75%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            SQLite (75%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            CouchDB (75%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                            Oracle (50%)
+                          </div>
+                        </div>
+
+    
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                  <div class="panel-heading" id="Frameworks">
+                      <b>Frameworks</b> <sub><a href="#main-navbar-collapse">nach oben</a></sub>
+                  </div>
+                  <div class="panel-body">
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                            Tntnet Webframework(C++) (95%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            Winforms(C#) (75%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            Bottle(python) (75%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            WebPy(Python) (75%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                            Bootstrap(CSS) (50%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                            Ncurses(Bash,C) (50%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                            Selenium (PhantomJS) (50%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                            Express(Node.js) (50%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                            Qt(C++) (50%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                            Boost(C++) (50%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                            Wt -<i>Witty</i>(C++) (50%)
+                          </div>
+                        </div>
+
+    
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                  <div class="panel-heading" id="Sprachen">
+                      <b>Sprachen</b> <sub><a href="#main-navbar-collapse">nach oben</a></sub>
+                  </div>
+                  <div class="panel-body">
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                            Deutsch (95%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                            Englisch (B1-Level) (50%)
+                          </div>
+                        </div>
+
+    
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                  <div class="panel-heading" id="Betriebssystem">
+                      <b>Betriebssystem</b> <sub><a href="#main-navbar-collapse">nach oben</a></sub>
+                  </div>
+                  <div class="panel-body">
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                            Linux (95%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:25%">
+                            Windows (25%)
+                          </div>
+                        </div>
+
+    
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                  <div class="panel-heading" id="Legende">
+                      <b>Legende</b> <sub><a href="#main-navbar-collapse">nach oben</a></sub>
+                  </div>
+                  <div class="panel-body">
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                            Sehr gute Kenntnisse (95%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                            Gute Kenntnisse (75%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                            Grundkenntnisse (50%)
+                          </div>
+                        </div>
+
+    
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:25%">
+                            Fast keine Kenntnisse (25%)
+                          </div>
+                        </div>
+
+    
+                </div>
+            </div>
+
+
+            <div class="panel panel-default">
+                <div class="panel-heading" id="Handicap">
+                    <b>Handicap</b>  <sub><a href="#main-navbar-collapse">nach oben</a></sub>
+                </div>
+                <div class="panel-body">
+                    <ul class="flip">
+                        <li class="flop">L</li>
+                        <li class="flip">E</li>
+                        <li class="flop">G</li>
+                        <li class="flop">A</li>
+                        <li class="flip">S</li>
+                        <li class="flop">T</li>
+                        <li class="flop">H</li>
+                        <li class="flop">E</li>
+                        <li class="flip">N</li>
+                        <li class="flop">I</li>
+                        <li class="flop">E</li>
+                        <li class="flop"><sub>(Siehe <a href+"https://de.wikipedia.org/wiki/Lese-_und_Rechtschreibst%C3%B6rung">Wikipedia</a>)</sub></li>
+                    </ul>
+
+                </div>  <!-- class="panel-body" -->
+            </div> <!-- class="panel panel-default" -->
+
+        </div> <!-- class="col-xs-12 col-md-4" id="skills_container" -->
+        </div> <!-- class="row" id="mainbox" -->
+    </div> <!-- class="container-fluid"> -->
+  </body>
+  </html>
