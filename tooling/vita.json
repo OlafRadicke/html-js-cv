@@ -67,7 +67,11 @@
                     },
                     {
                         "Heading": "Konferenzbesuch",
-                        "Body": "<p>Besuch der <i>DevOpsCon</i> 2015 in München</p>",
+                        "Parts":
+                            [
+                                { "Key": "Thema:", "Value": "Besuch der <i>DevOpsCon</i> 2015 in München" },
+                                { "Key": "URL:",   "Value": "<a href=\"https://devopsconference.de/\">devopsconference.de</a>" }
+                            ],
                         "Date": "9.2015"
                     },
                     {
@@ -95,7 +99,7 @@
                         ]
                   },
                   {
-                      "Heading": "Vortrag", "Date": "",
+                      "Heading": "Vortrag", "Date": "25.7.2014",
                       "Parts":
                         [
                             {"Key": "Thema:", "Value": "<i>FirefoxOS</i>" },
@@ -499,7 +503,7 @@
               },
               {
                     "Jobs": [
-                        {"Heading": "Grundschule", "Body": "Berlin (West)", "Date": "1978 bis 198"}
+                        {"Heading": "Grundschule", "Body": "Berlin (West)", "Date": "1978 bis 1985"}
                     ],
                     "OtherTasks": [],
                     "Date": "1978"
