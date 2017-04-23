@@ -543,7 +543,7 @@
                     { "Title": "Methoden, Techniken und Konzepte",
                       "Items": [
                         { "Score": "95", "Topic": "Server/Client-Programmierung(Tcp/IP)" },
-                        { "Score": "95", "Topic": "RESTful/Micro-services" },
+                        { "Score": "75", "Topic": "RESTful/Micro-services" },
                         { "Score": "75", "Topic": "OO-Programmierung" },
                         { "Score": "75", "Topic": "Agile Softwareentwicklung" },
                         { "Score": "50", "Topic": "Test-Driven Development (TDD)" }
@@ -577,7 +577,7 @@
                     { "Title": "Sprachen",
                       "Items": [
                         { "Score": "95", "Topic": "Deutsch" },
-                        { "Score": "50", "Topic": "Englisch (B1/B2)" }
+                        { "Score": "50", "Topic": "Englisch (B1-Level)" }
                       ]
                     },
                     { "Title": "Betriebssystem",
