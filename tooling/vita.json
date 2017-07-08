@@ -2,6 +2,12 @@
 
   "Years": [
             {
+                "Jobs": [
+                      { "Heading": "IT System Engineer", "Body": "<p>noris network AG, München</p>", "Date": "1.7.2017 bis heute"}
+                ],
+                "Date": "2017"
+            },
+            {
                 "OtherTasks": [
                       {
                         "Heading": "Vortrag",
@@ -40,8 +46,8 @@
             },
             {
               "Jobs": [
-                    { "Heading": "DevOps Engineer", "Body": "<p>meteocontrol GmbH, Augsburg</p>", "Date": "15.8.2015 bis heute"},
-                    { "Heading": "Entwickler", "Body": "<p>MELOS GmbH, Gessertshausen</p>", "Date": "1.2.2015 bis 30.06.2015"},
+                    { "Heading": "DevOps Engineer", "Body": "<p>meteocontrol GmbH, Augsburg</p>", "Date": "15.8.2015 bis 30.6.2017"},
+                    { "Heading": "Entwickler", "Body": "<p>MELOS GmbH, Gessertshausen</p>", "Date": "1.2.2015 bis 30.6.2015"},
                     { "Heading": "Umzug", "Body": "<p>Umzug von München nach Augsburg</p>", "Date": "1.1.2015"}
               ],
               "OtherTasks": [
