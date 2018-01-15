@@ -5,7 +5,17 @@
                 "Jobs": [
                       { "Heading": "IT System Engineer", "Body": "<p>noris network AG, München</p>", "Date": "1.7.2017 bis heute"}
                 ],
-                "Date": "2017"
+                "Date": "2017",
+                "OtherTasks": [
+                    {
+                        "Heading": "Konferenzbesuch",
+                        "Parts":
+                            [
+                                { "Key": "Thema:", "Value": "Besuch der <i>DevOpsDays</i> 2017 in Berlin" },
+                                { "Key": "URL:",   "Value": "<a href=\"https://www.devopsdays.org/events/2017-berlin/welcome/\">devopsdays.org</a>" }
+                            ],
+                        "Date": "10.2017"}
+                ]
             },
             {
                 "OtherTasks": [
