@@ -2,6 +2,18 @@
 
   "Years": [
             {
+                "Date": "2018",
+                "OtherTasks": [
+                    {
+                        "Heading": "Workshopbesuch",
+                        "Parts":
+                            [
+                                { "Key": "Thema:", "Value": "Besuch der <i>Red Hat Container und Cloud-Native Roadshow</i> 2017 in München" }
+                            ],
+                        "Date": "12.04.2018"}
+                ]
+            },
+            {
                 "Jobs": [
                       { "Heading": "IT System Engineer", "Body": "<p>noris network AG, München</p>", "Date": "1.7.2017 bis heute"}
                 ],
