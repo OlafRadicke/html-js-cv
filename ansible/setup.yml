@@ -1,0 +1,47 @@
+---
+- hosts: all
+  tasks:
+    - name: "ping"
+      ping:
+
+    - name: "run generator"
+      shell: "go run ./generator.go > ../index.html"
+      args:
+        chdir: ../tooling/
+      delegate_to: localhost
+
+    - name: "copy html code"
+      copy:
+        src: "../{{ item }}"
+        dest: "/srv/nginx/htmljscv/{{ item }}"
+        force: "yes"
+      with_items:
+        - "index.html"
+        - "css"
+        - "fonts"
+        - "js"
+        - "pics"
+
+    - name: "sync nginx config"
+      synchronize:
+        src: ./files/olaf-radicke.conf
+        dest: /etc/nginx/conf.d/olaf-radicke.conf
+
+    - name: "check nginx config"
+      shell: "nginx -t"
+      args:
+
+    - name: "Reload nginx"
+      service:
+        name: nginx
+        state: restarted
+
+#  cd /opt/
+#  wget https://dl.eff.org/certbot-auto
+#  chmod a+x ./certbot-aut
+#  ./certbot-auto certonly -a webroot --webroot-path=/srv/nginx/ -d olaf-radicke.de --debug-challenges -v
+    # - name: "sync code"
+    #   synchronize:
+    #     src: ./files/letsencrypt/renewal/olaf-radicke.de.conf
+    #     dest: /etc/letsencrypt/renewal/olaf-radicke.de.conf
+        #delete: "yes"

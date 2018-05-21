@@ -1,0 +1,25 @@
+---
+- hosts: all
+  tasks:
+    - name: "ping"
+      ping:
+
+    - name: "dry-run certbot-auto"
+      shell: "./certbot-auto renew --dry-run"
+      args:
+        chdir: "/opt/"
+
+    - name: "run certbot-auto"
+      shell: "./certbot-auto renew"
+      args:
+        chdir: "/opt/"
+
+    - name: "check nginx config"
+      shell: "nginx -t"
+      args:
+        chdir: "/opt/"
+
+    - name: "Reload nginx"
+      service:
+        name: nginx
+        state: reloaded
