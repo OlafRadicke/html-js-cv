@@ -1,62 +1,62 @@
 
-body { background:   #563b37; }
+body { background:   #536275; }
 h2,
 h3,
 sub,
 small,
 a { color: white; }
-div.panel-body a { color: #517470; }
-div.panel-body sub { color: #517470; }
+div.panel-body a { color: #516474; }
+div.panel-body sub { color: #516474; }
 
 ul.dropdown-menu {
-    color:  #563b37;
-    background-color: #99dfd8;
+    color:  #393e3f;
+    background-color: #99a6df;
 }
 .navbar-default {
-    background-color: #99dfd8;
-    border-color: #99dfd8;
+    background-color: #99a6df;
+    border-color: #99a6df;
 }
 /* Title */
 .navbar-default .navbar-brand {
-    color: #563b37;
+    color: #393e3f;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: #563b37;
+    color: #393e3f;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #563b37;
+    color: #393e3f;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #563b37;
+    color: #393e3f;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
     color: white;
-    background-color:  #7e5b54
+    background-color:  #546f7e
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
     color: white;
-    background-color:  #7e5b54;
+    background-color:  #546f7e;
 }
 
 .panel > .panel-heading {
     background-image: none;
     color: white;
-    background-color:  #7e5b54;
+    background-color:  #546f7e;
 }
 .panel {
-    color:  #563b37;
-    background-color: #99dfd8;
+    color:  #393e3f;
+    background-color: #99a6df;
 }
 div.progress-bar, div.progress-bar-info{
     background-image: none;
     color: white;
-    background-color:  #563b37;
+    background-color:  #393e3f;
 }
 
 
