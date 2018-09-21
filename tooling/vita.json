@@ -5,6 +5,16 @@
                 "Date": "2018",
                 "OtherTasks": [
                     {
+                        "Heading": "Berufliches Projekt",
+                        "Parts":
+                          [
+                              {"Key": "Aufgabenstellung:", "Value": "PKI (Public-Key-Infrastruktur) im IoT-Umfeld (Internet of Things) realisieren" },
+                              {"Key": "Aufgabenbereich:",  "Value": "Consulting, Presales, Projektirrung, Steuerung von Transformationsprozessen, Troubleshooting, Analyse und Überwachung von Standards und Prozessen, Kundenreports"},
+                              {"Key": "Technogie-Stack:", "Value": "VMWare, Kubernets/Docker, EJBCA, Glassfish/Payara, ActivMQ, Ansible, Puppet, Foreman, Graylog, MariaDB Galera Cluster" }
+                          ],
+                        "Date": "11.2017 bis heute"
+                    },
+                    {
                         "Heading": "Workshopbesuch",
                         "Parts":
                             [
@@ -15,7 +25,9 @@
             },
             {
                 "Jobs": [
-                      { "Heading": "IT System Engineer", "Body": "<p>noris network AG, München</p>", "Date": "1.7.2017 bis heute"}
+                      { "Heading": "IT System Engineer - agile operations", 
+                        "Body": "<p>noris network AG, München</p>", 
+                        "Date": "1.7.2017 bis heute"}
                 ],
                 "Date": "2017",
                 "OtherTasks": [
@@ -77,11 +89,11 @@
                         "Heading": "Berufliches Projekt",
                         "Parts":
                           [
-                              {"Key": "Aufgabenstellung:", "Value": "Aufgabenstellung:</b><br>Embedded Buildumgebung in Docker-Conteiner realisieren" },
+                              {"Key": "Aufgabenstellung:", "Value": "Embedded Buildumgebung in Docker-Conteiner realisieren" },
                               {"Key": "Aufgabenbereich:",  "Value": "Analyse von C/C++-Code, Build-Tools und Build-Scripts; Dokumentation von Schnittstellen und Funktionsweisen. Anpassung von Build-Scrips. Erstellung von Dockerfils. Automatisierung von Docker-Builds. Ergebnispräsentation vor Team-Kollegen und Abteilungsleitern."},
                               {"Key": "Technogie-Stack:", "Value": "Atlassian Confluence, C/C++, Bash, Make, Ptxdist, Debian, Cross-Compiler, Artifactory, Docker, Embedded-Systeme, Jenkins-CI, GitLab-CI" }
                           ],
-                        "Date": "Herpst 2015 bis Sommer 201"
+                        "Date": "Herpst 2015 bis Sommer 2016"
                     },
                     {
                         "Heading": "Berufliches Projekt",
@@ -91,7 +103,7 @@
                               {"Key": "Aufgabenbereich:", "Value": "Interne Anwendungen in Docker-Container packen. Server zum hosten von Docker Conteiner aufbauen. Eirichten einer interne Docker-Registry mit Artifactory. Automatisierten Build- und Deployment-Prozess erstellen." },
                               {"Key": "Technogie-Stack:", "Value": "Ubuntu, CentOS, Artifactory, Docker (Swarm), Jenkins-CI, GitLab-CI, Nginx (Revers Proxy), NFS-Share, Ansible, Puppet, DNS, Systend, Keepalived (Floating IPs)" }
                           ],
-                        "Date": "Sommer 2015 bis heute"
+                        "Date": "Sommer 2015 bis "
                     },
                     {
                         "Heading": "Konferenzbesuch",
@@ -547,7 +559,8 @@
                         { "Score": "75", "Topic": "Jenkins" },
                         { "Score": "75", "Topic": "Salt Stack" },
                         { "Score": "50", "Topic": "Puppet" },
-                        { "Score": "50", "Topic": "Spacewalk" }
+                        { "Score": "50", "Topic": "Spacewalk" },
+                        { "Score": "50", "Topic": "Kubernetes" }
                       ]
                     },
                     { "Title": "Entwickler-Tools",
@@ -578,7 +591,8 @@
                         { "Score": "75", "Topic": "RESTful/Micro-services" },
                         { "Score": "75", "Topic": "OO-Programmierung" },
                         { "Score": "75", "Topic": "Agile Softwareentwicklung" },
-                        { "Score": "50", "Topic": "Test-Driven Development (TDD)" }
+                        { "Score": "50", "Topic": "Test-Driven Development (TDD)" },
+                        { "Score": "50", "Topic": "Public-Key-Infrastruktur" }
                       ]
                     },
                     { "Title": "Datenbanken",
