@@ -8,19 +8,24 @@
       shell: "go run ./generator.go > ../index.html"
       args:
         chdir: ../tooling/
-      delegate_to: localhost
+      delegate_to: localhost  
 
-    - name: "copy html code"
-      copy:
-        src: "../{{ item }}"
+    - name: "synchronize html code"
+      synchronize:
+        src: "../{{ item }}/"
         dest: "/srv/nginx/htmljscv/{{ item }}"
-        force: "yes"
       with_items:
-        - "index.html"
         - "css"
         - "fonts"
         - "js"
         - "pics"
+
+    - name: "synchronize html code"
+      synchronize:
+        src: "../{{ item }}"
+        dest: "/srv/nginx/htmljscv/{{ item }}"
+      with_items:
+        - "index.html"
 
     - name: "sync nginx config"
       synchronize:

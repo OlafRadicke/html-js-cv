@@ -9,7 +9,7 @@
                         "Parts":
                           [
                               {"Key": "Aufgabenstellung:", "Value": "PKI (Public-Key-Infrastruktur) im IoT-Umfeld (Internet of Things) realisieren" },
-                              {"Key": "Aufgabenbereich:",  "Value": "Consulting, Presales, Projektirrung, Steuerung von Transformationsprozessen, Troubleshooting, Analyse und Überwachung von Standards und Prozessen, Kundenreports"},
+                              {"Key": "Aufgabenbereich:",  "Value": "Consulting, Presales, Projektierung, Steuerung von Transformationsprozessen, Troubleshooting, Analyse und Überwachung von Standards und Prozessen, Kundenreports"},
                               {"Key": "Technogie-Stack:", "Value": "VMWare, Kubernets/Docker, EJBCA, Glassfish/Payara, ActivMQ, Ansible, Puppet, Foreman, Graylog, MariaDB Galera Cluster" }
                           ],
                         "Date": "11.2017 bis heute"
