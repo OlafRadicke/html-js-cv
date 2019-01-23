@@ -2,6 +2,14 @@
 
   "Years": [
             {
+                "Jobs": [
+                    { "Heading": "Senior IT Consultant - Applied Technology Research ", 
+                      "Body": "<p>msg systems ag</p>", 
+                      "Date": "1.1.2019 bis heute"}
+                ],
+                "Date": "2019"
+            },
+            {
                 "Date": "2018",
                 "OtherTasks": [
                     {
@@ -27,7 +35,7 @@
                 "Jobs": [
                       { "Heading": "IT System Engineer - agile operations", 
                         "Body": "<p>noris network AG, München</p>", 
-                        "Date": "1.7.2017 bis heute"}
+                        "Date": "1.7.2017 bis 31.12.2018"}
                 ],
                 "Date": "2017",
                 "OtherTasks": [

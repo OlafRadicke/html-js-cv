@@ -20,7 +20,7 @@
         - "js"
         - "pics"
 
-    - name: "synchronize index.html"
+    - name: "synchronize index.html "
       synchronize:
         src: "../index.html"
         dest: "/srv/nginx/htmljscv/index.html"
