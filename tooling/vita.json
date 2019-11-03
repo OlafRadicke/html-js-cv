@@ -2,12 +2,64 @@
 
   "Years": [
             {
+                "Date": "2019",
                 "Jobs": [
-                    { "Heading": "Senior IT Consultant - Applied Technology Research ", 
-                      "Body": "<p>msg systems ag</p>", 
-                      "Date": "1.1.2019 bis heute"}
+                    {   "Heading": "Senior System Engineer - DevOps", 
+                        "Body": "<p>WidasConcepts GmbH</p>", 
+                        "Date": "1.10.2019 bis heute"},
+                    {   "Heading": "Senior IT Consultant - Applied Technology Research ", 
+                        "Body": "<p>msg systems ag</p>", 
+                        "Date": "1.1.2019 bis 30.9.2019"}
                 ],
-                "Date": "2019"
+                "OtherTasks": [
+                    {
+                        "Heading": "Berufliches Projekt",
+                        "Parts":
+                          [
+                              {"Key": "Aufgabenstellung:", "Value": "Migration einer C++-Server-Application" },
+                              {"Key": "Aufgabenbereich:",  "Value": "Proof of Concept und Troubleshooting."},
+                              {"Key": "Technogie-Stack:", "Value": "SuseLinux, C++, GDB, NetBeans, Make, Perl" }
+                          ],
+                        "Date": "1.6.2017 bis 30.9.2019"
+                    },
+                    {
+                        "Heading": "Berufliches Projekt",
+                        "Parts":
+                          [
+                              {"Key": "Aufgabenstellung:", "Value": "Marktanalysen und Evaluierungen zum Thema Container-Orchestrierung" },
+                              {"Key": "Aufgabenbereich:",  "Value": "Recherchen, aufarbeitung und Presentation"},
+                              {"Key": "Technogie-Stack:", "Value": "Container, Kubernetes, OpenShift" }
+                          ],
+                        "Date": "1.3.2017 bis 30.9.2019"
+                    },
+                    {
+                        "Heading": "Berufliches Projekt",
+                        "Parts":
+                          [
+                              {"Key": "Aufgabenstellung:", "Value": "Provisionierung von Projektinfrastruktur auf Basis  von Ansible" },
+                              {"Key": "Aufgabenbereich:",  "Value": "Analyse, Konzeptionierung und Proof of Concept"},
+                              {"Key": "Technogie-Stack:", "Value": "Ansible, Container, Reverse Proxy" }
+                          ],
+                        "Date": "1.3.2017 bis 30.9.2019"
+                    },
+                    {
+                        "Heading": "Berufliches Projekt",
+                        "Parts":
+                          [
+                              {"Key": "Aufgabenstellung:", "Value": "Erstellung einer generische Projekt-Infrastruktur auf Container-Basis" },
+                              {"Key": "Aufgabenbereich:",  "Value": "Steuerung von Transformationsprozessen, Troubleshooting, Kundensupport"},
+                              {"Key": "Technogie-Stack:", "Value": "Docker-Container, Debinan-Linux, Bash-Scripts, KVM" }
+                          ],
+                        "Date": "1.1.2017 bis 30.9.2019"
+                    },
+                    {
+                        "Heading": "Schulung",
+                        "Parts":
+                            [
+                                { "Key": "Thema:", "Value": "Besuch der dreitägigen Schulung: <i>Red Hat OpenShift Administration I (DO280)</i>" }
+                            ],
+                        "Date": "24.06. bis 26.6.2018"}
+                ]
             },
             {
                 "Date": "2018",
@@ -20,7 +72,7 @@
                               {"Key": "Aufgabenbereich:",  "Value": "Consulting, Presales, Projektierung, Steuerung von Transformationsprozessen, Troubleshooting, Analyse und Überwachung von Standards und Prozessen, Kundenreports"},
                               {"Key": "Technogie-Stack:", "Value": "VMWare, Kubernets/Docker, EJBCA, Glassfish/Payara, ActivMQ, Ansible, Puppet, Foreman, Graylog, MariaDB Galera Cluster" }
                           ],
-                        "Date": "11.2017 bis heute"
+                        "Date": "11.2017 bis 31.12.2018"
                     },
                     {
                         "Heading": "Workshopbesuch",

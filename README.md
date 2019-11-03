@@ -13,3 +13,13 @@ go run ./generator.go > ../index.html
 dnf install -y golang-bin
 
 ```
+
+# by hand
+
+```bash
+cd /opt/
+./certbot-auto renew --dry-run
+./certbot-auto renew
+curl -vvI https://olaf-radicke.de/
+nginx -t
+```
