@@ -163,7 +163,7 @@
                               {"Key": "Aufgabenbereich:", "Value": "Interne Anwendungen in Docker-Container packen. Server zum hosten von Docker Conteiner aufbauen. Eirichten einer interne Docker-Registry mit Artifactory. Automatisierten Build- und Deployment-Prozess erstellen." },
                               {"Key": "Technogie-Stack:", "Value": "Ubuntu, CentOS, Artifactory, Docker (Swarm), Jenkins-CI, GitLab-CI, Nginx (Revers Proxy), NFS-Share, Ansible, Puppet, DNS, Systend, Keepalived (Floating IPs)" }
                           ],
-                        "Date": "Sommer 2015 bis "
+                        "Date": "Sommer 2015 bis Sommer 2016"
                     },
                     {
                         "Heading": "Konferenzbesuch",
