@@ -22,18 +22,33 @@ type Parts struct {
     Value string `json:"Value"`
 }
 
-type OtherTasks struct {
+type Projects struct {
     Heading string `json:"Heading"`
     Parts []Parts `json:"Parts"`
     Url string `json:"Url"`
     Date string `json:"Date"`
 }
 
-type Years struct {
-    Jobs []Jobs `json:"Jobs"`
-    OtherTasks []OtherTasks  `json:"OtherTasks"`
+type EducationTrainingConferences struct {
+    Heading string `json:"Heading"`
+    Parts []Parts `json:"Parts"`
+    Url string `json:"Url"`
     Date string `json:"Date"`
 }
+
+type PublicationTalks struct {
+    Heading string `json:"Heading"`
+    Parts []Parts `json:"Parts"`
+    Url string `json:"Url"`
+    Date string `json:"Date"`
+}
+
+
+// type Years struct {
+//     Jobs []Jobs `json:"Jobs"`
+//     OtherTasks []OtherTasks  `json:"OtherTasks"`
+//     Date string `json:"Date"`
+// }
 
 type Items struct {
      Score string `json:"Score"`
@@ -47,18 +62,26 @@ type SkillSections struct {
 
 
 type PersVita struct {
-    Years []Years `json:"Years"`
+    Jobs []Jobs `json:"Jobs"`
+    Projects []Projects `json:"Projects"`
+    EducationTrainingConferences []EducationTrainingConferences `json:"EducationTrainingConferences"`
+    PublicationTalks []PublicationTalks `json:"PublicationTalks"`
     SkillSections []SkillSections `json:"SkillSections"`
 }
 
 
 func main() {
+    var tempFile = "cv-tmpl.html"
     var persVita = readConfig()
-    // fmt.Printf("persVita: %v\n", persVita)
-    t := template.New("html-cv.tmpl")
-    t.ParseFiles("html-cv.tmpl")
+    if _, err := os.Stat( tempFile ); os.IsNotExist(err) {
+        fmt.Printf("Error: template file %v not exist!\n",  tempFile)
+        os.Exit(1)
+    }
+    t := template.New(tempFile)
+    t.ParseFiles(tempFile)
     err := t.Execute(os.Stdout, persVita)
     if err != nil {
+        fmt.Printf("Panic: %v \n",  err)
         panic(err)
     }
 }
