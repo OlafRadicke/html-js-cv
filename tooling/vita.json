@@ -455,7 +455,7 @@
     "EducationTrainingConferences": [
 
         {
-            "Heading": "Schulung",
+            "Heading": "Schulungsteilnahme",
             "Parts":
                 [
                     { "Key": "Thema:", "Value": "Besuch der dreitägigen Schulung: <i>Red Hat OpenShift Administration I (DO280)</i>" }
