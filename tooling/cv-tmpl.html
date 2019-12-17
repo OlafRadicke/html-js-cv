@@ -101,7 +101,7 @@
                 <hr>
     {{ range .Projects }}
                 <div class="panel panel-default">
-                    <div class="panel-heading">{{ .Heading }}</div>
+                    <div class="panel-heading"><b>{{ .Heading }}</b><br><sub><a href="#main-navbar-collapse">nach oben</a></sub></div>
                     <div class="panel-body">
         {{ range .Parts}}
                         <p><b>{{ .Key }}</b><br> {{ .Value }}</p>
@@ -120,7 +120,7 @@
                     <hr>
         {{ range .PublicationTalks }}
                     <div class="panel panel-default">
-                        <div class="panel-heading">{{ .Heading }}</div>
+                        <div class="panel-heading"><b>{{ .Heading }}</b><br><sub><a href="#main-navbar-collapse">nach oben</a></sub></div>
                         <div class="panel-body">
             {{ range .Parts}}
                             <p><b>{{ .Key }}</b><br> {{ .Value }}</p>
@@ -139,7 +139,7 @@
                 <hr>
     {{ range .EducationTrainingConferences }}
                 <div class="panel panel-default">
-                    <div class="panel-heading">{{ .Heading }}</div>
+                    <div class="panel-heading"><b>{{ .Heading }}</b><br><sub><a href="#main-navbar-collapse">nach oben</a></sub></div>
                     <div class="panel-body">
         {{ range .Parts}}
                         <p><b>{{ .Key }}</b><br> {{ .Value }}</p>
