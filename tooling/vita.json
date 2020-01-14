@@ -1,6 +1,11 @@
 {
     "Jobs": [
         {   
+            "Heading": "Freelancer - DevOps / site reliability", 
+            "Body": "<p>Selbstständig</p>", 
+            "Date": "19.12.2019 bis Heute"
+        },
+        {   
             "Heading": "Senior System Engineer - DevOps / site reliability", 
             "Body": "<p>WidasConcepts GmbH</p>", 
             "Date": "1.10.2019 bis 19.12.2019"
