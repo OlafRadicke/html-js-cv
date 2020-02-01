@@ -529,7 +529,7 @@
             "Parts":
               [
                   {"Key": "Thema:", "Value": "Continuous delivery mit <i>GitLab CI</i>"},
-                  {"Key": "URL:", "Value": "<a href=\"https://github.com/web-and-wine/talks/blob/master/gitlab-ci-olaf-radicke.pdf\">github.com</a>"}
+                  {"Key": "URL:", "Value": "<a href=\"https://github.com/web-and-wine/talks/blob/master/gitlab-ci-olaf-radicke.pdf\">github.com von Web-and-Wine</a>"}
               ],
             "Date": "05.12.2016"
         },
