@@ -202,6 +202,16 @@
             "Heading": "Berufliches Projekt",
             "Parts":
               [
+                  {"Key": "Aufgabenstellung:", "Value": "Weiterntwicklung einer CI/CD Infrakruktur" },
+                  {"Key": "Aufgabenbereich:",  "Value": "Evaluierung von Verbesserungsoptionen und Alternativen zur bestehendem Jenkins-Build-Farm. Erstellung einer Entscheidungsvorlage für das Management. Überarbeitung von Ansible-Playbooks nach allgemeinem best practises. Erstellung und Intigration von Linux-Agenten für einen Team Foundation Server. Wissens-Transfer mittels pair programming."},
+                  {"Key": "Technogie-Stack:", "Value": "Ansible, Photon OS, Jenkins, Team Foundation Server, Ubuntu, Grafana, Prometheus, markdown, draw.io, UML" }
+              ],
+            "Date": "10.02.2020 bis 31.3.2020"
+        },
+        {
+            "Heading": "Berufliches Projekt",
+            "Parts":
+              [
                   {"Key": "Aufgabenstellung:", "Value": "Evaluierung von OpenStack" },
                   {"Key": "Aufgabenbereich:",  "Value": "Evaluierung von OpenStack (Anbietern) mit proof of concept."},
                   {"Key": "Technogie-Stack:", "Value": "Ansible, DC/OS, Docker, OpenStack, Git" }
