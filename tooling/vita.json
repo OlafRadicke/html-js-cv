@@ -204,7 +204,7 @@
               [
                   {"Key": "Aufgabenstellung:", "Value": "Weiterntwicklung einer CI/CD Infrakruktur" },
                   {"Key": "Aufgabenbereich:",  "Value": "Evaluierung von Verbesserungsoptionen und Alternativen zur bestehendem Jenkins-Build-Farm. Erstellung einer Entscheidungsvorlage für das Management. Überarbeitung von Ansible-Playbooks nach allgemeinem best practises. Erstellung und Intigration von Linux-Agenten für einen Team Foundation Server. Wissens-Transfer mittels pair programming."},
-                  {"Key": "Technogie-Stack:", "Value": "Ansible, Photon OS, Jenkins, Team Foundation Server, Ubuntu, Grafana, Prometheus, markdown, draw.io, UML" }
+                  {"Key": "Technogie-Stack:", "Value": "Ansible, Photon OS, Jenkins, Team Foundation Server, Ubuntu, Grafana, Prometheus, markdown, draw.io, UML, docker, Kubernetes, Azure Cloud" }
               ],
             "Date": "10.02.2020 bis 31.3.2020"
         },
