@@ -1,2 +1,2 @@
 [all]
-myserver ansible_port=1022 ansible_host=92.51.165.102 ansible_user=root
+myserver ansible_port=1122 ansible_host=92.51.165.102 ansible_user=root
