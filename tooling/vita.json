@@ -3,7 +3,7 @@
         {   
             "Heading": "Freelancer (Release Engineer - DevOps / site reliability)", 
             "Body": "<p>Selbstständig</p>", 
-            "Date": "19.12.2019 bis Heute"
+            "Date": "19.12.2019 bis heute"
         },
         {   
             "Heading": "Senior System Engineer - DevOps / site reliability", 
@@ -57,12 +57,12 @@
         },
         {
             "Heading": "Heilerziehungspfleger", 
-            "Body": "time more (Personaldienstleistung), Einsatzort u.a. Münchner Förderzentrum Gmbh", 
+            "Body": "time more (Personaldienstleistung), Einsatzort u.a. Müncher Förderzentrum Gmbh", 
             "Date": "9.6.2008 bis 31.8.2008"
         },
         {
             "Heading": "Umzug", 
-            "Body": "Umzug von Berlin nach Münchnen", 
+            "Body": "Umzug von Berlin nach München", 
             "Date": "1.6.2008"
         },
         {
@@ -203,7 +203,7 @@
             "Parts":
               [
                   {"Key": "Aufgabenstellung:", "Value": "Weiterntwicklung einer CI/CD Infrakruktur" },
-                  {"Key": "Aufgabenbereich:",  "Value": "Evaluierung von Verbesserungsoptionen und Alternativen zur bestehendem Jenkins-Build-Farm. Erstellung einer Entscheidungsvorlage für das Management. Überarbeitung von Ansible-Playbooks nach allgemeinem best practises. Erstellung und Intigration von Linux-Agenten für einen Team Foundation Server. Wissens-Transfer mittels pair programming."},
+                  {"Key": "Aufgabenbereich:",  "Value": "Evaluierung von Verbesserungsoptionen und Alternativen zur bestehendem Jenkins-Build-Farm. Erstellung einer Entscheidungsvorlage für das Management. Überarbeitung von Ansible-Playbooks nach allgemeinem best practises. Erstellung und Integration von Linux-Agenten für einen Team Foundation Server. Wissens-Transfer mittels pair programming."},
                   {"Key": "Technogie-Stack:", "Value": "Ansible, Photon OS, Jenkins, Team Foundation Server, Ubuntu, Grafana, Prometheus, markdown, draw.io, UML, docker, Kubernetes, Azure Cloud, Helm chart" }
               ],
             "Date": "10.02.2020 bis 31.4.2020"
@@ -286,14 +286,14 @@
                   {"Key": "Aufgabenbereich:",  "Value": "Analyse von C/C++-Code, Build-Tools und Build-Scripts; Dokumentation von Schnittstellen und Funktionsweisen. Anpassung von Build-Scrips. Erstellung von Dockerfils. Automatisierung von Docker-Builds. Ergebnispräsentation vor Team-Kollegen und Abteilungsleitern."},
                   {"Key": "Technogie-Stack:", "Value": "Atlassian Confluence, C/C++, Bash, Make, Ptxdist, Debian, Cross-Compiler, Artifactory, Docker, Embedded-Systeme, Jenkins-CI, GitLab-CI" }
               ],
-            "Date": "Herpst 2015 bis Sommer 2016"
+            "Date": "Herbst 2015 bis Sommer 2016"
         },
         {
             "Heading": "Berufliches Projekt",
             "Parts":
               [
-                  {"Key": "Aufgabenstellung:", "vALUE": "Interne Anwendungen Dockerisieren" },
-                  {"Key": "Aufgabenbereich:", "Value": "Interne Anwendungen in Docker-Container packen. Server zum hosten von Docker Conteiner aufbauen. Eirichten einer interne Docker-Registry mit Artifactory. Automatisierten Build- und Deployment-Prozess erstellen." },
+                  {"Key": "Aufgabenstellung:", "vALUE": "Interne Anwendungen dockerisieren" },
+                  {"Key": "Aufgabenbereich:", "Value": "Interne Anwendungen in Docker-Container packen. Server zum Hosten von Docker Containern aufbauen. Eirichten einer interne Docker-Registry mit Artifactory. Automatisierten Build- und Deployment-Prozess erstellen." },
                   {"Key": "Technogie-Stack:", "Value": "Ubuntu, CentOS, Artifactory, Docker (Swarm), Jenkins-CI, GitLab-CI, Nginx (Revers Proxy), NFS-Share, Ansible, Puppet, DNS, Systend, Keepalived (Floating IPs)" }
               ],
             "Date": "Sommer 2015 bis Sommer 2016"
@@ -313,7 +313,7 @@
             "Parts":
               [
                   {"Key": "Aufgabenstellung:", "Value": "Einführung eines Konfigurationsmanagements für ein Kundenprojekt" },
-                  {"Key": "Aufgabenbereich:", "Value": "Einarbeitung und Evaluierun   g von Salt Stack; Proof of Concept; Implementierung von Salt Stack; Dokumentation und Workshops durchgeführt;"},
+                  {"Key": "Aufgabenbereich:", "Value": "Einarbeitung und Evaluierung von Salt Stack; Proof of Concept; Implementierung von Salt Stack; Dokumentation und Workshops durchgeführt;"},
                   {"Key": "Technogie-Stack:", "Value": "Linux, Salt Stack, Git, Apache, MySQL, iptables, revers proxy, sftp" }
               ], 
             "Date": "Sommer 2014 bis Januar 2015"
@@ -322,7 +322,7 @@
             "Heading": "Berufliches Projekt",
             "Parts":
               [
-                  {"Key": "Aufgabenstellung:", "Value": "Webfrontent für Telefonanlage zum Anzeigen der sich im Gespräch befindender Mitarbeiter, für das Foyer" },
+                  {"Key": "Aufgabenstellung:", "Value": "Webfrontent für Telefonanlage zum Anzeigen der sich im Gespräch befindender Mitarbeiter für das Foyer" },
                   {"Key": "Aufgabenbereich:",  "Value": "Einarbeitung in RubyOnRails. Analyse der Schnittstellen der Telefonanlage. Implementierung und Rollout.  Reimplementierung mit Node.js unter Verwendung von Bootstrap (CSS-Lib). Implementierung einer Schnittstelle zu einem externen Webservice."},
                   {"Key": "Technogie-Stack:", "Value": "Linux, Raspberry PI, RubyOnRails, Node.js, Bootstrap, JavaScript, asterisk/starface-API" },
                   {"Key": "URLs:", "Value": "<a href=\"https://github.com/OlafRadicke/onair2\">github.comgithub.com</a>" }
@@ -389,7 +389,7 @@
                   {"Key": "Aufgabenbereich:",  "Value": "Erstellung des Konzept. Programmierung der Webfontend mit WebPy, HTML und CSS. Programmierung eines Session-Handlings mit ACL. Implementierung einer textbasierten Konfiguration. Backend-Programmierung mit SQLIte. Dokumentation,  Tests und Abnahme"},
                   {"Key": "Technogie-Stack:", "Value": "Linux, Python, WebPy, SQLite, HTML, CSS, ACL" }
               ], 
-            "Date": "Anfang 2012 (ca. zwei Manwochen)"
+            "Date": "Anfang 2012 (ca. zwei Mannwochen)"
         },
         {
             "Heading": "Berufliches Projekt",
