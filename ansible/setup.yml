@@ -19,6 +19,7 @@
         - "fonts"
         - "js"
         - "pics"
+        - "docs"
 
     - name: "synchronize index.html "
       synchronize:
