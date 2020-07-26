@@ -212,9 +212,9 @@
             "Heading": "Berufliches Projekt",
             "Parts":
               [
-                  {"Key": "Aufgabenstellung:", "Value": "Evaluierung von OpenStack" },
-                  {"Key": "Aufgabenbereich:",  "Value": "Evaluierung von OpenStack (Anbietern) mit proof of concept."},
-                  {"Key": "Technogie-Stack:", "Value": "Ansible, DC/OS, Docker, OpenStack, Git" }
+                  {"Key": "Aufgabenstellung:", "Value": "Review von Ansible-Playbooks" },
+                  {"Key": "Aufgabenbereich:",  "Value": "Review von Ansible-Playbooks und dessen Erweiterung (u.a. mit Vault-Verschlüsselung)."},
+                  {"Key": "Technogie-Stack:", "Value": "Ansible, DC/OS, Docker, OpenStack, Vault, Git" }
               ],
             "Date": "1.10.2019 bis 19.12.2019"
         },
@@ -222,11 +222,11 @@
             "Heading": "Berufliches Projekt",
             "Parts":
               [
-                  {"Key": "Aufgabenstellung:", "Value": "Review von Ansible-Playbooks" },
-                  {"Key": "Aufgabenbereich:",  "Value": "Review von Ansible-Playbooks und dessen Erweiterung (u.a. mit Vault-Verschlüsselung)."},
-                  {"Key": "Technogie-Stack:", "Value": "Ansible, DC/OS, Docker, OpenStack, Vault, Git" }
+                  {"Key": "Aufgabenstellung:", "Value": "Evaluierung von OpenStack" },
+                  {"Key": "Aufgabenbereich:",  "Value": "Evaluierung von OpenStack (Anbietern) mit proof of concept."},
+                  {"Key": "Technogie-Stack:", "Value": "Ansible, DC/OS, Docker, OpenStack, Git" }
               ],
-            "Date": "1.10.2019 bis 19.12.2019"
+            "Date": "1.3.2019 bis 30.9.2019"
         },
         {
             "Heading": "Berufliches Projekt",
