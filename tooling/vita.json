@@ -47,6 +47,16 @@
     ],
     "PublicationTalks": [
         {
+            "Heading": "Fachartikel",
+            "Parts":
+              [
+                  {"Key": "Linux-Magazin 02/2021:", "Value": "<i>PKI-Workshop, Teil 1: Grundlagen der Public-Key-Infrastruktur</i>" },
+                  {"Key": "URLs:", "Value": "<a href=\"https://www.linux-magazin.de/ausgaben/2021/02/pki-teil-1/\">linux-magazin.de</a>" },
+                  {"Key": "", "Value": "<img src=\"pics/linux-magazin-02_2021.jpg\" height=\"200\" width=\"160\" alt=\"cover\">" }
+              ],
+            "Date": "02.2021"
+        },
+        {
             "Heading": "Vortrag",
             "Parts":
               [
@@ -62,9 +72,9 @@
                   { "Key": "Thema:", "Value": "<i>Ansible</i>" },
                   { "Key": "URL:", "Value": "<a href=\"http://www.meetup.com/de-DE/Linux-Stammtisch-Munchen/events/228968988/\"><i>Linux-Stammtisch</i> in München</a>"}
               ],
-            "Date": "22.03.201"
+            "Date": "22.03.2016"
         },
-        { 
+        {
             "Heading": "Vortrag",
             "Parts":
                 [
@@ -134,7 +144,7 @@
               [
                   {"Key": "Thema:", "Value": "<i>Git für Ein- und Umsteiger</i>" },
                   {"Key": "Url:",  "Value": "<a href=\"http://linuxwiki.de/SoftwareFreedomDay2010\">linuxwiki.de</a>"}
-              ], 
+              ],
             "Date": "18.9.2010"
         },
         {
@@ -142,7 +152,7 @@
             "Parts":
               [
                   {"Key": "", "Value": "Beteiligung an der Organisation und Durchfürung des Software Freedom Day 2010 in München." }
-              ], 
+              ],
             "Date": "2010"
         },
         {

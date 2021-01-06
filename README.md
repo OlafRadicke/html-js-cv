@@ -14,7 +14,11 @@ dnf install -y golang-bin
 
 ```
 
-# by hand
+# update website
+
+See: [ansible/README.md](ansible/README.md)
+
+# Server certificate by hand
 
 ```bash
 cd /opt/
