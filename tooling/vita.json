@@ -50,6 +50,16 @@
             "Heading": "Fachartikel",
             "Parts":
               [
+                  {"Key": "Linux-Magazin 07/2021:", "Value": "<i>PKI-Workshop, Teil 4: Mehr Sicherheit durch ein Hardware Security Module</i>" },
+                  {"Key": "URLs:", "Value": "<a href=\"https://www.linux-magazin.de/ausgaben/2021/07/pki-workshop/\">linux-magazin.de</a>" },
+                  {"Key": "", "Value": "<img src=\"pics/linux-magazin-07_2021.jpg\" height=\"200\" width=\"160\" alt=\"cover\">" }
+              ],
+            "Date": "06.2021"
+        },
+        {
+            "Heading": "Fachartikel",
+            "Parts":
+              [
                   {"Key": "Linux-Magazin 04/2021:", "Value": "<i>PKI-Workshop, Teil 3: PKI-Automatisierung per Ansible-Playbook</i>" },
                   {"Key": "URLs:", "Value": "<a href=\"https://www.linux-magazin.de/ausgaben/2021/04/pki/\">linux-magazin.de</a>" },
                   {"Key": "", "Value": "<img src=\"pics/linux-magazin-04_2021.jpg\" height=\"200\" width=\"160\" alt=\"cover\">" }
