@@ -27,3 +27,25 @@ cd /opt/
 curl -vvI https://olaf-radicke.de/
 nginx -t
 ```
+
+# Create container image
+
+Enter
+
+```bash
+podman build -t olaf-radicke-de:latest --no-cache=false .
+```
+
+Test run:
+
+```
+podman run --name olaf-radicke-de:latest -d -p 8080:80 --rm olaf-radicke-de
+```
+
+Push image:
+
+```bash
+podman login docker.io
+podman tag  olaf-radicke-de:latest  olafradicke/olaf-radicke-de:latest
+podman push olafradicke/olaf-radicke-de:latest
+```
