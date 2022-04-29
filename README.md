@@ -46,6 +46,6 @@ Push image:
 
 ```bash
 podman login docker.io
-podman tag  olaf-radicke-de:latest  olafradicke/olaf-radicke-de:latest
-podman push olafradicke/olaf-radicke-de:latest
+podman tag  olaf-radicke-de:latest  olafradicke/olaf-radicke-de:1.0
+podman push olafradicke/olaf-radicke-de:1.0
 ```
