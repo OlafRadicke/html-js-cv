@@ -3,7 +3,9 @@
 This project is deprecate!
 ==========================
 
-## html-js-cv
+This is the old code of the website olaf-radicke.de.
+
+## Old notes of html-js-cv
 
 Generated html with:
 
@@ -12,7 +14,7 @@ cd ./tooling/
 go run ./generator.go > ../index.html
 ```
 
-## Install go (under fedora linux) 
+## Install go (under fedora linux)
 
 ```bash
 dnf install -y golang-bin
